@@ -1,0 +1,266 @@
+@charset "utf-8";
+
+/* トップページのスタイル*/
+
+.page-header {
+	height: 140px;
+
+	@include media(m) {
+		height: 21vw;
+	}
+
+    .header-inner {
+    	height: 100%;
+        max-width: 1500px;
+        margin-left: auto;
+        margin-right: auto;
+    	@include display-flex;
+    	@include justify-content-space-between;
+
+    	@include media(m) {
+    		@include justify-content-center;
+    	}
+
+    	.logo {
+    		@include display-flex;
+    		@include flex-direction-column;
+    		@include justify-content-center;
+    		@include align-items-center;
+    		@extend .hoverable;
+
+    		span {
+                display: block;
+                @include fontsize(20px);
+                line-height: 1;
+
+                @include media(m) {
+                	display: none;
+                }
+    		}
+
+    		img {
+                height: 100px;
+                width: auto;
+
+                @include media(m) {
+                	height: 13vw;
+                }
+    		}
+    	}
+
+    	.nav-open {
+            i {
+
+            }
+
+            span {
+
+            }
+    	}
+
+    	.nav-wrapper {
+    		.navs {
+    			.item {
+    				a {
+
+    				}
+    			}
+    		}
+    	}
+
+    	.clinic-info {
+    		@include display-flex;
+    		@include align-items-center;
+
+    		@include media(m) {
+    			display: none;
+    		}
+    		
+			.text {
+                line-height: 1.6;
+                @include fontsize(20px);
+			}
+    		
+
+    		.contact-links {
+    			margin-left: 100px;
+
+    			.sns-icons {
+    				@include display-flex;
+    				@include justify-content-flex-end;
+    				a {
+    					@extend .hoverable;
+
+    					img {
+                            height: 60px;
+                            width: auto;
+    					}
+
+    					& + a {
+    						margin-left: 12px;
+    					}
+    				}
+    			}
+
+    			.phone-number {
+                    display: block;
+					padding-left: 1.2em;
+					background: left center url(../img/icon_phone.png) no-repeat;
+					background-size: contain;
+					@include fontsize(35px);
+					line-height: 1.2;
+					margin-top: 5px;
+					@extend .hoverable;
+    			}
+    		}
+    	}
+    }
+
+    &.header-sticky {
+	    
+	}
+
+	.nav-opened & {
+
+	}
+}
+
+.page-footer {
+	background: #808080;
+	padding-top: 23px;
+	padding-bottom: 12px;
+
+	@include media(m) {
+		padding-top: 2.4vw;
+		padding-bottom: 17vw;
+	}
+
+	.figure {
+		width: 370px;
+		height: 66px;
+		margin-right: auto;
+		margin-left: auto;
+
+		@include media(m) {
+			width: 50vw;
+			height: auto;
+		}
+
+		.img {
+
+		}
+	}
+
+	.info {
+        margin-top: 12px;
+        @include fontsize(20px);
+        font-family: $font-serif;
+        color: white;
+        width: 100%;
+        text-align: center;
+
+        @include media(m) {
+        	@include vwfont(10px);
+        	margin-top: 1em;
+        }
+	}
+
+	.time-table {
+		margin-top: 20px;
+		max-width: 620px;
+		margin-right: auto;
+		margin-left: auto;
+
+		@include media(m) {
+        	margin-top: 3.2vw;
+        	max-width: unset;
+        	padding-left: 10vw;
+        	padding-right: 10vw;
+        }
+
+		.table-row {
+			height: 60px;
+			@include display-flex;
+			@include flex-wrap-wrap;
+            border-bottom: 1px solid white;
+
+            @include media(m) {
+            	height: 8vw;
+            }
+
+            &:nth-of-type(1) {
+            	border-top: 1px solid white;
+            }
+
+			.left {
+                @include flex(30%);
+                @include fontsize(20px);
+                font-family: $font-serif;
+                line-height: 60px;
+                text-align: center;
+                color: white;
+
+                @include media(m) {
+                	line-height: 8vw;
+                	@include flex(24vw);
+                	@include vwfont(9px);
+                }
+			}
+
+			.right {
+				@include flex(70%);
+				@include display-flex;
+				@include flex-wrap-wrap;
+
+				@include media(m) {
+                	line-height: 8vw;
+                	@include flex(56vw);
+                	@include vwfont(9px);
+                }
+
+				.span {
+					@include fontsize(20px);
+                    font-family: $font-serif;
+					line-height: 60px;
+                    text-align: center;
+                    margin-left: auto;
+                    margin-right: auto;
+                    color: white;
+
+                    @include media(m) {
+                    	@include vwfont(10px);
+                    	line-height: 8vw;
+                    }
+				}
+			}
+		}
+	}
+
+	.comment {
+        @include fontsize(20px);
+        font-family: $font-serif;
+        line-height: 1.4;
+        text-align: center;
+        margin-top: 12px;
+        color: white;
+
+        @include media(m) {
+        	@include vwfont(10px);
+        	line-height: 1.8;
+        	margin-top: 0.8em;
+        }
+	}
+
+	.copyright {
+        @include fontsize(20px);
+        font-family: $font-serif;
+        text-align: center;
+        margin-top: 26px;
+        color: white;
+
+        @include media(m) {
+        	@include vwfont(10px);
+        	margin-top: 3.5vw;
+        }
+	}
+}

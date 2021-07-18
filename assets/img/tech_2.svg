@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1332.985" height="138.5" viewBox="0 0 1332.985 138.5">
+  <g id="Group_651" data-name="Group 651" transform="translate(-294.5 -3705.5)">
+    <g id="Group_8" data-name="Group 8" transform="translate(295.5 3706.5)">
+      <line id="Line_9" data-name="Line 9" x1="39.985" transform="translate(0 136.5)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="2"/>
+      <line id="Line_10" data-name="Line 10" x1="39.985" fill="none" stroke="#000" stroke-linecap="round" stroke-width="2"/>
+    </g>
+    <g id="Group_9" data-name="Group 9" transform="translate(837.5 3706.5)">
+      <line id="Line_9-2" data-name="Line 9" x2="39.985" transform="translate(0 136.5)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="2"/>
+    </g>
+    <g id="Group_10" data-name="Group 10" transform="translate(1586.5 3706.5)">
+      <line id="Line_8" data-name="Line 8" y2="136.5" transform="translate(39.985)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="2"/>
+      <line id="Line_9-3" data-name="Line 9" x2="39.985" transform="translate(0 136.5)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="2"/>
+    </g>
+    <g id="Group_11" data-name="Group 11" transform="translate(877.559 3706.5)">
+      <line id="Line_9-4" data-name="Line 9" x1="39.985" transform="translate(165.941 136.5)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="2"/>
+      <line id="Line_10-2" data-name="Line 10" x1="39.985" transform="translate(165.941)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="2"/>
+      <line id="Line_13" data-name="Line 13" y2="49.939" transform="translate(165.941 86.561)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="2"/>
+    </g>
+    <g id="Group_650" data-name="Group 650">
+      <rect id="Rectangle_8" data-name="Rectangle 8" width="583" height="137" transform="translate(295 3706)" fill="#f0d6da"/>
+      <text id="_Dアートメイク" data-name="４Dアートメイク" transform="translate(587 3790)" fill="#171717" font-size="40" font-family="YuGothicUI-Regular, Yu Gothic UI"><tspan x="-119.502" y="0">４</tspan><tspan y="0" font-family="SegoeUI, Segoe UI">D</tspan><tspan y="0">アートメイク</tspan></text>
+      <rect id="Rectangle_9" data-name="Rectangle 9" width="583" height="137" transform="translate(1043 3706)" fill="#d7ddf0"/>
+      <text id="中国式刺繍メイク" transform="translate(1335 3791)" fill="#171717" font-size="40" font-family="YuGothicUI-Regular, Yu Gothic UI"><tspan x="-143.301" y="0">中国式刺繍メイク</tspan></text>
+      <line id="Line_8-2" data-name="Line 8" y2="136.5" transform="translate(295.5 3706.5)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="2"/>
+      <path id="Path_1" data-name="Path 1" d="M0,0V49.159L165.919,86.506" transform="translate(877.484 3706.5)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="2"/>
+      <line id="Line_10-3" data-name="Line 10" x2="39.985" transform="translate(837.5 3706.5)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="2"/>
+      <line id="Line_11" data-name="Line 11" y2="49.939" transform="translate(877.484 3793.061)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="2"/>
+      <line id="Line_10-4" data-name="Line 10" x2="39.985" transform="translate(1586.5 3706.5)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="2"/>
+      <path id="Path_2" data-name="Path 2" d="M0,0V49.774L-165.941,86.487" transform="translate(1043.5 3706.5)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="2"/>
+    </g>
+  </g>
+</svg>
