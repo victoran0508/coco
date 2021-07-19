@@ -1,5 +1,10 @@
 @charset "utf-8";
 
+body {
+	width: 100vw;
+	overflow-x: hidden;
+}
+
 /* 共通のスタイル */
 .page-wrapper {
 	max-width: 100%;
@@ -27,6 +32,18 @@
 }
 
 .section {
+	&:not(.section--mainview):not(.section--menus):not(.section--breadcrumb):not(.section--fixed-bottom) {
+		@include transition(all, 0.8s, ease);
+		position: relative;
+		top: 100px;
+		opacity: 0;
+
+		&.animated {
+			top: 0;
+			opacity: 1;
+		}
+	}
+
 	&.section--mainview {
 		height: calc(100vh - 140px);
 
@@ -158,6 +175,7 @@
                 @include media(m) {
                 	@include vwfont(40px);
                 	margin-top: 0.4em;
+                	line-height: 1.25;
                 }
 			}
 		}
@@ -194,10 +212,32 @@
                 @include fontsize(48px);
                 text-align: center;
                 margin-bottom: 1em;
+                position: relative;
 
                 @include media(m) {
                 	@include vwfont(24px);
                 }
+
+                &:after {
+                	content: '';
+                	position: absolute;
+                	display: block;
+                	bottom: -50px;
+                    left: calc(50% - 6em - 300px);
+                	width: 500px;
+                	height: 350px;
+                	background: center center url(../img/question_cap.svg) no-repeat;
+                	background-size: contain;
+
+                	@include media(m) {
+                		bottom: 1em;
+                		left: 0;
+                		width: 50vw;
+                		height: 35vw;
+                	}
+                }
+
+                
 			}
 
 			.troubles-list {
@@ -332,6 +372,7 @@
 				left: 50%;
 				width: 1320px;
 				@include transform(translateX(-50%));
+				z-index: 1;
 
 				@include media(m) {
 					bottom: 0;
@@ -388,10 +429,29 @@
                 text-align: center;
                 @include fontsize(30px);
                 font-family: $font-serif;
+                position: relative;
 
                 @include media(m) {
 					@include vwfont(15px);
 				}
+
+                &:after {
+                	content: '';
+                	position: absolute;
+                	display: block;
+                	bottom: -40px;
+                    left: calc(50%);
+                	width: 190px;
+                	height: 220px;
+                	@include transform(translateX(-50%));
+                	background: center center url(../img/feature_cap.svg) no-repeat;
+                	background-size: contain;
+
+                	@include media(m) {
+                		width: 24vw;
+                		height: 30vw;
+                	}
+                }
 			}
 
 			.wrapper {
@@ -472,6 +532,27 @@
 			font-family: $font-serif;
 			text-align: center;
 			margin-bottom: 100px;
+			position: relative;
+
+			&:after {
+				content: '';
+				position: absolute;
+				display: block;
+				width: 200px;
+				height: 250px;
+				top: -150px;
+				left: calc(50% + 10em);
+				background: center center url(../img/point_cap.svg) no-repeat;
+				background-size: contain;
+
+				@include media(m) {
+					width: 25vw;
+					height: 37vw;
+					top: -20vw;
+					left: unset;
+					right: 5vw;
+				}
+			}
 
 			@include media(m) {
 				@include vwfont(24px);
@@ -619,6 +700,26 @@
             @include fontsize(48px);
             font-family: $font-serif;
             margin-bottom: 100px;
+            position: relative;
+
+			&:after {
+				content: '';
+				position: absolute;
+				display: block;
+				width: 300px;
+				height: 360px;
+				top: -20px;
+				right: 150px;
+				background: center center url(../img/staff_cap.svg) no-repeat;
+				background-size: contain;
+
+				@include media(m) {
+					width: 40vw;
+					height: 55vw;
+					top: 10vw;
+					right: 0;
+				}
+			}
 
             @include media(m) {
             	@include vwfont(24px);
@@ -789,12 +890,17 @@
                         @include fontsize(20px);
                         line-height: 1.4;
                         max-height: 80px;
-                        overflow-y: scroll;
+                        overflow-y: hidden;
+                        @include transition-all;
 
                         @include media(m) {
                         	@include vwfont(13px);
                         	line-height: 1.7;
                         	max-height: 7em;
+                        }
+
+                        &.animated {
+                        	max-height: fit-content;
                         }
 					}
 
@@ -812,6 +918,8 @@
                         line-height: 60px;
                         margin-top: 30px;
                         box-shadow: 3px 3px 3px rgba(0, 0, 0, 16%);
+                        cursor: pointer;
+                        @extend .hoverable;
 
                         @include media(m) {
                         	@include vwfont(13px);
@@ -885,6 +993,26 @@
             @include fontsize(48px);
             font-family: $font-serif;
             margin-bottom: 1em;
+            position: relative;
+
+			&:after {
+				content: '';
+				position: absolute;
+				display: block;
+				width: 110px;
+				height: 60px;
+				top: -70px;
+				left: 50%;
+				@include transform(translateX(-50%));
+				background: center center url(../img/price_cap.svg) no-repeat;
+				background-size: contain;
+
+				@include media(m) {
+					width: 14vw;
+					height: 8vw;
+					top: -9vw;
+				}
+			}
 
             @include media(m) {
             	@include vwfont(24px);
@@ -970,17 +1098,19 @@
 			}
 
 			.price-sheet {
-				background-color: white;
 				padding-top: 100px;
 				padding-bottom: 330px;
 				padding-left: 70px;
 				padding-right: 70px;
+				background: bottom center url(../img/eyebrow_foot.svg) no-repeat, white;
+				background-size: 320px 250px;
 
 				@include media(m) {
 					margin-left: 5vw;
 					margin-right: 5vw;
 					padding: 9.6vw 0 120vw;
 					overflow: hidden;
+					background-size: 80vw;
 				}
 
 				& + .price-sheet {
@@ -996,6 +1126,26 @@
 					@include fontsize(24px);
 					font-family: $font-serif;
 					margin-bottom: 80px;
+					position: relative;
+
+					&:after {
+						content: '';
+						position: absolute;
+						display: block;
+						width: 125px;
+						height: 50px;
+						top: -60px;
+						left: 50%;
+						@include transform(translateX(-50%));
+						background: center center url(../img/price_1.png) no-repeat;
+						background-size: contain;
+
+						@include media(m) {
+							width: 11vw;
+							height: 4.5vw;
+							top: -5vw;
+						}
+					}
 
 					@include media(m) {
 						@include vwfont(12px);
@@ -1193,6 +1343,8 @@
                         position: relative;
                         border-bottom: 1px solid #171717;
                         padding-bottom: 0.5em;
+                        cursor: pointer;
+                        @extend .hoverable;
 
                         @include media(m) {
                         	@include vwfont(15px);
@@ -1214,16 +1366,27 @@
                         		height: 2.4vw;
                         	}
                         }
+
+                        &.active:after {
+                            @include transform(rotate(180deg));
+                        }
 					}
 
 					.foldable__text {
                         @include fontsize(20px);
                         line-height: 2;
                         padding-top: 0.5em;
+                        max-height: 0;
+                        overflow-y: hidden;
+                        @include transition-all;
 
                         @include media(m) {
                         	@include vwfont(13px);
                         	line-height: 1.8;
+                        }
+
+                        &.active {
+                        	max-height: fit-content;
                         }
 					}
 
@@ -1267,8 +1430,69 @@
 					}
 				}
 
-				&.price-sheet--eyebrow-eyeline {
+				&.price-sheet--eyeline {
+					background-size: 320px 310px;
+					background-image: url(../img/eyeline_foot.svg);
+
+					@include media(m) {
+						background-size: 70vw;
+					}
+
 					h2 {
+						position: relative;
+
+						&:after {
+							content: '';
+							position: absolute;
+							display: block;
+							width: 125px;
+							height: 50px;
+							top: -60px;
+							left: 50%;
+							@include transform(translateX(-50%));
+							background: center center url(../img/price_2.png) no-repeat;
+							background-size: contain;
+
+							@include media(m) {
+								width: 15vw;
+								height: 4vw;
+								top: -5vw;
+							}
+						}
+					}
+				}
+
+				&.price-sheet--eyebrow-eyeline {
+					background-size: 640px 340px;
+					background-image: url(../img/eyebrowline_foot.svg);
+
+					@include media(m) {
+						padding-top: 12vw;
+						background-size: 90vw;
+					}
+
+					h2 {
+						position: relative;
+
+						&:after {
+							content: '';
+							position: absolute;
+							display: block;
+							width: 105px;
+							height: 105px;
+							top: -100px;
+							left: 50%;
+							@include transform(translateX(-50%));
+							background: center center url(../img/price_3.png) no-repeat;
+							background-size: contain;
+
+							@include media(m) {
+								width: 10vw;
+								height: 10vw;
+								top: -10vw;
+							}
+						}
+
 						span {
 							&:before {
 								right: calc(50% + 8em);
@@ -1337,7 +1561,35 @@
 				}
 
 				&.price-sheet--lip {
+					background-size: 110px 230px;
+					background-image: url(../img/lip_foot.svg);
+
+					@include media(m) {
+						background-size: 25vw;
+					}
+
 					h2 {
+						position: relative;
+
+						&:after {
+							content: '';
+							position: absolute;
+							display: block;
+							width: 150px;
+							height: 110px;
+							top: -95px;
+							left: 50%;
+							@include transform(translateX(-50%));
+							background: center center url(../img/price_4.png) no-repeat;
+							background-size: contain;
+
+							@include media(m) {
+								width: 18vw;
+								height: 9vw;
+								top: -8vw;
+							}
+						}
+
 						span {
 							&:before {
 								right: calc(50% + 2.5em);
@@ -1351,9 +1603,33 @@
 				}
 
 				&.price-sheet--other, &.price-sheet--pairplan {
+					h2 {
+						&:after {
+                            display: none;
+						}
+					}
+
 					.tables {
 						@include justify-content-center;
 						margin-bottom: 60px;
+					}
+				}
+
+				&.price-sheet--other {
+					background-size: 200px 280px;
+					background-image: url(../img/other_foot.svg);
+
+					@include media(m) {
+						background-size: 30vw;
+					}
+				}
+
+				&.price-sheet--pairplan {
+					background-size: 320px 310px;
+					background-image: url(../img/pairplan_footer.svg);
+
+					@include media(m) {
+						background-size: 60vw;
 					}
 				}
 			}
@@ -1385,6 +1661,26 @@
                 font-family: $font-serif;
                 position: relative;
                 margin-bottom: 100px;
+
+                &:before {
+					content: '';
+					display: block;
+					position: absolute;
+					width: 300px;
+					height: 200px;
+					left: 0;
+					top: 50%;
+					@include transform(translateY(-50%));
+					background: center center url(../img/qa_1.svg) no-repeat;
+					background-size: contain;
+					z-index: 0;
+
+					@include media(m) {
+						width: 30vw;
+						height: 24vw;
+						left: 5vw;
+					}
+				}
 
                 @include media(m) {
                 	@include vwfont(24px);
@@ -1421,6 +1717,8 @@
                     @include fontsize(20px);
                     line-height: 2;
                     position: relative;
+                    cursor: pointer;
+                    @extend .hoverable;
 
                     @include media(m) {
                     	padding: 3.4vw;
@@ -1451,12 +1749,17 @@
                         right: 25px;
                         top: 50%;
                         @include transform(translateY(-50%));
+                        @include transition-all;
 
                         @include media(m) {
                         	height: 2.5vw;
                         	width: 5vw;
                         	right: 3vw;
                         }
+                    }
+
+                    &.active:after {
+                    	@include transform(translateY(-50%) rotate(180deg));
                     }
     			}
 
@@ -1473,19 +1776,9 @@
                     	padding: 0 6.66vw 0 10vw;
                     	@include vwfont(12px);
                     }
-    			}
 
-    			& + .foldable {
-    				margin-top: 20px;
-
-    				@include media(m) {
-    					margin-top: 5.33vw;
-    				}
-    			}
-
-    			&.active {
-    				.foldable__hidden {
-    					padding-top: 25px;
+                    &.active {
+                    	padding-top: 25px;
     					padding-bottom: 25px;
     					max-height: fit-content;
 
@@ -1504,6 +1797,14 @@
     							@include vwfont(16px);
     						}
     					}
+                    }
+    			}
+
+    			& + .foldable {
+    				margin-top: 20px;
+
+    				@include media(m) {
+    					margin-top: 5.33vw;
     				}
     			}
     		}
@@ -1524,6 +1825,27 @@
 			margin-left: auto;
 			margin-right: auto;
 			margin-bottom: 0.5em;
+			position: relative;
+
+			&:before {
+				content: '';
+				display: block;
+				position: absolute;
+				width: 130px;
+				height: 70px;
+				left: -5px;
+				top: -70px;
+				background: center center url(../img/access_cap.svg) no-repeat;
+				background-size: contain;
+				z-index: 0;
+
+				@include media(m) {
+					width: 17vw;
+					height: 6.4vw;
+					left: 8vw;
+					top: -7vw;
+				}
+			}
 
 			@include media(m) {
 				@include vwfont(24px);
@@ -1620,6 +1942,26 @@
             font-family: $font-serif;
             text-align: center;
             margin-bottom: 75px;
+            position: relative;
+
+			&:after {
+				content: '';
+				position: absolute;
+				display: block;
+				width: 130px;
+				height: 70px;
+				top: -80px;
+				left: 50%;
+				@include transform(translateX(-50%));
+				background: center center url(../img/contact_cap.svg) no-repeat;
+				background-size: contain;
+
+				@include media(m) {
+					width: 16vw;
+					height: 8vw;
+					top: -9vw;
+				}
+			}
 
             @include media(m) {
             	@include vwfont(24px);
@@ -1896,6 +2238,33 @@
     &.section--flow {
     	padding-top: 160px;
     	padding-bottom: 260px;
+    	position: relative;
+
+    	&:before {
+            content: '';
+            position: absolute;
+            display: block;
+            width: 1170px;
+            height: 600px;
+            top: -50px;
+            left: calc(50% - 350px);
+            background: center center url(../img/flow_top.svg) no-repeat;
+            background-size: contain;
+            z-index: -1;
+    	}
+
+    	&:after {
+            content: '';
+            position: absolute;
+            display: block;
+            width: 1090px;
+            height: 590px;
+            bottom: 100px;
+            left: 0;
+            background: center center url(../img/flow_bottom.svg) no-repeat;
+            background-size: contain;
+            z-index: -1;
+    	}
 
     	@include media(m) {
     		padding-top: 22vw;
@@ -1954,7 +2323,7 @@
     						@include flex(1 1 auto);
     						padding: 15px 60px;
     						position: relative;
-    						background-color: white;
+    						background: right center url(../img/01.svg) no-repeat, white;
 
     						@include media(m) {
     							padding: 2.8vw 4.8vw;
@@ -2029,16 +2398,28 @@
     					}
     				}
 
-    				&:nth-of-type(2) .wrapper .figure .img {
-    					@include media(m) {
-    					    margin-left: -22vw;
-    					}
+    				&:nth-of-type(2) .wrapper {
+    					.figure .img {
+							@include media(m) {
+								margin-left: -22vw;
+							}
+						}
+
+						.step {
+							background: right center url(../img/02.svg) no-repeat, white;
+						}
     				}
 
-    				&:nth-of-type(3) .wrapper .figure .img {
-    					@include media(m) {
-    					    margin-left: -15vw;
-    					}
+    				&:nth-of-type(3) .wrapper {
+    					.figure .img {
+							@include media(m) {
+								margin-left: -15vw;
+							}
+						}
+
+						.step {
+							background: right center url(../img/03.svg) no-repeat, white;
+						}
     				}
     			}
     		}
@@ -2076,6 +2457,27 @@
     		h1 {
                 @include fontsize(40px);
                 font-family: $font-serif;
+                position: relative;
+
+				&:after {
+					content: '';
+					position: absolute;
+					display: block;
+					width: 105px;
+					height: 135px;
+					top: -30px;
+					right: -220px;
+					@include transform(translateX(-50%));
+					background: center center url(../img/news_cap.svg) no-repeat;
+					background-size: contain;
+
+					@include media(m) {
+						width: 14vw;
+						height: 18vw;
+						top: -2vw;
+						right: -25vw;
+					}
+				}
 
                 @include media(m) {
                 	@include vwfont(20px);
@@ -2154,11 +2556,12 @@
     	margin-top: 80px;
     	padding-top: 60px;
     	padding-bottom: 60px;
-    	max-width: 1120px;
-    	margin-left: auto;
-    	margin-right: auto;
     	background: center center url(../img/flow_background.png) no-repeat;
         background-size: cover;
+
+        .wrapper {
+        	background: white;
+        }
 
     	@include media(m) {
     		margin-top: 22vw;
@@ -2172,7 +2575,9 @@
             @include display-flex;
             @include justify-content-space-between;
             @include align-items-center;
-            background-color: white;
+            max-width: 1120px;
+			margin-left: auto;
+			margin-right: auto;
 
             @include media(m) {
             	padding-top: 12vw;
@@ -2184,6 +2589,27 @@
     		h1 {
                 @include fontsize(40px);
                 font-family: $font-serif;
+                position: relative;
+
+				&:after {
+					content: '';
+					position: absolute;
+					display: block;
+					width: 70px;
+					height: 80px;
+					top: -30px;
+					right: -220px;
+					@include transform(translateX(-50%));
+					background: center center url(../img/SVG_blog.svg) no-repeat;
+					background-size: contain;
+
+					@include media(m) {
+						width: 9vw;
+						height: 11vw;
+						top: -4vw;
+						right: -16vw;
+					}
+				}
 
                 @include media(m) {
                 	@include vwfont(20px);
@@ -2212,19 +2638,23 @@
     	}
 
     	.section__content {
-    		background-color: white;
+            max-width: 1120px;
+			margin-left: auto;
+			margin-right: auto;
 
     		.article-list {
     			list-style: none;
     			@include display-flex;
     			margin-left: -20px;
     			margin-right: -20px;
+    			padding-bottom: 20px;
 
     			@include media(m) {
     				padding-left: 8vw;
     				padding-right: 8vw;
     				margin-left: -3.2vw;
     				margin-right: -3.2vw;
+    				padding-bottom: 3.2vw;
     				@include flex-wrap-wrap;
     			}
 
@@ -2241,10 +2671,22 @@
     				.article {
     					margin-left: 20px;
     					margin-right: 20px;
+    					position: relative;
+    					@extend .hoverable;
 
     					@include media(m) {
     						margin-left: 3.2vw;
     						margin-right: 3.2vw;
+    					}
+
+    					.article__link {
+    						position: absolute;
+    						top: 0;
+    						bottom: 0;
+    						left: 0;
+    						right: 0;
+    						z-index: 10;
+    						background-color: transparent;
     					}
 
     					.figure {
@@ -2283,8 +2725,39 @@
     }
 
     &.section--gallery {
+    	padding-top: 260px;
+    	padding-bottom: 110px;
+        clip-path: polygon(100% 50px, 100% calc(100% - 107px), 0px 100%, 0px 130px);
+
+        @include media(m) {
+        	padding-top: 30vw;
+        	padding-bottom: 10vw;
+        	clip-path: polygon(100% 10vw, 100% calc(100% - 10vw), 0px 100%, 0px 25vw);
+        	margin-top: unset;
+        }
+
     	.section__title {
     		background-color: transparent;
+
+    		h1 {
+				&:after {
+					width: 85px;
+					height: 140px;
+					top: -30px;
+					right: -220px;
+					@include transform(translateX(-50%));
+					background: center center url(../img/photo_cap.svg) no-repeat;
+					background-size: contain;
+
+					@include media(m) {
+						width: 12.8vw;
+						height: 21.6vw;
+						top: -6vw;
+						right: -30vw;
+					}
+				}
+			}
+
     		@include media(m) {
     			@include flex-direction-column;
     			@include align-items(flex-start);
@@ -2297,9 +2770,57 @@
 
     	.section__content {
     		padding-top: 30px;
+    		position: relative;
     		
     		@include media(m) {
     			padding-top: 8vw;
+    		}
+    	}
+    }
+
+    &.section--fixed-bottom {
+    	position: fixed;
+    	bottom: 0;
+    	left: 0;
+    	right: 0;
+    	display: none;
+    	background: white;
+
+    	@include media(m) {
+    		display: block;
+    		width: 100vw;
+    	}
+
+    	.section__content {
+    		.links {
+    			@include display-flex;
+
+    			.link {
+    				@include flex(33.33%);
+    				display: block;
+    				text-align: center;
+    				border: 0.5px solid #C79F64;
+    				@extend .hoverable;
+
+    				span {
+    					display: block;
+                        @include vwfont(13px);
+                        line-height: 1;
+                        color: #C79F64;
+                        padding-top: 2vw;
+                        padding-bottom: 12vw;
+                        background: center bottom 2vw url(../img/tel.svg) no-repeat;
+                        background-size: 9vw;
+    				}
+
+    				&:nth-of-type(2) span {
+    					background-image: url(../img/instagram.svg);
+    				}
+
+    				&:nth-of-type(3) span {
+    					background-image: url(../img/line.svg);
+    				}
+    			}
     		}
     	}
     }
