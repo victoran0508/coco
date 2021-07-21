@@ -261,3 +261,32 @@ textarea {
         opacity: 0.6;
     }
 }
+
+.hover-effect-1 {
+    @extend .hoverable;
+    position: relative;
+    overflow: hidden;
+
+    &:before {
+        background: #F0D6DA;
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        z-index: -1;
+        transition: all 0.6s ease;
+        width: 100%;
+        height: 0%;
+        transform: translate(-50%,-50%) rotate(45deg);
+    }
+
+    &:hover {
+        background-position: right -2em center;
+        opacity: 0.99;
+        border-color: white;
+    }
+
+    &:hover:before {
+        height: 500%;
+    }
+}

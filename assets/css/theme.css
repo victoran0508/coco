@@ -245,13 +245,38 @@ textarea:focus {
   background-color: #f9f9f9;
 }
 
-.hoverable, .page-header .header-inner .clinic-info .contact-links .phone-number, .page-header .header-inner .clinic-info .contact-links .sns-icons a, .page-header .header-inner .logo, .section.section--bloglist .section__content .main-area .article-list .item .article, .section.section--bloglist .section__content .sidebar .category-list .item a, .section.section--fixed-bottom .section__content .links .link, .section.section--blog .section__content .article-list .item .article, .section.section--gallery .section__content .article-list .item .article, .section.section--blog .section__title a, .section.section--gallery .section__title a, .section.section--news .section__content .news-row .link, .section.section--news .section__title a, .section.section--contact .section__content .download-area .download-links .link, .section.section--contact .section__content .contact-links .link, .section.section--faq .section__content .foldable .foldable__fixed, .section.section--price .section__content .price-sheet .foldable .foldable__title, .section.section--price .section__content .links .item .link, .section.section--staffs .section__content .staff .career-introduction .career-more, .section.section--staffs .section__content .staff .row .about-staff .about-physiognomy, .section.section--menus .section__content .sns-links .menu img, .section.section--menus .section__content .top-menu .item .sub .subitem .inner-link, .section.section--menus .section__content .top-menu .item .menu {
+.hoverable, .page-header .header-inner .clinic-info .contact-links .phone-number, .page-header .header-inner .clinic-info .contact-links .sns-icons a, .page-header .header-inner .logo, .section.section--bloglist .section__content .main-area .article-list .item .article, .section.section--bloglist .section__content .sidebar .category-list .item a, .section.section--fixed-bottom .section__content .links .link, .section.section--blog .section__content .article-list .item .article, .section.section--gallery .section__content .article-list .item .article, .section.section--news .section__content .news-row .link, .section.section--faq .section__content .foldable .foldable__fixed, .section.section--price .section__content .price-sheet .foldable .foldable__title, .section.section--price .section__content .links .item .link, .section.section--staffs .section__content .staff .career-introduction .career-more, .section.section--menus .section__content .sns-links .menu img, .section.section--menus .section__content .top-menu .item .sub .subitem .inner-link, .section.section--menus .section__content .top-menu .item .menu, .hover-effect-1, .section.section--blog .section__title a, .section.section--gallery .section__title a, .section.section--news .section__title a, .section.section--contact .section__content .download-area .download-links .link, .section.section--contact .section__content .contact-links .link, .section.section--staffs .section__content .staff .row .about-staff .about-physiognomy {
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-.hoverable:hover, .page-header .header-inner .clinic-info .contact-links .phone-number:hover, .page-header .header-inner .clinic-info .contact-links .sns-icons a:hover, .page-header .header-inner .logo:hover, .section.section--bloglist .section__content .main-area .article-list .item .article:hover, .section.section--bloglist .section__content .sidebar .category-list .item a:hover, .section.section--fixed-bottom .section__content .links .link:hover, .section.section--blog .section__content .article-list .item .article:hover, .section.section--gallery .section__content .article-list .item .article:hover, .section.section--blog .section__title a:hover, .section.section--gallery .section__title a:hover, .section.section--news .section__content .news-row .link:hover, .section.section--news .section__title a:hover, .section.section--contact .section__content .download-area .download-links .link:hover, .section.section--contact .section__content .contact-links .link:hover, .section.section--faq .section__content .foldable .foldable__fixed:hover, .section.section--price .section__content .price-sheet .foldable .foldable__title:hover, .section.section--price .section__content .links .item .link:hover, .section.section--staffs .section__content .staff .career-introduction .career-more:hover, .section.section--staffs .section__content .staff .row .about-staff .about-physiognomy:hover, .section.section--menus .section__content .sns-links .menu img:hover, .section.section--menus .section__content .top-menu .item .sub .subitem .inner-link:hover, .section.section--menus .section__content .top-menu .item .menu:hover {
+.hoverable:hover, .page-header .header-inner .clinic-info .contact-links .phone-number:hover, .page-header .header-inner .clinic-info .contact-links .sns-icons a:hover, .page-header .header-inner .logo:hover, .section.section--bloglist .section__content .main-area .article-list .item .article:hover, .section.section--bloglist .section__content .sidebar .category-list .item a:hover, .section.section--fixed-bottom .section__content .links .link:hover, .section.section--blog .section__content .article-list .item .article:hover, .section.section--gallery .section__content .article-list .item .article:hover, .section.section--news .section__content .news-row .link:hover, .section.section--faq .section__content .foldable .foldable__fixed:hover, .section.section--price .section__content .price-sheet .foldable .foldable__title:hover, .section.section--price .section__content .links .item .link:hover, .section.section--staffs .section__content .staff .career-introduction .career-more:hover, .section.section--menus .section__content .sns-links .menu img:hover, .section.section--menus .section__content .top-menu .item .sub .subitem .inner-link:hover, .section.section--menus .section__content .top-menu .item .menu:hover, .hover-effect-1:hover, .section.section--blog .section__title a:hover, .section.section--gallery .section__title a:hover, .section.section--news .section__title a:hover, .section.section--contact .section__content .download-area .download-links .link:hover, .section.section--contact .section__content .contact-links .link:hover, .section.section--staffs .section__content .staff .row .about-staff .about-physiognomy:hover {
   opacity: 0.6;
+}
+
+.hover-effect-1, .section.section--blog .section__title a, .section.section--gallery .section__title a, .section.section--news .section__title a, .section.section--contact .section__content .download-area .download-links .link, .section.section--contact .section__content .contact-links .link, .section.section--staffs .section__content .staff .row .about-staff .about-physiognomy {
+  position: relative;
+  overflow: hidden;
+}
+.hover-effect-1:before, .section.section--blog .section__title a:before, .section.section--gallery .section__title a:before, .section.section--news .section__title a:before, .section.section--contact .section__content .download-area .download-links .link:before, .section.section--contact .section__content .contact-links .link:before, .section.section--staffs .section__content .staff .row .about-staff .about-physiognomy:before {
+  background: #F0D6DA;
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: -1;
+  transition: all 0.6s ease;
+  width: 100%;
+  height: 0%;
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+.hover-effect-1:hover, .section.section--blog .section__title a:hover, .section.section--gallery .section__title a:hover, .section.section--news .section__title a:hover, .section.section--contact .section__content .download-area .download-links .link:hover, .section.section--contact .section__content .contact-links .link:hover, .section.section--staffs .section__content .staff .row .about-staff .about-physiognomy:hover {
+  background-position: right -2em center;
+  opacity: 0.99;
+  border-color: white;
+}
+.hover-effect-1:hover:before, .section.section--blog .section__title a:hover:before, .section.section--gallery .section__title a:hover:before, .section.section--news .section__title a:hover:before, .section.section--contact .section__content .download-area .download-links .link:hover:before, .section.section--contact .section__content .contact-links .link:hover:before, .section.section--staffs .section__content .staff .row .about-staff .about-physiognomy:hover:before {
+  height: 500%;
 }
 
 body {
@@ -284,7 +309,7 @@ body {
   background-size: cover;
 }
 
-.section:not(.section--mainview):not(.section--menus):not(.section--breadcrumb):not(.section--fixed-bottom) {
+.section:not(.section--mainview):not(.section--menus):not(.section--breadcrumb):not(.section--fixed-bottom):not(.section--title):not(.section--bloglist) {
   -webkit-transition: all 0.8s ease;
   -o-transition: all 0.8s ease;
   transition: all 0.8s ease;
@@ -292,7 +317,7 @@ body {
   top: 100px;
   opacity: 0;
 }
-.section:not(.section--mainview):not(.section--menus):not(.section--breadcrumb):not(.section--fixed-bottom).animated {
+.section:not(.section--mainview):not(.section--menus):not(.section--breadcrumb):not(.section--fixed-bottom):not(.section--title):not(.section--bloglist).animated {
   top: 0;
   opacity: 1;
 }
@@ -336,6 +361,12 @@ body {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
 }
+@media only screen and (max-width: 1680px) {
+  .section.section--menus .section__content {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
 .section.section--menus .section__content .top-menu {
   list-style: none;
   display: -webkit-box;
@@ -349,12 +380,17 @@ body {
   border-left: 1px solid #707070;
 }
 .section.section--menus .section__content .top-menu .item .menu {
-  font-size: 1.5625rem;
-  padding-left: 0.6em;
-  padding-right: 0.6em;
+  font-size: 1.3333333333vw;
+  padding-left: 1em;
+  padding-right: 1em;
   line-height: 70px;
   text-align: center;
   cursor: pointer;
+}
+@media (min-width: 1921px) {
+  .section.section--menus .section__content .top-menu .item .menu {
+    font-size: 25px;
+  }
 }
 .section.section--menus .section__content .top-menu .item .sub {
   list-style: none;
@@ -455,10 +491,18 @@ body {
   background-color: white;
   border: 5px solid #F0D6DA;
 }
+@media only screen and (max-width: 1600px) {
+  .section.section--troubles .section__content {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
 @media only screen and (max-width: 768px) {
   .section.section--troubles .section__content {
     padding-top: 10vw;
     padding-bottom: 10vw;
+    margin-left: unset;
+    margin-right: unset;
   }
 }
 .section.section--troubles .section__content h1 {
@@ -589,12 +633,20 @@ body {
   background-size: contain;
   position: relative;
 }
+@media only screen and (max-width: 1680px) {
+  .section.section--introduction .section__content {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
 @media only screen and (max-width: 768px) {
   .section.section--introduction .section__content {
     padding-top: 42vw;
     padding-bottom: 53.33vw;
     background-position: left top;
     background-size: 90vw;
+    margin-left: unset;
+    margin-right: unset;
   }
 }
 .section.section--introduction .section__content .description {
@@ -649,6 +701,12 @@ body {
   transform: translateX(-50%);
   z-index: 1;
 }
+@media only screen and (max-width: 1500px) {
+  .section.section--introduction .section__content .figure {
+    width: 80vw;
+    bottom: -5vw;
+  }
+}
 @media only screen and (max-width: 768px) {
   .section.section--introduction .section__content .figure {
     bottom: 0;
@@ -694,9 +752,17 @@ body {
   position: relative;
   z-index: 1;
 }
+@media only screen and (max-width: 1680px) {
+  .section.section--features .section__content {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
 @media only screen and (max-width: 768px) {
   .section.section--features .section__content {
     padding-top: 9vw;
+    margin-left: unset;
+    margin-right: unset;
   }
 }
 .section.section--features .section__content h1 {
@@ -902,6 +968,18 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+@media only screen and (max-width: 1500px) {
+  .section.section--points .section__content {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .section.section--points .section__content {
+    margin-left: unset;
+    margin-right: unset;
+  }
+}
 .section.section--points .section__content .points {
   list-style: none;
 }
@@ -1052,6 +1130,12 @@ body {
   -webkit-align-items: center;
   align-items: center;
 }
+@media only screen and (max-width: 1600px) {
+  .section.section--staffs .section__content .staff .row {
+    margin-left: 100px;
+    margin-right: 200px;
+  }
+}
 @media only screen and (max-width: 768px) {
   .section.section--staffs .section__content .staff .row {
     -webkit-box-orient: vertical;
@@ -1061,6 +1145,8 @@ body {
     -moz-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
+    margin-left: unset;
+    margin-right: unset;
   }
 }
 .section.section--staffs .section__content .staff .row .figure {
@@ -1186,7 +1272,6 @@ body {
   margin-top: 1em;
   background: right center url(../img/icon_link.png) no-repeat;
   background-position: right 1em center;
-  cursor: pointer;
 }
 @media only screen and (max-width: 768px) {
   .section.section--staffs .section__content .staff .row .about-staff .about-physiognomy {
@@ -1234,6 +1319,12 @@ body {
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
+}
+@media only screen and (max-width: 1335px) {
+  .section.section--staffs .section__content .staff .career-introduction .career-content {
+    margin-left: 100px;
+    margin-right: 200px;
+  }
 }
 @media only screen and (max-width: 768px) {
   .section.section--staffs .section__content .staff .career-introduction .career-content {
@@ -1651,6 +1742,16 @@ body {
     font-size: 3.4666666667vw;
   }
 }
+.section.section--price .section__content .price-sheet .tables .column .table .row .item-name.star {
+  background: right top 10px url(../img/star.svg) no-repeat;
+  background-size: 40px;
+}
+@media only screen and (max-width: 768px) {
+  .section.section--price .section__content .price-sheet .tables .column .table .row .item-name.star {
+    background: right top 2vw url(../img/star.svg) no-repeat;
+    background-size: 6vw;
+  }
+}
 .section.section--price .section__content .price-sheet .tables .column .table .row .item-value {
   padding-right: 3px;
   font-size: 1.5rem;
@@ -2061,6 +2162,18 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+@media only screen and (max-width: 1400px) {
+  .section.section--faq .section__content {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .section.section--faq .section__content {
+    margin-left: unset;
+    margin-right: unset;
+  }
+}
 .section.section--faq .section__content h1 {
   padding-left: 0.2em;
   padding-right: 0.2em;
@@ -2286,6 +2399,12 @@ body {
   padding-top: 60px;
   padding-bottom: 60px;
 }
+@media only screen and (max-width: 1520px) {
+  .section.section--access .section__content .wrapper {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+}
 @media only screen and (max-width: 768px) {
   .section.section--access .section__content .wrapper {
     -webkit-box-orient: vertical;
@@ -2297,6 +2416,8 @@ body {
     flex-direction: column;
     padding-top: 3.2vw;
     padding-bottom: 18vw;
+    margin-left: unset;
+    margin-right: unset;
   }
 }
 .section.section--access .section__content .wrapper .info {
@@ -2429,6 +2550,18 @@ body {
   max-width: 1360px;
   margin-left: auto;
   margin-right: auto;
+}
+@media only screen and (max-width: 1400px) {
+  .section.section--contact .section__content {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .section.section--contact .section__content {
+    margin-left: unset;
+    margin-right: unset;
+  }
 }
 .section.section--contact .section__content .description {
   padding-top: 105px;
@@ -2734,6 +2867,18 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+@media only screen and (max-width: 1192px) {
+  .section.section--flow .section__content {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .section.section--flow .section__content {
+    margin-left: unset;
+    margin-right: unset;
+  }
+}
 .section.section--flow .section__content .steps {
   list-style: none;
 }
@@ -2914,11 +3059,19 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+@media only screen and (max-width: 1200px) {
+  .section.section--news .section__title {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
 @media only screen and (max-width: 768px) {
   .section.section--news .section__title {
     padding-left: 11vw;
     padding-right: 10vw;
     margin-bottom: 5vw;
+    margin-left: unset;
+    margin-right: unset;
   }
 }
 .section.section--news .section__title h1 {
@@ -2963,6 +3116,7 @@ body {
   background-position: right 0.5em center;
   padding-top: 16px;
   padding-bottom: 16px;
+  border: 1px solid white;
 }
 @media only screen and (max-width: 768px) {
   .section.section--news .section__title a {
@@ -2979,9 +3133,17 @@ body {
   margin-right: auto;
   padding: 20px;
 }
+@media only screen and (max-width: 1200px) {
+  .section.section--news .section__content {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
 @media only screen and (max-width: 768px) {
   .section.section--news .section__content {
     padding: 2vw 5vw;
+    margin-left: unset;
+    margin-right: unset;
   }
 }
 .section.section--news .section__content .news-row {
@@ -3069,12 +3231,20 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+@media only screen and (max-width: 1160px) {
+  .section.section--blog .section__title, .section.section--gallery .section__title {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
 @media only screen and (max-width: 768px) {
   .section.section--blog .section__title, .section.section--gallery .section__title {
     padding-top: 12vw;
     padding-bottom: 12vw;
     padding-left: 11.2vw;
     padding-right: 10vw;
+    margin-left: unset;
+    margin-right: unset;
   }
 }
 .section.section--blog .section__title h1, .section.section--gallery .section__title h1 {
@@ -3132,6 +3302,18 @@ body {
   max-width: 1120px;
   margin-left: auto;
   margin-right: auto;
+}
+@media only screen and (max-width: 1160px) {
+  .section.section--blog .section__content, .section.section--gallery .section__content {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .section.section--blog .section__content, .section.section--gallery .section__content {
+    margin-left: unset;
+    margin-right: unset;
+  }
 }
 .section.section--blog .section__content .article-list, .section.section--gallery .section__content .article-list {
   list-style: none;
@@ -3338,11 +3520,19 @@ body {
   background-color: white;
   margin-top: 60px;
 }
+@media only screen and (max-width: 1460px) {
+  .section.section--title {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
 @media only screen and (max-width: 768px) {
   .section.section--title {
     margin-top: 5.6vw;
     padding-top: 4vw;
     padding-bottom: 4vw;
+    margin-left: unset;
+    margin-right: unset;
   }
 }
 .section.section--title .section__title {
@@ -3419,9 +3609,17 @@ body {
   margin-right: auto;
   padding-top: 30px;
 }
+@media only screen and (max-width: 1440px) {
+  .section.section--bloglist {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
 @media only screen and (max-width: 768px) {
   .section.section--bloglist {
     padding-top: 6vw;
+    margin-left: unset;
+    margin-right: unset;
   }
 }
 .section.section--bloglist .section__content {
@@ -3475,6 +3673,7 @@ body {
   background-color: #DECAA6;
   color: white;
   position: relative;
+  margin-bottom: 1em;
 }
 @media only screen and (max-width: 768px) {
   .section.section--bloglist .section__content .sidebar .category {
@@ -3482,6 +3681,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     font-size: 5.3333333333vw;
+    margin-bottom: unset;
   }
 }
 .section.section--bloglist .section__content .sidebar .category:after {
@@ -3535,7 +3735,7 @@ body {
   -moz-box-flex: 1 1 auto;
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
-  padding-left: 100px;
+  padding-left: 5vw;
 }
 @media only screen and (max-width: 768px) {
   .section.section--bloglist .section__content .main-area {
@@ -3558,6 +3758,11 @@ body {
 .section.section--bloglist .section__content .main-area .article-list .item {
   display: inline-block;
   width: 33.33%;
+}
+@media only screen and (max-width: 1000px) {
+  .section.section--bloglist .section__content .main-area .article-list .item {
+    width: 50%;
+  }
 }
 @media only screen and (max-width: 768px) {
   .section.section--bloglist .section__content .main-area .article-list .item {
@@ -4392,6 +4597,12 @@ body {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
 }
+@media only screen and (max-width: 1540px) {
+  .page-header .header-inner {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
 @media only screen and (max-width: 768px) {
   .page-header .header-inner {
     -webkit-box-pack: center;
@@ -4400,6 +4611,8 @@ body {
     -moz-box-pack: center;
     justify-content: center;
     max-width: 100vw;
+    margin-left: unset;
+    margin-right: unset;
   }
 }
 .page-header .header-inner .logo {

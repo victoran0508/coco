@@ -95,14 +95,6 @@ jQuery(function($){
 		if ($('.section.section--gallery').inView()) {
 			$('.section.section--gallery').addClass('animated');
 		}
-
-		if ($('.section.section--title').inView()) {
-			$('.section.section--title').addClass('animated');
-		}
-
-		if ($('.section.section--bloglist').inView()) {
-			$('.section.section--bloglist').addClass('animated');
-		}
 	});
 
 	$('.nav-open').off('click').on('click', function(){

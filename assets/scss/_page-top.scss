@@ -19,9 +19,16 @@
     	@include display-flex;
     	@include justify-content-space-between;
 
+    	@include media(1540px) {
+    		margin-left: 20px;
+    		margin-right: 20px;
+    	}
+
     	@include media(m) {
     		@include justify-content-center;
     		max-width: 100vw;
+    		margin-left: unset;
+    		margin-right: unset;
     	}
 
     	.logo {
