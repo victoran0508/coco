@@ -1,3 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="637.278" height="341.948" viewBox="0 0 637.278 341.948">
+  <defs>
+    <style type="text/css">
+      @font-face {
+        font-family: Milonguita;
+        src: url('../font/Milonguita.ttf') format('truetype');
+      }
+    </style>
+	</defs>
   <text id="Eyebrow_Eye_line" data-name="Eyebrow  &amp; Eye line" transform="translate(342.721 157.696) rotate(8)" fill="#e8d8c0" stroke="#e7d8bf" stroke-width="0.5" font-size="86" font-family="Milonguita" letter-spacing="0.05em" opacity="0.24"><tspan x="-280.704" y="0" xml:space="preserve">Eyebrow  &amp; Eye line</tspan></text>
 </svg>

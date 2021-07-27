@@ -9,6 +9,12 @@
 
 	@include media(m) {
 		height: 21vw;
+		position: fixed;
+		top: 0;
+		left: 0;
+		background: white;
+		z-index: 99;
+		box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.16);
 	}
 
     .header-inner {
@@ -29,6 +35,7 @@
     		max-width: 100vw;
     		margin-left: unset;
     		margin-right: unset;
+    		padding-right: 16vw;
     	}
 
     	.logo {
@@ -53,7 +60,7 @@
                 width: auto;
 
                 @include media(m) {
-                	height: 13vw;
+                	height: 10.5vw;
                 }
     		}
     	}

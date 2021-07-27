@@ -22,7 +22,7 @@
 
 html {
     margin-top: unset !important;
-    font-size: 16px;
+    font-size: 12px;
     width: 100vw;
     overflow-x: hidden;
 }
@@ -65,7 +65,7 @@ input[type=text], input[type=email], input[type=tel], select {
     border: 1px solid $color-gray5;
     @include fontsize(16px);
     
-    @media screen and (max-width: 768px) {
+    @include media(m) {
         padding: 1em 1.3em;
         font-size: 3.2vw;
     }
@@ -80,6 +80,12 @@ input[type=text], input[type=email], input[type=tel], select {
 
     &::placeholder {
         opacity: 1;
+    }
+}
+
+select {
+    @include media(m) {
+        padding: 1em 0;
     }
 }
 
@@ -185,8 +191,8 @@ textarea {
             top: 0.4em;
             width: 0.15em;
             height: 0.4em;
-            border: solid #191819;
-            border-width: 0 0.2em 0.2em 0;
+//             border: solid #191819;
+//             border-width: 0 0.2em 0.2em 0;
             @include transform(rotate(45deg) translate(-50%, -50%));
         }
     }

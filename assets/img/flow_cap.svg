@@ -1,3 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="211.641" height="250.805" viewBox="0 0 211.641 250.805">
+  <defs>
+    <style type="text/css">
+      @font-face {
+        font-family: Milonguita;
+        src: url('../font/Milonguita.ttf') format('truetype');
+      }
+    </style>
+	</defs>
   <text id="Flow" transform="translate(71.215 122.451) rotate(-18)" fill="#535353" stroke="#535354" stroke-width="0.5" font-size="71" font-family="Milonguita" letter-spacing="0.05em"><tspan x="-43.487" y="0">Flow</tspan></text>
 </svg>

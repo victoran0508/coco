@@ -1,3 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="281.923" height="356.169" viewBox="0 0 281.923 356.169">
+  <defs>
+    <style type="text/css">
+      @font-face {
+        font-family: Milonguita;
+        src: url('../font/Milonguita.ttf') format('truetype');
+      }
+    </style>
+	</defs>
   <text id="Point" transform="translate(136.962 156.307) rotate(15)" fill="#535353" stroke="#535354" stroke-width="0.5" font-size="104" font-family="Milonguita" letter-spacing="0.05em"><tspan x="-80.444" y="0">Point</tspan></text>
 </svg>

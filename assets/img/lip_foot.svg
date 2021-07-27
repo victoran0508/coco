@@ -1,3 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="154.471" height="325.541" viewBox="0 0 154.471 325.541">
+  <defs>
+    <style type="text/css">
+      @font-face {
+        font-family: Milonguita;
+        src: url('../font/Milonguita.ttf') format('truetype');
+      }
+    </style>
+	</defs>
   <text id="Lip" transform="translate(87.446 144.01) rotate(8)" fill="#e8d8c0" stroke="#e7d8bf" stroke-width="0.5" font-size="104" font-family="Milonguita" letter-spacing="0.05em" opacity="0.24"><tspan x="-47.528" y="0">Lip</tspan></text>
 </svg>
