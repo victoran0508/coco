@@ -13,38 +13,21 @@ get_header();
 ?>
 
 	<main class="page-wrapper">
-        <section class="section section--menus">
+		<section class="section section--menus">
             <div class="section__content">
                 <ul class="top-menu">
                     <li class="item">
-                        <a class="menu">選ばれる理由</a>
-						<ul class="sub">
-							<li class="subitem">
-								<a class="inner-link" href="#">スタッフ1</a>
-							</li>
-							<li class="subitem">
-								<a class="inner-link" href="#">スタッフ2</a>
-							</li>
-						</ul>
+                        <a class="menu" href="<?php echo get_home_url(); ?>#reasons">選ばれる理由</a>
                     </li>
 
 					<li class="item">
 						<a class="menu">施術者紹介</a>
 						<ul class="sub">
 							<li class="subitem">
-								<a class="inner-link" href="#">アイブロウ</a>
+								<a class="inner-link" href="<?php echo get_home_url(); ?>#staff1">スタッフ1</a>
 							</li>
 							<li class="subitem">
-								<a class="inner-link" href="#">アイライン</a>
-							</li>
-							<li class="subitem">
-								<a class="inner-link" href="#">アイブロウ・アイラインセット</a>
-							</li>
-							<li class="subitem">
-								<a class="inner-link" href="#">その他部位</a>
-							</li>
-							<li class="subitem">
-								<a class="inner-link" href="#">ペアプラン</a>
+								<a class="inner-link" href="<?php echo get_home_url(); ?>#staff2">スタッフ2</a>
 							</li>
 						</ul>
 					</li>
@@ -53,58 +36,61 @@ get_header();
 						<a class="menu">料金表</a>
 						<ul class="sub">
 							<li class="subitem">
-								<a class="inner-link" href="#">アイブロウ</a>
+								<a class="inner-link" href="<?php echo get_home_url(); ?>#eyebrow">アイブロウ</a>
 							</li>
 							<li class="subitem">
-								<a class="inner-link" href="#">アイライン</a>
+								<a class="inner-link" href="<?php echo get_home_url(); ?>#eyeline">アイライン</a>
 							</li>
 							<li class="subitem">
-								<a class="inner-link" href="#">アイブロウ・アイラインセット</a>
+								<a class="inner-link" href="<?php echo get_home_url(); ?>#setplan">アイブロウ・アイラインセット</a>
 							</li>
 							<li class="subitem">
-								<a class="inner-link" href="#">その他部位</a>
+								<a class="inner-link" href="<?php echo get_home_url(); ?>#lip">リップ</a>
 							</li>
 							<li class="subitem">
-								<a class="inner-link" href="#">ペアプラン</a>
+								<a class="inner-link" href="<?php echo get_home_url(); ?>#other">その他部位</a>
+							</li>
+							<li class="subitem">
+								<a class="inner-link" href="<?php echo get_home_url(); ?>#pairplan">ペアプラン</a>
 							</li>
 						</ul>
 					</li>
 
 					<li class="item">
-						<a class="menu">アートメイク症例紹介</a>
+						<a class="menu" href="<?php echo get_home_url(); ?>/column">アートメイク症例紹介</a>
+					</li>
+
+					<li class="item">
+						<a class="menu" href="<?php echo get_home_url(); ?>#access">アクセス</a>
+					</li>
+
+					<li class="item">
+						<a class="menu">ご予約・お問い合わせ</a>
 						<ul class="sub">
 							<li class="subitem">
-								<a class="inner-link" href="#">LINE</a>
+								<a class="inner-link" href="<?php echo get_home_url(); ?>#line">LINE</a>
 							</li>
 							<li class="subitem">
-								<a class="inner-link" href="#">HPからお問い合わせ</a>
+								<a class="inner-link" href="<?php echo get_home_url(); ?>#contact-form">HPからお問い合わせ</a>
 							</li>
 						</ul>
 					</li>
 
 					<li class="item">
-						<a class="menu">アクセス</a>
+						<a class="menu">NEWS</a>
 						<ul class="sub">
 							<li class="subitem">
-								<a class="inner-link" href="#">新着情報</a>
+								<a class="inner-link" href="<?php echo get_home_url(); ?>#news">新着情報</a>
 							</li>
 							<li class="subitem">
-								<a class="inner-link" href="#">ブログ</a>
+								<a class="inner-link" href="<?php echo get_home_url(); ?>#blog">ブログ</a>
 							</li>
 						</ul>
-					</li>
-
-					<li class="item">
-						<a class="menu" href="#">ご予約・お問い合わせ</a>
-					</li>
-
-					<li class="item">
-						<a class="menu" href="#">NEWS</a>
 					</li>
                 </ul>
                 <div class="sns-links">
-                    <a class="menu" href="#"><img src="./assets/img/instagram.png"></a>
-                    <a class="menu" href="#"><img src="./assets/img/lineapp.png"></a>
+                    <a class="menu" href="https://www.instagram.com/cococlinic_official/"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/instagram.png"></a>
+                    <a class="menu" href="https://line.me/R/ti/p/%40586yzheo"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/lineapp.png"></a>
                 </div>
             </div>
         </section>

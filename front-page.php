@@ -55,7 +55,7 @@
 					</li>
 
 					<li class="item">
-						<a class="menu" href="#access">アクセス</a>
+						<a class="menu" href="<?php echo get_home_url(); ?>#access">アクセス</a>
 					</li>
 
 					<li class="item">
@@ -113,7 +113,7 @@
                             <p class="text">メイクで眉が上手く描けない</p>
                         </div>
                     </li>
-                    <li class="item">
+                    <!-- li class="item">
                         <div class="wrapper">
                             <p class="text">すっぴんに自信がない</p>
                         </div>
@@ -122,17 +122,17 @@
                         <div class="wrapper">
                             <p class="text">入れ墨に抵抗がある</p>
                         </div>
-                    </li>
+                    </li -->
                     <li class="item">
                         <div class="wrapper">
                             <p class="text">眉が薄いが男性なのでメイクに抵抗がある</p>
                         </div>
                     </li>
-                    <li class="item">
+                    <!--li class="item">
                         <div class="wrapper">
                             <p class="text">本当に安全なのか、衛生的に不安</p>
                         </div>
-                    </li>
+                    </li -->
                     <li class="item">
                         <div class="wrapper">
                             <p class="text">自分に似合う眉がわからない</p>
@@ -153,11 +153,11 @@
                             <p class="text">希望のデザインに仕上がるか心配</p>
                         </div>
                     </li>
-                    <li class="item">
+                    <!-- li class="item">
                         <div class="wrapper">
                             <p class="text">痛みが心配</p>
                         </div>
-                    </li>
+                    </li -->
                 </ul>
             </div>
         </section>
@@ -189,8 +189,23 @@
                         習得が難しい技法の為、<br class="sp"><span>技法を開発した施術者自身が施術を</span>行います
                     </p>
                     <figure class="figure">
-                        <img class="img" src="<?php echo get_template_directory_uri(); ?>/assets/img/tech_3.png">
+                        <img class="img" src="<?php echo get_template_directory_uri(); ?>/assets/img/tech3.png">
                     </figure>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section--features2">
+            <div class="section__content">
+                <h1>人相学について</h1>
+                <div class="wrapper">
+                    <figure class="figure">
+                        <img class="img" src="<?php echo get_template_directory_uri(); ?>/assets/img/tech3.png">
+                    </figure>
+                    <p class="text">
+                        顔には性格や運勢を表す部分があり、運に恵まれる顔には特徴があります。<br>
+                        眉の形を変えることによって、運勢を導くことも可能なのです。
+                    </p>
                 </div>
             </div>
         </section>
@@ -224,13 +239,57 @@
             </div>
         </section>
 
+        <section class="section section--flow">
+            <h1 class="section__title">施術の流れ</h1>
+            <div class="section__content">
+                <ul class="steps">
+                    <li class="item">
+                        <div class="wrapper">
+                            <figure class="figure">
+                                <img class="img" src="<?php echo get_template_directory_uri(); ?>/assets/img/flow_1.png">
+                            </figure>
+                            <div class="step">
+                                <h2 class="title">ご予約</h2>
+                                <p class="text">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item">
+                        <div class="wrapper">
+                            <figure class="figure">
+                                <img class="img" src="<?php echo get_template_directory_uri(); ?>/assets/img/flow_2.png">
+                            </figure>
+                            <div class="step">
+                                <h2 class="title">カウンセリング</h2>
+                                <p class="text">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item">
+                        <div class="wrapper">
+                            <figure class="figure">
+                                <img class="img" src="<?php echo get_template_directory_uri(); ?>/assets/img/flow_3.png">
+                            </figure>
+                            <div class="step">
+                                <h2 class="title">施術</h2>
+                                <p class="text">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <div class="link-panel">
+                    <a href="#contact" class="link">お問い合わせはこちら</a>
+                </div>
+            </div>
+        </section>
+
         <section class="section section--staffs">
             <h1 class="section__title">施術者紹介</h1>
             <div class="section__content">
                 <div class="staff staff--1" id="staff1">
                     <div class="row">
                         <figure class="figure">
-                            <img class="img" src="<?php echo get_template_directory_uri(); ?>/assets/img/staff_1.png">
+                            <img class="img" src="<?php echo get_template_directory_uri(); ?>/assets/img/staff_1.jpg">
                             <figcaption class="caption">
                                 <span class="name-en">Toshie Ando</span>
                                 <span class="name">安藤敏江</span>
@@ -1151,7 +1210,7 @@
             </div>
         </section>
 
-        <section class="section section--contact">
+        <section class="section section--contact" class="contact">
             <h1 class="section__title">ご予約・お問い合わせ</h1>
             <div class="section__content" id="line">
                 <div class="description">
@@ -1166,7 +1225,8 @@
 
                 <div class="contact-links">
                     <a href="tel:0362751866" class="link link--phone"><span>03-6275-1866</span></a>
-                    <a href="#" class="link link--email"><span>メールフォーム</span></a>
+                    <a href="mailto:" class="link link--email"><span>メールフォーム</span></a>
+                    <a href="https://line.me/R/ti/p/%40586yzheo" class="link link--line"><span>LINE</span></a>
                 </div>
 
                 <div class="download-area">
@@ -1181,47 +1241,6 @@
                 <?php // get_template_part('template-parts/google-form');?>
                 <?php // echo do_shortcode('[mwform_formkey key="5"]'); ?>
                 <?php echo do_shortcode('[contact-form-7 id="2206" title="予約フォーム"]'); ?>
-            </div>
-        </section>
-
-        <section class="section section--flow">
-            <h1 class="section__title">施術の流れ</h1>
-            <div class="section__content">
-                <ul class="steps">
-                    <li class="item">
-                        <div class="wrapper">
-                            <figure class="figure">
-                                <img class="img" src="<?php echo get_template_directory_uri(); ?>/assets/img/flow_1.png">
-                            </figure>
-                            <div class="step">
-                                <h2 class="title">ご予約</h2>
-                                <p class="text">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="item">
-                        <div class="wrapper">
-                            <figure class="figure">
-                                <img class="img" src="<?php echo get_template_directory_uri(); ?>/assets/img/flow_2.png">
-                            </figure>
-                            <div class="step">
-                                <h2 class="title">カウンセリング</h2>
-                                <p class="text">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="item">
-                        <div class="wrapper">
-                            <figure class="figure">
-                                <img class="img" src="<?php echo get_template_directory_uri(); ?>/assets/img/flow_3.png">
-                            </figure>
-                            <div class="step">
-                                <h2 class="title">施術</h2>
-                                <p class="text">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
             </div>
         </section>
 
@@ -1270,10 +1289,10 @@
                     <a href="<?php echo get_home_url(); ?>/category/blog/">一覧へ</a>
                 </div>
                 <div class="section__content">
-                    <ul class="article-list">
+                    <div class="article-list">
                     <?php
                         $args = array(
-                        'posts_per_page' => 3,
+                        'posts_per_page' => 8,
                         'category_name'  => 'blog',
                         );
                         $the_query = new WP_Query($args);
@@ -1290,7 +1309,7 @@
                         }
 
                         $output .= '
-                            <li class="item">
+                            <div class="item">
                                 <article class="article">
                                     <a href="' . get_permalink($post_id) . '" class="article__link"></a>
                                     <figure class="figure">
@@ -1301,7 +1320,7 @@
                                         ' . get_the_title($post_id) . '
                                     </p>
                                 </article>
-                            </li>
+                            </div>
                         ';
 
                         endwhile;
@@ -1313,7 +1332,7 @@
 
                         wp_reset_postdata();
                     ?>
-                    </ul>
+                    </div>
                 </div>
             </div>
         </section>
@@ -1325,10 +1344,10 @@
             </div>
             <div class="wrapper">
                 <div class="section__content">
-                    <ul class="article-list">
+                    <div class="article-list">
                     <?php
                         $args = array(
-                        'posts_per_page' => 3,
+                        'posts_per_page' => 8,
                         'post_type'      => 'column',
                         );
                         $the_query = new WP_Query($args);
@@ -1345,7 +1364,7 @@
                         $post_content = apply_filters('the_content', $the_query->post->post_content);
 
                         $output .= '
-                            <li class="item">
+                            <div class="item">
                                 <article class="article">
                                     <a href="' . get_permalink($post_id) . '" class="article__link"></a>
                                     <figure class="figure">
@@ -1355,7 +1374,7 @@
                                     ' . get_the_title($post_id) . '
                                     </p>
                                 </article>
-                            </li>
+                            </div>
                         ';
 
                         endwhile;
@@ -1367,7 +1386,7 @@
 
                         wp_reset_postdata();
                     ?>
-                    </ul>
+                    </div>
                 </div>
             </div>
         </section>

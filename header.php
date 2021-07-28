@@ -11,6 +11,8 @@
 
     <!-- css -->
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/theme.css">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/libs/slick/slick.css">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/libs/slick/slick-theme.css">
 
     <!-- javascript -->
     <script src="<?php echo get_template_directory_uri(); ?>/libs/jquery/jquery-3.4.1.min.js"></script>
@@ -26,13 +28,13 @@
             <a href="javascript:void(0)" class="nav-open"><i></i><span></span></a>
             <div class="nav-wrapper">
                 <ul class="navs">
-                    <li class="item"><a href="#reasons">選ばれる理由</a></li>
-                    <li class="item"><a href="#staff1">施術者紹介</a></li>
-                    <li class="item"><a herf="#eyebrow">料金表</a></li>
-                    <li class="item"><a href="<?php echo get_home_url(); ?>/column">アートメイク症例紹介</a></li>
-                    <li class="item"><a href="#access">アクセス</a></li>
-                    <li class="item"><a href="#line">ご予約・お問い合わせ</a></li>
-                    <li class="item"><a href="#news">NEWS</a></li>
+                    <li class="item"><a href="<?php echo get_home_url(); ?>#reasons">選ばれる理由</a></li>
+                    <li class="item"><a href="<?php echo get_home_url(); ?>#staff1">施術者紹介</a></li>
+                    <li class="item"><a herf="<?php echo get_home_url(); ?>#eyebrow">料金表</a></li>
+                    <li class="item"><a href="<?php echo get_home_url(); ?>column">アートメイク症例紹介</a></li>
+                    <li class="item"><a href="<?php echo get_home_url(); ?>#access">アクセス</a></li>
+                    <li class="item"><a href="<?php echo get_home_url(); ?>#line">ご予約・お問い合わせ</a></li>
+                    <li class="item"><a href="<?php echo get_home_url(); ?>#news">NEWS</a></li>
                     <li class="item"><a href="https://www.instagram.com/cococlinic_official/"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/instagram.png"></a></li>
                 </ul>
             </div>
