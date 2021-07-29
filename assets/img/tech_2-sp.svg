@@ -1,31 +1,31 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="276.501" height="167.5" viewBox="0 0 276.501 167.5">
-  <g id="Group_275" data-name="Group 275" transform="translate(-49.249 -2304.25)">
-    <g id="Group_6" data-name="Group 6" transform="translate(50 2305)">
+  <g id="Component_42_1" data-name="Component 42 – 1" transform="translate(0.751 0.75)">
+    <g id="Group_6" data-name="Group 6">
       <rect id="Rectangle_8" data-name="Rectangle 8" width="275" height="57" fill="#f0d6da"/>
-      <text id="_Dアートメイク" data-name="４Dアートメイク" transform="translate(138 37)" fill="#171717" font-size="20" font-family="YuGothicUI-Regular, Yu Gothic UI"><tspan x="-59.751" y="0">４</tspan><tspan y="0" font-family="SegoeUI, Segoe UI">D</tspan><tspan y="0">アートメイク</tspan></text>
+      <text id="ファーエンブロウ式" transform="translate(138 37)" fill="#171717" font-size="20" font-family="YuGothicUI-Regular, Yu Gothic UI"><tspan x="-66.416" y="0">ファーエンブロウ式</tspan></text>
     </g>
-    <g id="Group_7" data-name="Group 7" transform="translate(50.297 2414)">
+    <g id="Group_7" data-name="Group 7" transform="translate(0.297 109)">
       <rect id="Rectangle_9" data-name="Rectangle 9" width="275" height="57" transform="translate(-0.296)" fill="#d7ddf0"/>
-      <text id="中国式刺繍メイク" transform="translate(137.204 36.5)" fill="#171717" font-size="20" font-family="YuGothicUI-Regular, Yu Gothic UI"><tspan x="-71.65" y="0">中国式刺繍メイク</tspan></text>
+      <text id="人相学" transform="translate(137.204 36.5)" fill="#171717" font-size="20" font-family="YuGothicUI-Regular, Yu Gothic UI"><tspan x="-30" y="0">人相学</tspan></text>
     </g>
-    <g id="Group_9" data-name="Group 9" transform="translate(325 2351.521) rotate(90)">
+    <g id="Group_9" data-name="Group 9" transform="translate(275 46.521) rotate(90)">
       <path id="Path_1" data-name="Path 1" d="M0,24.126-.227-95.723l51.114-35.564" transform="translate(11.081 250.874)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="1.5"/>
       <line id="Line_9" data-name="Line 9" x2="11.081" transform="translate(0)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="1.5"/>
       <line id="Line_10" data-name="Line 10" x2="11.081" transform="translate(0 275)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="1.5"/>
       <line id="Line_11" data-name="Line 11" y1="119.5" transform="translate(11.081)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="1.5"/>
     </g>
-    <g id="Group_10" data-name="Group 10" transform="translate(325 2459.919) rotate(90)">
+    <g id="Group_10" data-name="Group 10" transform="translate(275 154.919) rotate(90)">
       <line id="Line_8" data-name="Line 8" y2="275" transform="translate(11.081)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="1.5"/>
       <line id="Line_9-2" data-name="Line 9" x2="11.081" transform="translate(0 275)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="1.5"/>
       <line id="Line_10-2" data-name="Line 10" x2="11.081" fill="none" stroke="#000" stroke-linecap="round" stroke-width="1.5"/>
     </g>
-    <g id="Group_11" data-name="Group 11" transform="translate(325 2363.152) rotate(90)">
+    <g id="Group_11" data-name="Group 11" transform="translate(275 58.152) rotate(90)">
       <path id="Path_2" data-name="Path 2" d="M49.96,142.595V23.154L-.891-12.83" transform="translate(0.395 132.405)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="1.5"/>
       <line id="Line_9-3" data-name="Line 9" x1="11.081" transform="translate(50.354 0)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="1.5"/>
       <line id="Line_10-3" data-name="Line 10" x1="11.081" transform="translate(50.354 275)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="1.5"/>
       <line id="Line_13" data-name="Line 13" y1="119.5" x2="0.006" transform="translate(50.348)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="1.5"/>
     </g>
-    <g id="Group_274" data-name="Group 274" transform="translate(50 2316.081) rotate(-90)">
+    <g id="Group_274" data-name="Group 274" transform="translate(0 11.081) rotate(-90)">
       <line id="Line_8-2" data-name="Line 8" y1="275" transform="translate(11.081)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="1.5"/>
       <line id="Line_9-4" data-name="Line 9" x2="11.081" fill="none" stroke="#000" stroke-linecap="round" stroke-width="1.5"/>
       <line id="Line_10-4" data-name="Line 10" x2="11.081" transform="translate(0 275)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="1.5"/>

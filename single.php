@@ -102,11 +102,11 @@ $cat_arr = get_the_category();
             </div>
         </section>
 
-		<section class="section section--title">
+		<!-- section class="section section--title">
             <h1 class="section__title">
 				<span><?php the_title(); ?></span>
             </h1>
-        </section>
+		</section -->
 
         <section class="section section--breadcrumb">
             <div class="section__content">

@@ -63,7 +63,7 @@ input[type=text], input[type=email], input[type=tel], select {
     width: 100%;
     padding: 0.8em;
     border: 1px solid $color-gray5;
-    @include fontsize(16px);
+    @include fontsize(24px);
     
     @include media(m) {
         padding: 1em 1.3em;

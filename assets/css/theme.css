@@ -66,7 +66,7 @@ input[type=text], input[type=email], input[type=tel], select {
   width: 100%;
   padding: 0.8em;
   border: 1px solid #d3d3de;
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 @media only screen and (max-width: 768px) {
   input[type=text], input[type=email], input[type=tel], select {
@@ -249,20 +249,20 @@ textarea:focus {
   background-color: #f9f9f9;
 }
 
-.hoverable, .page-header .header-inner .clinic-info .contact-links .phone-number, .page-header .header-inner .clinic-info .contact-links .sns-icons a, .page-header .header-inner .logo, .section.section--article .section__content .article .links a, .section.section--bloglist .section__content .main-area .article-list .item .article .article__link, .section.section--bloglist .section__content .sidebar .category-list .item a, .section.section--fixed-bottom .section__content .links .link, .section.section--blog .section__content .article-list .item .article, .section.section--gallery .section__content .article-list .item .article, .section.section--news .section__content .news-row .link, .section.section--faq .section__content .foldable .foldable__fixed, .section.section--price .section__content .price-sheet .foldable .foldable__title, .section.section--price .section__content .links .item .link, .section.section--staffs .section__content .staff .career-introduction .career-more, .section.section--menus .section__content .sns-links .menu img, .section.section--menus .section__content .top-menu .item .sub .subitem .inner-link, .section.section--menus .section__content .top-menu .item .menu, .hover-effect-1, .section.section--blog .section__title a, .section.section--gallery .section__title a, .section.section--news .section__title a, .section.section--flow .section__content .link-panel .link, .section.section--contact .section__content .download-area .download-links .link, .section.section--contact .section__content .contact-links .link, .section.section--staffs .section__content .staff .row .about-staff .about-physiognomy {
+.hoverable, .page-header .header-inner .clinic-info .contact-links .phone-number, .page-header .header-inner .clinic-info .contact-links .sns-icons a, .page-header .header-inner .logo, .section.section--article .section__content .article .links a, .section.section--bloglist .section__content .main-area .article-list .item .article .article__link, .section.section--bloglist .section__content .sidebar .category-list .item a, .section.section--fixed-bottom .section__content .links .link, .section.section--blog .section__content .article-list .item .article, .section.section--gallery .section__content .article-list .item .article, .section.section--news .section__content .news-row .link, .section.section--faq .section__content .foldable .foldable__fixed, .section.section--price .section__content .price-sheet .foldable .foldable__title, .section.section--price .section__content .links .item .link, .section.section--staffs .section__content .staff .career-introduction .career-more, .section.section--menus .section__content .sns-links .menu img, .section.section--menus .section__content .top-menu .item .sub .subitem .inner-link, .section.section--menus .section__content .top-menu .item .menu, .hover-effect-1, .section.section--blog .section__title a, .section.section--gallery .section__title a, .section.section--news .section__title a, .section.section--flow .section__content .link-panel .link, .section.section--contact .section__content .download-area .download-links .link, .section.section--contact .section__content .contact-links .link, .section.section--staffs .section__content .staff .row .about-staff .about-physiognomy, .section.section--features .section__content .wrapper .text .about-physiognomy, .section.section--features2 .section__content .wrapper .text .about-physiognomy {
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-.hoverable:hover, .page-header .header-inner .clinic-info .contact-links .phone-number:hover, .page-header .header-inner .clinic-info .contact-links .sns-icons a:hover, .page-header .header-inner .logo:hover, .section.section--article .section__content .article .links a:hover, .section.section--bloglist .section__content .main-area .article-list .item .article .article__link:hover, .section.section--bloglist .section__content .sidebar .category-list .item a:hover, .section.section--fixed-bottom .section__content .links .link:hover, .section.section--blog .section__content .article-list .item .article:hover, .section.section--gallery .section__content .article-list .item .article:hover, .section.section--news .section__content .news-row .link:hover, .section.section--faq .section__content .foldable .foldable__fixed:hover, .section.section--price .section__content .price-sheet .foldable .foldable__title:hover, .section.section--price .section__content .links .item .link:hover, .section.section--staffs .section__content .staff .career-introduction .career-more:hover, .section.section--menus .section__content .sns-links .menu img:hover, .section.section--menus .section__content .top-menu .item .sub .subitem .inner-link:hover, .section.section--menus .section__content .top-menu .item .menu:hover, .hover-effect-1:hover, .section.section--blog .section__title a:hover, .section.section--gallery .section__title a:hover, .section.section--news .section__title a:hover, .section.section--flow .section__content .link-panel .link:hover, .section.section--contact .section__content .download-area .download-links .link:hover, .section.section--contact .section__content .contact-links .link:hover, .section.section--staffs .section__content .staff .row .about-staff .about-physiognomy:hover {
+.hoverable:hover, .page-header .header-inner .clinic-info .contact-links .phone-number:hover, .page-header .header-inner .clinic-info .contact-links .sns-icons a:hover, .page-header .header-inner .logo:hover, .section.section--article .section__content .article .links a:hover, .section.section--bloglist .section__content .main-area .article-list .item .article .article__link:hover, .section.section--bloglist .section__content .sidebar .category-list .item a:hover, .section.section--fixed-bottom .section__content .links .link:hover, .section.section--blog .section__content .article-list .item .article:hover, .section.section--gallery .section__content .article-list .item .article:hover, .section.section--news .section__content .news-row .link:hover, .section.section--faq .section__content .foldable .foldable__fixed:hover, .section.section--price .section__content .price-sheet .foldable .foldable__title:hover, .section.section--price .section__content .links .item .link:hover, .section.section--staffs .section__content .staff .career-introduction .career-more:hover, .section.section--menus .section__content .sns-links .menu img:hover, .section.section--menus .section__content .top-menu .item .sub .subitem .inner-link:hover, .section.section--menus .section__content .top-menu .item .menu:hover, .hover-effect-1:hover, .section.section--blog .section__title a:hover, .section.section--gallery .section__title a:hover, .section.section--news .section__title a:hover, .section.section--flow .section__content .link-panel .link:hover, .section.section--contact .section__content .download-area .download-links .link:hover, .section.section--contact .section__content .contact-links .link:hover, .section.section--staffs .section__content .staff .row .about-staff .about-physiognomy:hover, .section.section--features .section__content .wrapper .text .about-physiognomy:hover, .section.section--features2 .section__content .wrapper .text .about-physiognomy:hover {
   opacity: 0.6;
 }
 
-.hover-effect-1, .section.section--blog .section__title a, .section.section--gallery .section__title a, .section.section--news .section__title a, .section.section--flow .section__content .link-panel .link, .section.section--contact .section__content .download-area .download-links .link, .section.section--contact .section__content .contact-links .link, .section.section--staffs .section__content .staff .row .about-staff .about-physiognomy {
+.hover-effect-1, .section.section--blog .section__title a, .section.section--gallery .section__title a, .section.section--news .section__title a, .section.section--flow .section__content .link-panel .link, .section.section--contact .section__content .download-area .download-links .link, .section.section--contact .section__content .contact-links .link, .section.section--staffs .section__content .staff .row .about-staff .about-physiognomy, .section.section--features .section__content .wrapper .text .about-physiognomy, .section.section--features2 .section__content .wrapper .text .about-physiognomy {
   position: relative;
   overflow: hidden;
 }
-.hover-effect-1:before, .section.section--blog .section__title a:before, .section.section--gallery .section__title a:before, .section.section--news .section__title a:before, .section.section--flow .section__content .link-panel .link:before, .section.section--contact .section__content .download-area .download-links .link:before, .section.section--contact .section__content .contact-links .link:before, .section.section--staffs .section__content .staff .row .about-staff .about-physiognomy:before {
+.hover-effect-1:before, .section.section--blog .section__title a:before, .section.section--gallery .section__title a:before, .section.section--news .section__title a:before, .section.section--flow .section__content .link-panel .link:before, .section.section--contact .section__content .download-area .download-links .link:before, .section.section--contact .section__content .contact-links .link:before, .section.section--staffs .section__content .staff .row .about-staff .about-physiognomy:before, .section.section--features .section__content .wrapper .text .about-physiognomy:before, .section.section--features2 .section__content .wrapper .text .about-physiognomy:before {
   background: #F0D6DA;
   content: "";
   position: absolute;
@@ -274,12 +274,12 @@ textarea:focus {
   height: 0%;
   transform: translate(-50%, -50%) rotate(45deg);
 }
-.hover-effect-1:hover, .section.section--blog .section__title a:hover, .section.section--gallery .section__title a:hover, .section.section--news .section__title a:hover, .section.section--flow .section__content .link-panel .link:hover, .section.section--contact .section__content .download-area .download-links .link:hover, .section.section--contact .section__content .contact-links .link:hover, .section.section--staffs .section__content .staff .row .about-staff .about-physiognomy:hover {
+.hover-effect-1:hover, .section.section--blog .section__title a:hover, .section.section--gallery .section__title a:hover, .section.section--news .section__title a:hover, .section.section--flow .section__content .link-panel .link:hover, .section.section--contact .section__content .download-area .download-links .link:hover, .section.section--contact .section__content .contact-links .link:hover, .section.section--staffs .section__content .staff .row .about-staff .about-physiognomy:hover, .section.section--features .section__content .wrapper .text .about-physiognomy:hover, .section.section--features2 .section__content .wrapper .text .about-physiognomy:hover {
   background-position: right -2em center;
   opacity: 0.99;
   border-color: white;
 }
-.hover-effect-1:hover:before, .section.section--blog .section__title a:hover:before, .section.section--gallery .section__title a:hover:before, .section.section--news .section__title a:hover:before, .section.section--flow .section__content .link-panel .link:hover:before, .section.section--contact .section__content .download-area .download-links .link:hover:before, .section.section--contact .section__content .contact-links .link:hover:before, .section.section--staffs .section__content .staff .row .about-staff .about-physiognomy:hover:before {
+.hover-effect-1:hover:before, .section.section--blog .section__title a:hover:before, .section.section--gallery .section__title a:hover:before, .section.section--news .section__title a:hover:before, .section.section--flow .section__content .link-panel .link:hover:before, .section.section--contact .section__content .download-area .download-links .link:hover:before, .section.section--contact .section__content .contact-links .link:hover:before, .section.section--staffs .section__content .staff .row .about-staff .about-physiognomy:hover:before, .section.section--features .section__content .wrapper .text .about-physiognomy:hover:before, .section.section--features2 .section__content .wrapper .text .about-physiognomy:hover:before {
   height: 500%;
 }
 
@@ -581,8 +581,8 @@ body {
   display: flex;
   -webkit-flex-wrap: wrap;
   flex-wrap: wrap;
-  margin-left: -15px;
-  margin-right: -15px;
+  margin-left: -25px;
+  margin-right: -25px;
 }
 @media only screen and (max-width: 768px) {
   .section.section--troubles .section__content .troubles-list {
@@ -612,8 +612,8 @@ body {
   }
 }
 .section.section--troubles .section__content .troubles-list .item .wrapper {
-  height: 100px;
-  padding-left: 100px;
+  height: 80px;
+  padding-left: 80px;
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -626,8 +626,8 @@ body {
   align-items: center;
   background: left center url(../img/icon_check.svg) no-repeat, #E6E6E6;
   background-size: contain;
-  margin-left: 15px;
-  margin-right: 15px;
+  margin-left: 25px;
+  margin-right: 25px;
   margin-bottom: 40px;
 }
 @media only screen and (max-width: 768px) {
@@ -640,7 +640,7 @@ body {
   }
 }
 .section.section--troubles .section__content .troubles-list .item .wrapper .text {
-  font-size: 2rem;
+  font-size: 1.875rem;
   line-height: 1.4;
   font-family: "hiragino-mincho-pron-w3", serif;
   color: #6B6B6B;
@@ -969,6 +969,26 @@ body {
 }
 .section.section--features .section__content .wrapper .text span.animated, .section.section--features2 .section__content .wrapper .text span.animated {
   background-size: 100% 0.5em;
+}
+.section.section--features .section__content .wrapper .text .about-physiognomy, .section.section--features2 .section__content .wrapper .text .about-physiognomy {
+  display: block;
+  font-size: 1.75rem;
+  width: 14em;
+  line-height: 3.4;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #171717;
+  margin-top: 1em;
+  background: right center url(../img/icon_link.png) no-repeat;
+  background-position: right 1em center;
+}
+@media only screen and (max-width: 768px) {
+  .section.section--features .section__content .wrapper .text .about-physiognomy, .section.section--features2 .section__content .wrapper .text .about-physiognomy {
+    font-size: 4.2666666667vw;
+    line-height: 3.1;
+    margin-top: 5vw;
+  }
 }
 .section.section--features .section__content .wrapper .figure, .section.section--features2 .section__content .wrapper .figure {
   -webkit-flex: 0 0 592px;
@@ -1379,7 +1399,7 @@ body {
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
   font-family: "hiragino-mincho-pron-w3", serif;
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   line-height: 1.7;
   margin-top: 50px;
   margin-bottom: 50px;
@@ -1420,7 +1440,7 @@ body {
   }
 }
 .section.section--staffs .section__content .staff .career-introduction {
-  padding-top: 25px;
+  padding-top: 50px;
   padding-bottom: 165px;
   background: center center url(../img/sec04_bg.png);
   background-size: cover;
@@ -1437,8 +1457,8 @@ body {
 .section.section--staffs .section__content .staff .career-introduction .career-title {
   color: white;
   text-align: center;
-  font-size: 1.875rem;
-  margin-bottom: 0.8em;
+  font-size: 2.25rem;
+  margin-bottom: 1.5em;
 }
 @media only screen and (max-width: 768px) {
   .section.section--staffs .section__content .staff .career-introduction .career-title {
@@ -1450,7 +1470,7 @@ body {
   max-width: 1035px;
   margin-left: auto;
   margin-right: auto;
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   line-height: 1.6;
   max-height: 80px;
   overflow-y: hidden;
@@ -1669,7 +1689,7 @@ body {
   font-family: "hiragino-mincho-pron-w3", serif;
   background: right url(../img/icon_dropdown.png) no-repeat white;
   background-position: right 0.8em center;
-  background-size: 35px 20px;
+  background-size: 28px 16px;
   padding-right: calc(35px + 0.8em);
   box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.16);
 }
@@ -2824,13 +2844,15 @@ body {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   margin-top: 60px;
+  margin-bottom: 60px;
   max-width: 840px;
   margin-left: auto;
   margin-right: auto;
 }
 @media only screen and (max-width: 768px) {
   .section.section--contact .section__content .contact-links {
-    margin-top: 7.2vw;
+    margin-top: 11.2vw;
+    margin-bottom: 11.2vw;
     max-width: 80vw;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -2899,14 +2921,12 @@ body {
   margin-left: auto;
   margin-right: auto;
   margin-top: 60px;
-  margin-bottom: 60px;
   background-color: #F1F3F4;
   padding: 50px 100px;
 }
 @media only screen and (max-width: 768px) {
   .section.section--contact .section__content .download-area {
     margin-top: 11.2vw;
-    margin-bottom: 22.4vw;
     padding-top: 7vw;
     padding-bottom: 14vw;
     padding-left: unset;
@@ -3126,7 +3146,7 @@ body {
   -moz-box-flex: 0 0 12em;
   -ms-flex: 0 0 12em;
   flex: 0 0 12em;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
 }
 @media only screen and (max-width: 768px) {
   .section.section--contact .section__content .mw_wp_form .form-area .form-wrapper .input-row .input-row-left, .section.section--contact .section__content .wpcf7 .form-area .form-wrapper .input-row .input-row-left {
@@ -3177,7 +3197,7 @@ body {
   -ms-flex-align: center;
   -webkit-align-items: center;
   align-items: center;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
 }
 @media only screen and (max-width: 768px) {
   .section.section--contact .section__content .mw_wp_form .form-area .form-wrapper .input-row .input-row-right, .section.section--contact .section__content .wpcf7 .form-area .form-wrapper .input-row .input-row-right {
@@ -3256,7 +3276,7 @@ body {
 }
 .section.section--contact .section__content .mw_wp_form .form-area .form-wrapper .input-row .input-row-right .sub-content .text, .section.section--contact .section__content .wpcf7 .form-area .form-wrapper .input-row .input-row-right .sub-content .text {
   line-height: 1;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   position: relative;
   padding-left: 1.5em;
   margin-bottom: 0.6em;
@@ -3293,7 +3313,7 @@ body {
   align-items: center;
 }
 .section.section--contact .section__content .mw_wp_form .form-area .form-wrapper .input-row .input-row-right .detail-text, .section.section--contact .section__content .wpcf7 .form-area .form-wrapper .input-row .input-row-right .detail-text {
-  font-size: 1.125rem;
+  font-size: 1.5rem;
   margin-top: 1.5em;
   line-height: 1.6;
 }
@@ -3309,7 +3329,7 @@ body {
   display: -webkit-flex;
   display: flex;
   width: 100%;
-  font-size: 1.125rem;
+  font-size: 1.5rem;
 }
 @media only screen and (max-width: 768px) {
   .section.section--contact .section__content .mw_wp_form .form-area .form-wrapper .input-row .input-row-right .radio-group, .section.section--contact .section__content .wpcf7 .form-area .form-wrapper .input-row .input-row-right .radio-group {
@@ -3398,7 +3418,7 @@ body {
   }
 }
 .section.section--contact .section__content .mw_wp_form .form-area .form-wrapper .cancel-policy h4, .section.section--contact .section__content .wpcf7 .form-area .form-wrapper .cancel-policy h4 {
-  font-size: 1.5rem;
+  font-size: 2rem;
   margin-bottom: 1em;
 }
 @media only screen and (max-width: 768px) {
@@ -3407,7 +3427,7 @@ body {
   }
 }
 .section.section--contact .section__content .mw_wp_form .form-area .form-wrapper .cancel-policy .text, .section.section--contact .section__content .wpcf7 .form-area .form-wrapper .cancel-policy .text {
-  font-size: 1.125rem;
+  font-size: 1.5rem;
   line-height: 1.8;
   max-height: 8em;
   overflow: auto;
@@ -3444,6 +3464,12 @@ body {
   -ms-flex-align: center;
   -webkit-align-items: center;
   align-items: center;
+  font-size: 1.5rem;
+}
+@media only screen and (max-width: 768px) {
+  .section.section--contact .section__content .mw_wp_form .form-area .form-wrapper .cancel-policy .text + p .wpcf7-acceptance .wpcf7-list-item label, .section.section--contact .section__content .wpcf7 .form-area .form-wrapper .cancel-policy .text + p .wpcf7-acceptance .wpcf7-list-item label {
+    font-size: 3.2vw;
+  }
 }
 .section.section--contact .section__content .mw_wp_form .form-area .form-wrapper .cancel-policy .text + p .wpcf7-acceptance .wpcf7-list-item label input[type=checkbox], .section.section--contact .section__content .wpcf7 .form-area .form-wrapper .cancel-policy .text + p .wpcf7-acceptance .wpcf7-list-item label input[type=checkbox] {
   margin-right: 0.8em;
@@ -3463,7 +3489,6 @@ body {
 .section.section--contact .section__content .mw_wp_form .form-area .form-wrapper .submit-area, .section.section--contact .section__content .wpcf7 .form-area .form-wrapper .submit-area {
   position: relative;
   top: 50px;
-  height: 100px;
   text-align: center;
 }
 @media only screen and (max-width: 768px) {
@@ -3473,7 +3498,7 @@ body {
   }
 }
 .section.section--contact .section__content .mw_wp_form .form-area .form-wrapper .submit-area input[type=submit], .section.section--contact .section__content .wpcf7 .form-area .form-wrapper .submit-area input[type=submit] {
-  height: 100px;
+  height: 4em;
   width: 12em;
   font-size: 1.875rem;
   color: white;
@@ -3717,8 +3742,7 @@ body {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  border: 1px solid #171717;
-  background: right center url(../img/icon_link.png) no-repeat;
+  background: right center url(../img/icon_link.png) no-repeat, #E2C9A1;
   background-position: right 1em center;
 }
 @media only screen and (max-width: 768px) {
@@ -4256,6 +4280,9 @@ body {
 @media only screen and (max-width: 768px) {
   .section.section--title .section__title {
     font-size: 3.2vw;
+    padding-left: 6vw;
+    padding-right: 6vw;
+    line-height: 1.8;
   }
 }
 .section.section--title .section__title span {
@@ -5226,6 +5253,24 @@ body {
 }
 .radio-label:hover input ~ .radio-mark {
   background-color: #f9f9f9;
+}
+
+.slick-slide {
+  -webkit-transition: opacity 0.5s ease;
+  -o-transition: opacity 0.5s ease;
+  transition: opacity 0.5s ease;
+}
+
+.slick-slide:not(.slick-active):not(.slick-current) {
+  opacity: 0.1;
+}
+
+.slick-slide.slick-active {
+  opacity: 0.8;
+}
+
+.slick-slide.slick-current {
+  opacity: 1;
 }
 
 /* ----------------------------------------

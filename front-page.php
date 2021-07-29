@@ -170,7 +170,7 @@
                         「最新」と「伝統」から生まれた<br>
                         全く新しいアートメイク技法
                     </span>
-                    <span class="line-3">ファーエンブロウ式</span>
+                    <!-- <span class="line-3">ファーエンブロウ式</span> -->
                 </h1>
                 <figure class="figure">
                     <img class="img pc tb" src="<?php echo get_template_directory_uri(); ?>/assets/img/tech_2.svg">
@@ -200,12 +200,68 @@
                 <h1>人相学について</h1>
                 <div class="wrapper">
                     <figure class="figure">
-                        <img class="img" src="<?php echo get_template_directory_uri(); ?>/assets/img/tech3.png">
+                        <img class="img" src="<?php echo get_template_directory_uri(); ?>/assets/img/tech4.png">
                     </figure>
                     <p class="text">
-                        顔には性格や運勢を表す部分があり、運に恵まれる顔には特徴があります。<br>
-                        眉の形を変えることによって、運勢を導くことも可能なのです。
+                        顔には性格や運勢を表す部分があり、<br class="sp">運に恵まれる顔には特徴があります。<br>
+                        <span>眉の形を変えることによって、<br class="sp">運勢を導くこと</span>も可能なのです。
+
+                        <a class="about-physiognomy" href="<?php echo get_home_url(); ?>/humanities/">人相学について</a>
                     </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section--gallery">
+            <div class="section__title">
+                <h1>アートメイク症例写真</h1>
+                <a href="<?php echo get_home_url(); ?>/column">一覧へ</a>
+            </div>
+            <div class="wrapper">
+                <div class="section__content">
+                    <div class="article-list">
+                    <?php
+                        $args = array(
+                        'posts_per_page' => 8,
+                        'post_type'      => 'column',
+                        );
+                        $the_query = new WP_Query($args);
+                        $output = '';
+                        if ($the_query->have_posts()) : while ($the_query->have_posts()) : $the_query->the_post();
+
+                        $post_id = $the_query->post->ID;
+                        $thumb_url = get_the_post_thumbnail_url($post->ID, 'medium');
+                        if(!$thumb_url){
+                            $thumb_url = get_template_directory_uri().'/assets/img/no_images.jpg';
+                        }
+
+                        // $cat_arr = get_the_category($post_id);
+                        $post_content = apply_filters('the_content', $the_query->post->post_content);
+
+                        $output .= '
+                            <div class="item">
+                                <article class="article">
+                                    <a href="' . get_permalink($post_id) . '" class="article__link"></a>
+                                    <figure class="figure">
+                                        <img class="img" src="' . esc_url($thumb_url) . '">
+                                    </figure>
+                                    <p class="blog-content">
+                                    ' . get_the_title($post_id) . '
+                                    </p>
+                                </article>
+                            </div>
+                        ';
+
+                        endwhile;
+                        else:
+                            $output = '<p>まだ投稿がありません</p>';
+                        endif;
+
+                        echo $output;
+
+                        wp_reset_postdata();
+                    ?>
+                    </div>
                 </div>
             </div>
         </section>
@@ -1225,22 +1281,23 @@
 
                 <div class="contact-links">
                     <a href="tel:0362751866" class="link link--phone"><span>03-6275-1866</span></a>
-                    <a href="mailto:" class="link link--email"><span>メールフォーム</span></a>
+                    <a href="#contact-form" class="link link--email"><span>メールフォーム</span></a>
                     <a href="https://line.me/R/ti/p/%40586yzheo" class="link link--line"><span>LINE</span></a>
                 </div>
+                
+                <?php echo do_shortcode('[contact-form-7 id="2206" title="予約フォーム"]'); ?>
 
                 <div class="download-area">
                     <h3>初めての方へ</h3>
                     <p class="context">ご来院いただく前にご利用案内をご覧ください。<br>また、未成年の方は保護者の同意書が必要になります。<br>下記よりダウンロードをお願いします。</p>
                     <div class="download-links">
-                        <a href="<?php echo get_template_directory_uri();?>/images/pdf/guide.pdf" target="_blank" class="link"><span>ご利用案内（PDF）</span></a>
-						<a href="<?php echo get_template_directory_uri();?>/images/pdf/consent.pdf" target="_blank" class="link"><span>保護者同意書（PDF）</span></a>
+                        <a href="<?php echo get_template_directory_uri();?>/assets/pdf/guide.pdf" target="_blank" class="link"><span>ご利用案内（PDF）</span></a>
+						<a href="<?php echo get_template_directory_uri();?>/assets/pdf/consent.pdf" target="_blank" class="link"><span>保護者同意書（PDF）</span></a>
                     </div>
                 </div>
 
                 <?php // get_template_part('template-parts/google-form');?>
                 <?php // echo do_shortcode('[mwform_formkey key="5"]'); ?>
-                <?php echo do_shortcode('[contact-form-7 id="2206" title="予約フォーム"]'); ?>
             </div>
         </section>
 
@@ -1256,6 +1313,7 @@
                     'category_name'  => 'news',
                     );
                     $the_query = new WP_Query($args);
+                    $output = '';
                     if ($the_query->have_posts()) : while ($the_query->have_posts()) : $the_query->the_post();
 
                     $post_id = $the_query->post->ID;
@@ -1318,60 +1376,6 @@
                                     <p class="blog-content">
                                         <time>' . get_the_time('Y.m.d', $post_id) . '</time>
                                         ' . get_the_title($post_id) . '
-                                    </p>
-                                </article>
-                            </div>
-                        ';
-
-                        endwhile;
-                        else:
-                            $output = '<p>まだ投稿がありません</p>';
-                        endif;
-
-                        echo $output;
-
-                        wp_reset_postdata();
-                    ?>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="section section--gallery">
-            <div class="section__title">
-                <h1>アートメイク症例写真</h1>
-                <a href="<?php echo get_home_url(); ?>/column">一覧へ</a>
-            </div>
-            <div class="wrapper">
-                <div class="section__content">
-                    <div class="article-list">
-                    <?php
-                        $args = array(
-                        'posts_per_page' => 8,
-                        'post_type'      => 'column',
-                        );
-                        $the_query = new WP_Query($args);
-                        $output = '';
-                        if ($the_query->have_posts()) : while ($the_query->have_posts()) : $the_query->the_post();
-
-                        $post_id = $the_query->post->ID;
-                        $thumb_url = get_the_post_thumbnail_url($post->ID, 'medium');
-                        if(!$thumb_url){
-                            $thumb_url = get_template_directory_uri().'/assets/img/no_images.jpg';
-                        }
-
-                        // $cat_arr = get_the_category($post_id);
-                        $post_content = apply_filters('the_content', $the_query->post->post_content);
-
-                        $output .= '
-                            <div class="item">
-                                <article class="article">
-                                    <a href="' . get_permalink($post_id) . '" class="article__link"></a>
-                                    <figure class="figure">
-                                        <img class="img" src="' . esc_url($thumb_url) . '">
-                                    </figure>
-                                    <p class="blog-content">
-                                    ' . get_the_title($post_id) . '
                                     </p>
                                 </article>
                             </div>

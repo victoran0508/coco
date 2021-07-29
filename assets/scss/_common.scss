@@ -289,8 +289,8 @@ body {
 				padding-right: 60px;
 				@include display-flex;
 				@include flex-wrap-wrap;
-				margin-left: -15px;
-				margin-right: -15px;
+				margin-left: -25px;
+				margin-right: -25px;
 
 				@include media(m) {
 					padding-left: 2.4vw;
@@ -308,14 +308,14 @@ body {
 					}
 
                     .wrapper {
-                    	height: 100px;
-                    	padding-left: 100px;
+                    	height: 80px;
+                    	padding-left: 80px;
                     	@include display-flex;
                     	@include align-items-center;
                     	background: left center url(../img/icon_check.svg) no-repeat, #E6E6E6;
 						background-size: contain;
-						margin-left: 15px;
-						margin-right: 15px;
+						margin-left: 25px;
+						margin-right: 25px;
 						margin-bottom: 40px;
 
                     	@include media(m) {
@@ -327,7 +327,7 @@ body {
                     	}
 
                     	.text {
-							@include fontsize(32px);
+							@include fontsize(30px);
 							line-height: 1.4;
 							font-family: $font-serif;
 							color: #6B6B6B;
@@ -636,6 +636,27 @@ body {
 					    	background-size: 100% 0.5em;
 					    }
                     }
+
+                    .about-physiognomy {
+						display: block;
+						@include fontsize(28px);
+						width: 14em;
+						line-height: 3.4;
+						text-align: center;
+						margin-left: auto;
+						margin-right: auto;
+						border: 1px solid #171717;
+						margin-top: 1em;
+						background: right center url(../img/icon_link.png) no-repeat;
+						background-position: right 1em center;
+						@extend .hover-effect-1;
+
+						@include media(m) {
+							@include vwfont(16px);
+							line-height: 3.1;
+							margin-top: 5vw;
+						}
+					}
 				}
 
 				.figure {
@@ -1022,7 +1043,7 @@ body {
 					.about-staff {
 						@include flex(1 1 auto);
 						font-family: $font-serif;
-						@include fontsize(24px);
+						@include fontsize(28px);
 						line-height: 1.7;
 						margin-top: 50px;
 						margin-bottom: 50px;
@@ -1061,7 +1082,7 @@ body {
 
 				.career-introduction {
 // 					background-image: linear-gradient(to right, #F0D6DA 0, #F0D6DA calc(100vw - 140px), white calc(100vw - 140px), white 100%);
-					padding-top: 25px;
+					padding-top: 50px;
 					padding-bottom: 165px;
 					background: center center url(../img/sec04_bg.png);
                     background-size: cover;
@@ -1078,8 +1099,8 @@ body {
 					.career-title {
                         color: white;
                         text-align: center;
-                        @include fontsize(30px);
-                        margin-bottom: 0.8em;
+                        @include fontsize(36px);
+                        margin-bottom: 1.5em;
 
                         @include media(m) {
                         	@include vwfont(20px);
@@ -1091,7 +1112,7 @@ body {
                         max-width: 1035px;
                         margin-left: auto;
                         margin-right: auto;
-                        @include fontsize(24px);
+                        @include fontsize(28px);
                         line-height: 1.6;
                         max-height: 80px;
                         overflow-y: hidden;
@@ -1296,7 +1317,7 @@ body {
                         @extend .hoverable;
                         background: right url(../img/icon_dropdown.png) no-repeat white;
 						background-position: right 0.8em center;
-						background-size: 35px 20px;
+						background-size: 28px 16px;
 						padding-right: calc(35px + 0.8em);
 						box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.16);
 
@@ -2340,12 +2361,14 @@ body {
     			@include display-flex;
     			@include justify-content-space-between;
     			margin-top: 60px;
+    			margin-bottom: 60px;
     			max-width: 840px;
     			margin-left: auto;
     			margin-right: auto;
 
     			@include media(m) {
-    				margin-top: 7.2vw;
+    				margin-top: 11.2vw;
+    				margin-bottom: 11.2vw;
     				max-width: 80vw;
     				@include flex-direction-column;
     			}
@@ -2412,13 +2435,11 @@ body {
     			margin-left: auto;
     			margin-right: auto;
     			margin-top: 60px;
-    			margin-bottom: 60px;
     			background-color: #F1F3F4;
     			padding: 50px 100px;
 
     			@include media(m) {
     				margin-top: 11.2vw;
-    				margin-bottom: 22.4vw;
     				padding-top: 7vw;
     				padding-bottom: 14vw;
     				padding-left: unset;
@@ -2589,7 +2610,7 @@ body {
 
 							.input-row-left {
 								@include flex(0 0 12em);
-								@include fontsize(20px);
+								@include fontsize(24px);
 
 								@include media(m) {
 									@include flex(none);
@@ -2614,7 +2635,7 @@ body {
 								@include flex(1 1 auto);
 								@include display-flex;
 								@include align-items-center;
-								@include fontsize(20px);
+								@include fontsize(24px);
 
 								@include media(m) {
 									@include flex(none);
@@ -2692,7 +2713,7 @@ body {
 								.sub-content {
 									.text {
 										line-height: 1;
-										@include fontsize(20px);
+										@include fontsize(24px);
 										position: relative;
 										padding-left: 1.5em;
 										margin-bottom: 0.6em;
@@ -2730,7 +2751,7 @@ body {
 								}
 
 								.detail-text {
-									@include fontsize(18px);
+									@include fontsize(24px);
                                     margin-top: 1.5em;
                                     line-height: 1.6;
 
@@ -2742,7 +2763,7 @@ body {
 								.radio-group {
 									@include display-flex;
 									width: 100%;
-									@include fontsize(18px);
+									@include fontsize(24px);
 
 									@include media(m) {
 										@include flex-direction-column;
@@ -2813,7 +2834,7 @@ body {
 							}
 
 							h4 {
-                                @include fontsize(24px);
+                                @include fontsize(32px);
                                 margin-bottom: 1em;
 
                                 @include media(m) {
@@ -2822,7 +2843,7 @@ body {
 							}
 
 							.text {
-								@include fontsize(18px);
+								@include fontsize(24px);
 								line-height: 1.8;
 								max-height: 8em;
 								overflow: auto;
@@ -2852,6 +2873,11 @@ body {
 									.wpcf7-acceptance .wpcf7-list-item label {
 										@include display-flex;
 										@include align-items-center;
+										@include fontsize(24px);
+
+										@include media(m) {
+											@include vwfont(12px);
+										}
 									}
 
 									.wpcf7-acceptance .wpcf7-list-item label input[type="checkbox"] {
@@ -2876,7 +2902,7 @@ body {
 						.submit-area {
 							position: relative;
 							top: 50px;
-							height: 100px;
+							// height: 100px;
 							text-align: center;
 
 							@include media(m) {
@@ -2885,7 +2911,7 @@ body {
 							}
 
                             input[type="submit"] {
-                                height: 100px;
+                                height: 4em;
                                 width: 12em;
                                 @include fontsize(30px);
                                 color: white;
@@ -3126,8 +3152,8 @@ body {
 					text-align: center;
 					margin-left: auto;
 					margin-right: auto;
-					border: 1px solid #171717;
-					background: right center url(../img/icon_link.png) no-repeat;
+// 					border: 1px solid #171717;
+					background: right center url(../img/icon_link.png) no-repeat, #E2C9A1;
 					background-position: right 1em center;
 					@extend .hover-effect-1;
 
@@ -3630,6 +3656,9 @@ body {
 
             @include media(m) {
             	@include vwfont(12px);
+            	padding-left: 6vw;
+                padding-right: 6vw;
+                line-height: 1.8;
             }
 
     		span {
@@ -4632,4 +4661,20 @@ body {
     &:hover input ~ .radio-mark {
         background-color: $color-gray4;
     }
+}
+
+.slick-slide {
+	@include transition(opacity, 0.5s, ease);
+}
+
+.slick-slide:not(.slick-active):not(.slick-current) {
+	opacity: 0.1;
+}
+
+.slick-slide.slick-active {
+	opacity: 0.8;
+}
+
+.slick-slide.slick-current {
+	opacity: 1;
 }
