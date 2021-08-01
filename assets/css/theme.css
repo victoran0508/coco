@@ -249,20 +249,20 @@ textarea:focus {
   background-color: #f9f9f9;
 }
 
-.hoverable, .page-header .header-inner .clinic-info .contact-links .phone-number, .page-header .header-inner .clinic-info .contact-links .sns-icons a, .page-header .header-inner .logo, .section.section--article .section__content .article .links a, .section.section--bloglist .section__content .main-area .article-list .item .article .article__link, .section.section--bloglist .section__content .sidebar .category-list .item a, .section.section--fixed-bottom .section__content .links .link, .section.section--blog .section__content .article-list .item .article, .section.section--gallery .section__content .article-list .item .article, .section.section--news .section__content .news-row .link, .section.section--faq .section__content .foldable .foldable__fixed, .section.section--price .section__content .price-sheet .foldable .foldable__title, .section.section--price .section__content .links .item .link, .section.section--staffs .section__content .staff .career-introduction .career-more, .section.section--menus .section__content .sns-links .menu img, .section.section--menus .section__content .top-menu .item .sub .subitem .inner-link, .section.section--menus .section__content .top-menu .item .menu, .hover-effect-1, .section.section--blog .section__title a, .section.section--gallery .section__title a, .section.section--news .section__title a, .section.section--flow .section__content .link-panel .link, .section.section--contact .section__content .download-area .download-links .link, .section.section--contact .section__content .contact-links .link, .section.section--staffs .section__content .staff .row .about-staff .about-physiognomy, .section.section--features .section__content .wrapper .text .about-physiognomy, .section.section--features2 .section__content .wrapper .text .about-physiognomy {
+.hoverable, .page-header .header-inner .clinic-info .contact-links .phone-number, .page-header .header-inner .clinic-info .contact-links .sns-icons a, .page-header .header-inner .logo, .section.section--article .section__content .article .links a, .section.section--bloglist .section__content .main-area .article-list .item .article .article__link, .section.section--bloglist .section__content .sidebar .category-list .item a, .section.section--fixed-bottom .section__content .links .link, .section.section--blog .section__content .article-list .item .article, .section.section--gallery .section__content .article-list .item .article, .section.section--news .section__content .news-row .link, .section.section--faq .section__content .foldable .foldable__fixed, .section.section--price .section__content .price-sheet .foldable .foldable__title, .section.section--price .section__content .links .item .link, .section.section--staffs .section__content .staff .career-introduction .career-more, .section.section--menus .section__content .sns-links .menu img, .section.section--menus .section__content .top-menu .item .sub .subitem .inner-link, .section.section--menus .section__content .top-menu .item .menu, .hover-effect-1, .section.section--blog .section__title a, .section.section--gallery .section__title a, .section.section--news .section__title a, .section.section--flow .section__content .link-panel .link, .section.section--contact .section__content .download-area .download-links .link, .section.section--contact .section__content .contact-links .link, .section.section--staffs .section__content .staff .row .about-staff .about-physiognomy, .section.section--features .section__content .wrapper .text .about-physiognomy, .section.section--features2 .section__content .wrapper .text .about-physiognomy, .section.section--mainview .contact-day .contact-day__contact .link {
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-.hoverable:hover, .page-header .header-inner .clinic-info .contact-links .phone-number:hover, .page-header .header-inner .clinic-info .contact-links .sns-icons a:hover, .page-header .header-inner .logo:hover, .section.section--article .section__content .article .links a:hover, .section.section--bloglist .section__content .main-area .article-list .item .article .article__link:hover, .section.section--bloglist .section__content .sidebar .category-list .item a:hover, .section.section--fixed-bottom .section__content .links .link:hover, .section.section--blog .section__content .article-list .item .article:hover, .section.section--gallery .section__content .article-list .item .article:hover, .section.section--news .section__content .news-row .link:hover, .section.section--faq .section__content .foldable .foldable__fixed:hover, .section.section--price .section__content .price-sheet .foldable .foldable__title:hover, .section.section--price .section__content .links .item .link:hover, .section.section--staffs .section__content .staff .career-introduction .career-more:hover, .section.section--menus .section__content .sns-links .menu img:hover, .section.section--menus .section__content .top-menu .item .sub .subitem .inner-link:hover, .section.section--menus .section__content .top-menu .item .menu:hover, .hover-effect-1:hover, .section.section--blog .section__title a:hover, .section.section--gallery .section__title a:hover, .section.section--news .section__title a:hover, .section.section--flow .section__content .link-panel .link:hover, .section.section--contact .section__content .download-area .download-links .link:hover, .section.section--contact .section__content .contact-links .link:hover, .section.section--staffs .section__content .staff .row .about-staff .about-physiognomy:hover, .section.section--features .section__content .wrapper .text .about-physiognomy:hover, .section.section--features2 .section__content .wrapper .text .about-physiognomy:hover {
+.hoverable:hover, .page-header .header-inner .clinic-info .contact-links .phone-number:hover, .page-header .header-inner .clinic-info .contact-links .sns-icons a:hover, .page-header .header-inner .logo:hover, .section.section--article .section__content .article .links a:hover, .section.section--bloglist .section__content .main-area .article-list .item .article .article__link:hover, .section.section--bloglist .section__content .sidebar .category-list .item a:hover, .section.section--fixed-bottom .section__content .links .link:hover, .section.section--blog .section__content .article-list .item .article:hover, .section.section--gallery .section__content .article-list .item .article:hover, .section.section--news .section__content .news-row .link:hover, .section.section--faq .section__content .foldable .foldable__fixed:hover, .section.section--price .section__content .price-sheet .foldable .foldable__title:hover, .section.section--price .section__content .links .item .link:hover, .section.section--staffs .section__content .staff .career-introduction .career-more:hover, .section.section--menus .section__content .sns-links .menu img:hover, .section.section--menus .section__content .top-menu .item .sub .subitem .inner-link:hover, .section.section--menus .section__content .top-menu .item .menu:hover, .hover-effect-1:hover, .section.section--blog .section__title a:hover, .section.section--gallery .section__title a:hover, .section.section--news .section__title a:hover, .section.section--flow .section__content .link-panel .link:hover, .section.section--contact .section__content .download-area .download-links .link:hover, .section.section--contact .section__content .contact-links .link:hover, .section.section--staffs .section__content .staff .row .about-staff .about-physiognomy:hover, .section.section--features .section__content .wrapper .text .about-physiognomy:hover, .section.section--features2 .section__content .wrapper .text .about-physiognomy:hover, .section.section--mainview .contact-day .contact-day__contact .link:hover {
   opacity: 0.6;
 }
 
-.hover-effect-1, .section.section--blog .section__title a, .section.section--gallery .section__title a, .section.section--news .section__title a, .section.section--flow .section__content .link-panel .link, .section.section--contact .section__content .download-area .download-links .link, .section.section--contact .section__content .contact-links .link, .section.section--staffs .section__content .staff .row .about-staff .about-physiognomy, .section.section--features .section__content .wrapper .text .about-physiognomy, .section.section--features2 .section__content .wrapper .text .about-physiognomy {
+.hover-effect-1, .section.section--blog .section__title a, .section.section--gallery .section__title a, .section.section--news .section__title a, .section.section--flow .section__content .link-panel .link, .section.section--contact .section__content .download-area .download-links .link, .section.section--contact .section__content .contact-links .link, .section.section--staffs .section__content .staff .row .about-staff .about-physiognomy, .section.section--features .section__content .wrapper .text .about-physiognomy, .section.section--features2 .section__content .wrapper .text .about-physiognomy, .section.section--mainview .contact-day .contact-day__contact .link {
   position: relative;
   overflow: hidden;
 }
-.hover-effect-1:before, .section.section--blog .section__title a:before, .section.section--gallery .section__title a:before, .section.section--news .section__title a:before, .section.section--flow .section__content .link-panel .link:before, .section.section--contact .section__content .download-area .download-links .link:before, .section.section--contact .section__content .contact-links .link:before, .section.section--staffs .section__content .staff .row .about-staff .about-physiognomy:before, .section.section--features .section__content .wrapper .text .about-physiognomy:before, .section.section--features2 .section__content .wrapper .text .about-physiognomy:before {
+.hover-effect-1:before, .section.section--blog .section__title a:before, .section.section--gallery .section__title a:before, .section.section--news .section__title a:before, .section.section--flow .section__content .link-panel .link:before, .section.section--contact .section__content .download-area .download-links .link:before, .section.section--contact .section__content .contact-links .link:before, .section.section--staffs .section__content .staff .row .about-staff .about-physiognomy:before, .section.section--features .section__content .wrapper .text .about-physiognomy:before, .section.section--features2 .section__content .wrapper .text .about-physiognomy:before, .section.section--mainview .contact-day .contact-day__contact .link:before {
   background: #F0D6DA;
   content: "";
   position: absolute;
@@ -274,12 +274,12 @@ textarea:focus {
   height: 0%;
   transform: translate(-50%, -50%) rotate(45deg);
 }
-.hover-effect-1:hover, .section.section--blog .section__title a:hover, .section.section--gallery .section__title a:hover, .section.section--news .section__title a:hover, .section.section--flow .section__content .link-panel .link:hover, .section.section--contact .section__content .download-area .download-links .link:hover, .section.section--contact .section__content .contact-links .link:hover, .section.section--staffs .section__content .staff .row .about-staff .about-physiognomy:hover, .section.section--features .section__content .wrapper .text .about-physiognomy:hover, .section.section--features2 .section__content .wrapper .text .about-physiognomy:hover {
+.hover-effect-1:hover, .section.section--blog .section__title a:hover, .section.section--gallery .section__title a:hover, .section.section--news .section__title a:hover, .section.section--flow .section__content .link-panel .link:hover, .section.section--contact .section__content .download-area .download-links .link:hover, .section.section--contact .section__content .contact-links .link:hover, .section.section--staffs .section__content .staff .row .about-staff .about-physiognomy:hover, .section.section--features .section__content .wrapper .text .about-physiognomy:hover, .section.section--features2 .section__content .wrapper .text .about-physiognomy:hover, .section.section--mainview .contact-day .contact-day__contact .link:hover {
   background-position: right -2em center;
   opacity: 0.99;
   border-color: white;
 }
-.hover-effect-1:hover:before, .section.section--blog .section__title a:hover:before, .section.section--gallery .section__title a:hover:before, .section.section--news .section__title a:hover:before, .section.section--flow .section__content .link-panel .link:hover:before, .section.section--contact .section__content .download-area .download-links .link:hover:before, .section.section--contact .section__content .contact-links .link:hover:before, .section.section--staffs .section__content .staff .row .about-staff .about-physiognomy:hover:before, .section.section--features .section__content .wrapper .text .about-physiognomy:hover:before, .section.section--features2 .section__content .wrapper .text .about-physiognomy:hover:before {
+.hover-effect-1:hover:before, .section.section--blog .section__title a:hover:before, .section.section--gallery .section__title a:hover:before, .section.section--news .section__title a:hover:before, .section.section--flow .section__content .link-panel .link:hover:before, .section.section--contact .section__content .download-area .download-links .link:hover:before, .section.section--contact .section__content .contact-links .link:hover:before, .section.section--staffs .section__content .staff .row .about-staff .about-physiognomy:hover:before, .section.section--features .section__content .wrapper .text .about-physiognomy:hover:before, .section.section--features2 .section__content .wrapper .text .about-physiognomy:hover:before, .section.section--mainview .contact-day .contact-day__contact .link:hover:before {
   height: 500%;
 }
 
@@ -329,6 +329,7 @@ body {
   opacity: 1;
 }
 .section.section--mainview {
+  position: relative;
   height: calc(100vh - 140px);
 }
 @media only screen and (max-width: 768px) {
@@ -339,6 +340,214 @@ body {
 .section.section--mainview .video {
   width: 100%;
   height: 100%;
+}
+.section.section--mainview .contact-day {
+  position: absolute;
+  bottom: 50px;
+  right: 20px;
+  width: 500px;
+  background: white;
+  padding: 15px;
+  padding-left: 50px;
+  border-radius: 5px 0 0 5px;
+  overflow: hidden;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+@media only screen and (max-width: 768px) {
+  .section.section--mainview .contact-day {
+    display: none;
+  }
+}
+.section.section--mainview .contact-day .contact-day__left-ttl {
+  display: block;
+  text-align: center;
+  background-color: #CE2D84;
+  color: white;
+  font-size: 1.875rem;
+  line-height: 35px;
+  letter-spacing: 0.2em;
+  -webkit-writing-mode: vertical-rl;
+  -moz-writing-mode: vertical-rl;
+  -ms-writing-mode: tb-rl;
+  -ms-writing-mode: vertical-rl;
+  writing-mode: vertical-rl;
+  font-feature-settings: normal;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 35px;
+  height: 100%;
+}
+.section.section--mainview .contact-day .contact-day__left-ttl span {
+  position: relative;
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin-top: 10px;
+  background-color: #fff;
+  border-radius: 2px;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.section.section--mainview .contact-day .contact-day__left-ttl span:before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 6px;
+  height: 6px;
+  border-top: solid 1px #CE2D84;
+  border-right: solid 1px #CE2D84;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-68%, -50%) rotate(45deg);
+  -ms-transform: translate(-68%, -50%) rotate(45deg);
+  transform: translate(-68%, -50%) rotate(45deg);
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.section.section--mainview .contact-day .contact-day__left-ttl span:hover {
+  background-color: #F0D6DA;
+}
+.section.section--mainview .contact-day.collapsed {
+  right: -465px;
+}
+.section.section--mainview .contact-day.collapsed .contact-day__left-ttl span:before {
+  -webkit-transform: scaleX(-1) translate(32%, -50%) rotate(45deg);
+  -ms-transform: scaleX(-1) translate(32%, -50%) rotate(45deg);
+  transform: scaleX(-1) translate(32%, -50%) rotate(45deg);
+}
+.section.section--mainview .contact-day .contact-day__ttl {
+  color: #CE2D84;
+  font-family: "hiragino-mincho-pron-w3", serif;
+  font-size: 2.5rem;
+  padding-left: 2em;
+  background: left center url(../img/icon_calendar-2.png) no-repeat;
+  background-size: contain;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+.section.section--mainview .contact-day .contact-day__tbl {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.section.section--mainview .contact-day .contact-day__tbl .time-table .table-row {
+  height: 40px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #CE2D84;
+}
+@media only screen and (max-width: 768px) {
+  .section.section--mainview .contact-day .contact-day__tbl .time-table .table-row {
+    height: 8vw;
+  }
+}
+.section.section--mainview .contact-day .contact-day__tbl .time-table .table-row:nth-of-type(1) {
+  border-top: 1px solid #CE2D84;
+}
+.section.section--mainview .contact-day .contact-day__tbl .time-table .table-row .left {
+  -webkit-flex: 30%;
+  -webkit-box-flex: 30%;
+  -webkit-flex: 30%;
+  -moz-box-flex: 30%;
+  -ms-flex: 30%;
+  flex: 30%;
+  font-size: 1.5rem;
+  font-family: "hiragino-mincho-pron-w3", serif;
+  line-height: 40px;
+  text-align: center;
+  color: #CE2D84;
+}
+.section.section--mainview .contact-day .contact-day__tbl .time-table .table-row .right {
+  -webkit-flex: 70%;
+  -webkit-box-flex: 70%;
+  -webkit-flex: 70%;
+  -moz-box-flex: 70%;
+  -ms-flex: 70%;
+  flex: 70%;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.section.section--mainview .contact-day .contact-day__tbl .time-table .table-row .right .span {
+  -webkit-flex: 14.28%;
+  -webkit-box-flex: 14.28%;
+  -webkit-flex: 14.28%;
+  -moz-box-flex: 14.28%;
+  -ms-flex: 14.28%;
+  flex: 14.28%;
+  font-size: 1.5rem;
+  font-family: "hiragino-mincho-pron-w3", serif;
+  line-height: 40px;
+  text-align: center;
+  color: #CE2D84;
+}
+.section.section--mainview .contact-day .contact-day__contact {
+  color: #CE2D84;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+.section.section--mainview .contact-day .contact-day__contact .link {
+  -webkit-flex: 33.33%;
+  -webkit-box-flex: 33.33%;
+  -webkit-flex: 33.33%;
+  -moz-box-flex: 33.33%;
+  -ms-flex: 33.33%;
+  flex: 33.33%;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-flex-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  -moz-box-pack: center;
+  justify-content: center;
+  height: 40px;
+  border: 1px solid #CE2D84;
+}
+.section.section--mainview .contact-day .contact-day__contact .link + .link {
+  margin-left: 15px;
+}
+.section.section--mainview .contact-day .contact-day__contact .link span {
+  display: block;
+  font-size: 1.5rem;
+  padding-left: 1.5em;
+}
+.section.section--mainview .contact-day .contact-day__contact .link.link--phone span, .section.section--mainview .contact-day .contact-day__contact .link.link--email span, .section.section--mainview .contact-day .contact-day__contact .link.link--line span {
+  background: left center url(../img/icon_phone-2.png) no-repeat;
+  background-size: 1em;
+}
+.section.section--mainview .contact-day .contact-day__contact .link.link--email span {
+  background: left center url(../img/icon_email.png) no-repeat;
+  background-size: 1em;
+}
+.section.section--mainview .contact-day .contact-day__contact .link.link--line span {
+  background: left center url(../img/icon_line.png) no-repeat;
+  background-size: 1em;
 }
 .section.section--menus {
   padding-top: 20px;
@@ -703,7 +912,7 @@ body {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  background: left center url(../img/tech1.png) no-repeat;
+  background: left center url(../img/tech1.jpg) no-repeat;
   background-size: contain;
   position: relative;
   top: 100px;
@@ -2804,7 +3013,7 @@ body {
   padding-top: 105px;
   padding-bottom: 15px;
   padding-left: 430px;
-  background: left center url(../img/contact1.png) no-repeat;
+  background: left center url(../img/contact1.jpg) no-repeat;
   background-size: contain;
 }
 @media only screen and (max-width: 768px) {
@@ -3497,17 +3706,17 @@ body {
 .section.section--contact .section__content .mw_wp_form .form-area .form-wrapper .cancel-policy .text + p .wpcf7-acceptance .wpcf7-list-item label input[type=checkbox], .section.section--contact .section__content .wpcf7 .form-area .form-wrapper .cancel-policy .text + p .wpcf7-acceptance .wpcf7-list-item label input[type=checkbox] {
   margin-right: 0.8em;
 }
-.section.section--contact .section__content .mw_wp_form .form-area .form-wrapper .cancel-policy .checkbox-label, .section.section--contact .section__content .mw_wp_form .form-area .form-wrapper .cancel-policy .agree-policy, .section.section--contact .section__content .wpcf7 .form-area .form-wrapper .cancel-policy .checkbox-label, .section.section--contact .section__content .wpcf7 .form-area .form-wrapper .cancel-policy .agree-policy {
-  width: fit-content;
-  margin-left: auto;
-  margin-right: auto;
+.section.section--contact .section__content .mw_wp_form .form-area .form-wrapper .cancel-policy .checkbox-label, .section.section--contact .section__content .mw_wp_form .form-area .form-wrapper .cancel-policy .agree-policy, .section.section--contact .section__content .mw_wp_form .form-area .form-wrapper .cancel-policy .check-contents, .section.section--contact .section__content .wpcf7 .form-area .form-wrapper .cancel-policy .checkbox-label, .section.section--contact .section__content .wpcf7 .form-area .form-wrapper .cancel-policy .agree-policy, .section.section--contact .section__content .wpcf7 .form-area .form-wrapper .cancel-policy .check-contents {
   margin-top: 2em;
 }
 @media only screen and (max-width: 768px) {
-  .section.section--contact .section__content .mw_wp_form .form-area .form-wrapper .cancel-policy .checkbox-label, .section.section--contact .section__content .mw_wp_form .form-area .form-wrapper .cancel-policy .agree-policy, .section.section--contact .section__content .wpcf7 .form-area .form-wrapper .cancel-policy .checkbox-label, .section.section--contact .section__content .wpcf7 .form-area .form-wrapper .cancel-policy .agree-policy {
+  .section.section--contact .section__content .mw_wp_form .form-area .form-wrapper .cancel-policy .checkbox-label, .section.section--contact .section__content .mw_wp_form .form-area .form-wrapper .cancel-policy .agree-policy, .section.section--contact .section__content .mw_wp_form .form-area .form-wrapper .cancel-policy .check-contents, .section.section--contact .section__content .wpcf7 .form-area .form-wrapper .cancel-policy .checkbox-label, .section.section--contact .section__content .wpcf7 .form-area .form-wrapper .cancel-policy .agree-policy, .section.section--contact .section__content .wpcf7 .form-area .form-wrapper .cancel-policy .check-contents {
     font-size: 3.4666666667vw;
     line-height: 1.5;
   }
+}
+.section.section--contact .section__content .mw_wp_form .form-area .form-wrapper .cancel-policy .checkbox-label .wpcf7-list-item, .section.section--contact .section__content .mw_wp_form .form-area .form-wrapper .cancel-policy .agree-policy .wpcf7-list-item, .section.section--contact .section__content .mw_wp_form .form-area .form-wrapper .cancel-policy .check-contents .wpcf7-list-item, .section.section--contact .section__content .wpcf7 .form-area .form-wrapper .cancel-policy .checkbox-label .wpcf7-list-item, .section.section--contact .section__content .wpcf7 .form-area .form-wrapper .cancel-policy .agree-policy .wpcf7-list-item, .section.section--contact .section__content .wpcf7 .form-area .form-wrapper .cancel-policy .check-contents .wpcf7-list-item {
+  margin: unset;
 }
 .section.section--contact .section__content .mw_wp_form .form-area .form-wrapper .submit-area, .section.section--contact .section__content .wpcf7 .form-area .form-wrapper .submit-area {
   position: relative;
@@ -3644,7 +3853,6 @@ body {
     height: 48vw;
     overflow: hidden;
     position: relative;
-    top: -14vw;
   }
   .section.section--flow .section__content .steps .item .wrapper .figure .img {
     width: auto;
@@ -3665,11 +3873,11 @@ body {
 }
 @media only screen and (max-width: 768px) {
   .section.section--flow .section__content .steps .item .wrapper .step {
-    padding: 2.8vw 4.8vw;
+    padding: 2.8vw 3vw;
   }
 }
 .section.section--flow .section__content .steps .item .wrapper .step .title {
-  font-size: 2.75rem;
+  font-size: 2.5rem;
   font-family: "hiragino-mincho-pron-w3", serif;
 }
 @media only screen and (max-width: 768px) {
@@ -3686,6 +3894,7 @@ body {
   .section.section--flow .section__content .steps .item .wrapper .step .text {
     font-size: 2.9333333333vw;
     line-height: 1.9;
+    margin-top: 2vw;
   }
 }
 .section.section--flow .section__content .steps .item .wrapper .step:after {
@@ -3917,7 +4126,7 @@ body {
     padding-top: 5vw;
     padding-bottom: 5vw;
     padding-right: 10vw;
-    font-size: 4vw;
+    font-size: 3.2vw;
   }
 }
 .section.section--news .section__content .news-row .datetime {
@@ -4733,8 +4942,6 @@ body {
 @media only screen and (max-width: 768px) {
   .section.section--article .section__content .article time {
     font-size: 3.4666666667vw;
-    /* display: block; */
-    /* text-align: right; */
   }
 }
 .section.section--article .section__content .article .postdata {
@@ -5923,7 +6130,7 @@ body {
 }
 .page-header .header-inner .logo span {
   display: block;
-  font-size: 2.5rem;
+  font-size: 2.25rem;
   line-height: 1;
 }
 @media only screen and (max-width: 768px) {
@@ -5932,7 +6139,7 @@ body {
   }
 }
 .page-header .header-inner .logo img {
-  height: 100px;
+  height: 80px;
   width: auto;
 }
 @media only screen and (max-width: 768px) {
@@ -6030,106 +6237,6 @@ body {
     margin-top: 1em;
   }
 }
-.page-footer .time-table {
-  margin-top: 20px;
-  max-width: 620px;
-  margin-right: auto;
-  margin-left: auto;
-}
-@media only screen and (max-width: 768px) {
-  .page-footer .time-table {
-    margin-top: 3.2vw;
-    max-width: unset;
-    padding-left: 10vw;
-    padding-right: 10vw;
-  }
-}
-.page-footer .time-table .table-row {
-  height: 60px;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-flex-wrap: wrap;
-  flex-wrap: wrap;
-  border-bottom: 1px solid white;
-}
-@media only screen and (max-width: 768px) {
-  .page-footer .time-table .table-row {
-    height: 8vw;
-  }
-}
-.page-footer .time-table .table-row:nth-of-type(1) {
-  border-top: 1px solid white;
-}
-.page-footer .time-table .table-row .left {
-  -webkit-flex: 30%;
-  -webkit-box-flex: 30%;
-  -webkit-flex: 30%;
-  -moz-box-flex: 30%;
-  -ms-flex: 30%;
-  flex: 30%;
-  font-size: 1.25rem;
-  font-family: "hiragino-mincho-pron-w3", serif;
-  line-height: 60px;
-  text-align: center;
-  color: white;
-}
-@media only screen and (max-width: 768px) {
-  .page-footer .time-table .table-row .left {
-    line-height: 8vw;
-    -webkit-flex: 24vw;
-    -webkit-box-flex: 24vw;
-    -webkit-flex: 24vw;
-    -moz-box-flex: 24vw;
-    -ms-flex: 24vw;
-    flex: 24vw;
-    font-size: 2.4vw;
-  }
-}
-.page-footer .time-table .table-row .right {
-  -webkit-flex: 70%;
-  -webkit-box-flex: 70%;
-  -webkit-flex: 70%;
-  -moz-box-flex: 70%;
-  -ms-flex: 70%;
-  flex: 70%;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-flex-wrap: wrap;
-  flex-wrap: wrap;
-}
-@media only screen and (max-width: 768px) {
-  .page-footer .time-table .table-row .right {
-    line-height: 8vw;
-    -webkit-flex: 56vw;
-    -webkit-box-flex: 56vw;
-    -webkit-flex: 56vw;
-    -moz-box-flex: 56vw;
-    -ms-flex: 56vw;
-    flex: 56vw;
-    font-size: 2.4vw;
-  }
-}
-.page-footer .time-table .table-row .right .span {
-  font-size: 1.25rem;
-  font-family: "hiragino-mincho-pron-w3", serif;
-  line-height: 60px;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  color: white;
-}
-@media only screen and (max-width: 768px) {
-  .page-footer .time-table .table-row .right .span {
-    font-size: 2.6666666667vw;
-    line-height: 8vw;
-  }
-}
 .page-footer .comment {
   font-size: 1.25rem;
   font-family: "hiragino-mincho-pron-w3", serif;
@@ -6156,6 +6263,111 @@ body {
   .page-footer .copyright {
     font-size: 2.6666666667vw;
     margin-top: 3.5vw;
+  }
+}
+
+.time-table {
+  margin-top: 20px;
+  max-width: 620px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media only screen and (max-width: 768px) {
+  .time-table {
+    margin-top: 3.2vw;
+    max-width: unset;
+    padding-left: 10vw;
+    padding-right: 10vw;
+  }
+}
+.time-table .table-row {
+  height: 60px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  border-bottom: 1px solid white;
+}
+@media only screen and (max-width: 768px) {
+  .time-table .table-row {
+    height: 8vw;
+  }
+}
+.time-table .table-row:nth-of-type(1) {
+  border-top: 1px solid white;
+}
+.time-table .table-row .left {
+  -webkit-flex: 30%;
+  -webkit-box-flex: 30%;
+  -webkit-flex: 30%;
+  -moz-box-flex: 30%;
+  -ms-flex: 30%;
+  flex: 30%;
+  font-size: 1.25rem;
+  font-family: "hiragino-mincho-pron-w3", serif;
+  line-height: 60px;
+  text-align: center;
+  color: white;
+}
+@media only screen and (max-width: 768px) {
+  .time-table .table-row .left {
+    line-height: 8vw;
+    -webkit-flex: 24vw;
+    -webkit-box-flex: 24vw;
+    -webkit-flex: 24vw;
+    -moz-box-flex: 24vw;
+    -ms-flex: 24vw;
+    flex: 24vw;
+    font-size: 2.4vw;
+  }
+}
+.time-table .table-row .right {
+  -webkit-flex: 70%;
+  -webkit-box-flex: 70%;
+  -webkit-flex: 70%;
+  -moz-box-flex: 70%;
+  -ms-flex: 70%;
+  flex: 70%;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+@media only screen and (max-width: 768px) {
+  .time-table .table-row .right {
+    line-height: 8vw;
+    -webkit-flex: 56vw;
+    -webkit-box-flex: 56vw;
+    -webkit-flex: 56vw;
+    -moz-box-flex: 56vw;
+    -ms-flex: 56vw;
+    flex: 56vw;
+    font-size: 2.4vw;
+  }
+}
+.time-table .table-row .right .span {
+  -webkit-flex: 14.28%;
+  -webkit-box-flex: 14.28%;
+  -webkit-flex: 14.28%;
+  -moz-box-flex: 14.28%;
+  -ms-flex: 14.28%;
+  flex: 14.28%;
+  font-size: 1.25rem;
+  font-family: "hiragino-mincho-pron-w3", serif;
+  line-height: 60px;
+  text-align: center;
+  color: white;
+}
+@media only screen and (max-width: 768px) {
+  .time-table .table-row .right .span {
+    font-size: 2.6666666667vw;
+    line-height: 8vw;
   }
 }
 

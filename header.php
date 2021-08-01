@@ -1,3 +1,18 @@
+<?php
+$postid = -1;
+if (get_option('page_for_posts') != 0) {
+  $nowurl = $_SERVER[ 'REQUEST_URI' ];
+  $nowurl = str_replace("/web_index", "", $nowurl);
+  $pagedata = get_page(get_option('page_for_posts'));
+  if (strstr($nowurl, $pagedata->post_name)) {
+    $postid = get_option('page_for_posts');
+  } else {
+    $postid = $post->ID;
+  }
+} else {
+  $postid = $post->ID;
+}
+?>
 <!-- HTMLコード -->
 <!DOCTYPE html>
 <html lang="ja">
@@ -5,9 +20,12 @@
     <meta charset="utf-8">
     <meta http-equiv="Content-Script-Type" content="text/javascript" />
 	<meta http-equiv="Content-Style-Type" content="text/css" />
-    <?php wp_head(); ?>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/assets/img/logo.png" />
+    <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/assets/img/favicon.png" />
+    <title><?php echo do_shortcode('[ISS-ttl data_id='.$postid.']'); ?></title>
+    <meta name="keywords" content="<?php echo do_shortcode('[ISS-key data_id='.$postid.']'); ?>">
+    <meta name="description" content="<?php echo do_shortcode('[ISS-desc data_id='.$postid.']'); ?>">
+    <?php wp_head();?>
 
     <!-- css -->
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/theme.css">

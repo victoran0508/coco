@@ -302,6 +302,10 @@ jQuery(function($){
 		$(this).next('.foldable__text').toggleClass('active');
 	});
 
+	$('.section.section--mainview .contact-day .contact-day__left-ttl span').on('click', function() {
+		$('.section.section--mainview .contact-day').toggleClass('collapsed');
+	});
+
 	$('.foldable__fixed').on('click', function() {
 		$(this).toggleClass('active');
 		$(this).next('.foldable__hidden').toggleClass('active');

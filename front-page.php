@@ -5,6 +5,46 @@
             <video class="video" controls>
 				<source src="<?php echo get_template_directory_uri(); ?>/assets/img/movie.mp4" type="video/mp4">
 			</video>
+
+            <div class="contact-day">
+                <p class="contact-day__left-ttl">受付・診察時間<span></span></p>
+                <p class="contact-day__ttl">
+                    ココクリニックの診療時間
+                </p>
+                <div class="contact-day__tbl">
+                    <div class="time-table">
+                        <div class="table-row">
+                            <p class="left">診療時間</p>
+                            <p class="right">
+                                <span class="span">月</span>
+                                <span class="span">火</span>
+                                <span class="span">水</span>
+                                <span class="span">木</span>
+                                <span class="span">金</span>
+                                <span class="span">土</span>
+                                <span class="span">日/祝</span>
+                            </p>
+                        </div>
+                        <div class="table-row">
+                            <p class="left">10：00〜19：00</p>
+                            <p class="right">
+                                <span class="span">●</span>
+                                <span class="span">●</span>
+                                <span class="span">●</span>
+                                <span class="span">━</span>
+                                <span class="span">●</span>
+                                <span class="span">●</span>
+                                <span class="span">※</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-day__contact">
+                    <a href="tel:0362751866" class="link link--phone"><span>03-6275-1866</span></a>
+                    <a href="#contact-form" class="link link--email"><span>メールフォーム</span></a>
+                    <a href="https://line.me/R/ti/p/%40586yzheo" class="link link--line"><span>LINE</span></a>
+                </div>
+            </div>
         </section>
 
         <section class="section section--menus">
@@ -184,7 +224,7 @@
                 <h1>ファーエンブロウ式の特長</h1>
                 <div class="wrapper">
                     <figure class="figure sp">
-                        <img class="img" src="<?php echo get_template_directory_uri(); ?>/assets/img/tech3.png">
+                        <img class="img" src="<?php echo get_template_directory_uri(); ?>/assets/img/tech3.jpg">
                     </figure>
                     <p class="text">
                         4Dアートメイクのような、<br class="sp"><span>すっぴんでも違和感のない自然な仕上がり</span><br>
@@ -192,7 +232,7 @@
                         習得が難しい技法の為、<br class="sp"><span>技法を開発した施術者自身が施術を</span>行います
                     </p>
                     <figure class="figure pc tb">
-                        <img class="img" src="<?php echo get_template_directory_uri(); ?>/assets/img/tech3.png">
+                        <img class="img" src="<?php echo get_template_directory_uri(); ?>/assets/img/tech3.jpg">
                     </figure>
                 </div>
             </div>
@@ -203,7 +243,7 @@
                 <h1>人相学について</h1>
                 <div class="wrapper">
                     <figure class="figure">
-                        <img class="img" src="<?php echo get_template_directory_uri(); ?>/assets/img/tech4.png">
+                        <img class="img" src="<?php echo get_template_directory_uri(); ?>/assets/img/tech4.jpg">
                     </figure>
                     <p class="text">
                         顔には性格や運勢を表す部分があり、<br class="sp">運に恵まれる顔には特徴があります。<br>
@@ -320,7 +360,7 @@
                     <li class="item">
                         <div class="wrapper">
                             <figure class="figure">
-                                <img class="img" src="<?php echo get_template_directory_uri(); ?>/assets/img/flow_2.png">
+                                <img class="img" src="<?php echo get_template_directory_uri(); ?>/assets/img/flow_2.jpg">
                             </figure>
                             <div class="step">
                                 <h2 class="title">カウンセリング</h2>
@@ -335,7 +375,7 @@
                     <li class="item">
                         <div class="wrapper">
                             <figure class="figure">
-                                <img class="img" src="<?php echo get_template_directory_uri(); ?>/assets/img/flow_3.png">
+                                <img class="img" src="<?php echo get_template_directory_uri(); ?>/assets/img/flow_3.jpg">
                             </figure>
                             <div class="step">
                                 <h2 class="title">施術</h2>

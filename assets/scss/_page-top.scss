@@ -47,7 +47,7 @@
 
     		span {
                 display: block;
-                @include fontsize(40px);
+                @include fontsize(36px);
                 line-height: 1;
 
                 @include media(m) {
@@ -56,7 +56,7 @@
     		}
 
     		img {
-                height: 100px;
+                height: 80px;
                 width: auto;
 
                 @include media(m) {
@@ -182,77 +182,6 @@
         }
 	}
 
-	.time-table {
-		margin-top: 20px;
-		max-width: 620px;
-		margin-right: auto;
-		margin-left: auto;
-
-		@include media(m) {
-        	margin-top: 3.2vw;
-        	max-width: unset;
-        	padding-left: 10vw;
-        	padding-right: 10vw;
-        }
-
-		.table-row {
-			height: 60px;
-			@include display-flex;
-			@include flex-wrap-wrap;
-            border-bottom: 1px solid white;
-
-            @include media(m) {
-            	height: 8vw;
-            }
-
-            &:nth-of-type(1) {
-            	border-top: 1px solid white;
-            }
-
-			.left {
-                @include flex(30%);
-                @include fontsize(20px);
-                font-family: $font-serif;
-                line-height: 60px;
-                text-align: center;
-                color: white;
-
-                @include media(m) {
-                	line-height: 8vw;
-                	@include flex(24vw);
-                	@include vwfont(9px);
-                }
-			}
-
-			.right {
-				@include flex(70%);
-				@include display-flex;
-				@include flex-wrap-wrap;
-
-				@include media(m) {
-                	line-height: 8vw;
-                	@include flex(56vw);
-                	@include vwfont(9px);
-                }
-
-				.span {
-					@include fontsize(20px);
-                    font-family: $font-serif;
-					line-height: 60px;
-                    text-align: center;
-                    margin-left: auto;
-                    margin-right: auto;
-                    color: white;
-
-                    @include media(m) {
-                    	@include vwfont(10px);
-                    	line-height: 8vw;
-                    }
-				}
-			}
-		}
-	}
-
 	.comment {
         @include fontsize(20px);
         font-family: $font-serif;
@@ -279,5 +208,75 @@
         	@include vwfont(10px);
         	margin-top: 3.5vw;
         }
+	}
+}
+
+.time-table {
+	margin-top: 20px;
+	max-width: 620px;
+	margin-right: auto;
+	margin-left: auto;
+
+	@include media(m) {
+		margin-top: 3.2vw;
+		max-width: unset;
+		padding-left: 10vw;
+		padding-right: 10vw;
+	}
+
+	.table-row {
+		height: 60px;
+		@include display-flex;
+		@include flex-wrap-wrap;
+		border-bottom: 1px solid white;
+
+		@include media(m) {
+			height: 8vw;
+		}
+
+		&:nth-of-type(1) {
+			border-top: 1px solid white;
+		}
+
+		.left {
+			@include flex(30%);
+			@include fontsize(20px);
+			font-family: $font-serif;
+			line-height: 60px;
+			text-align: center;
+			color: white;
+
+			@include media(m) {
+				line-height: 8vw;
+				@include flex(24vw);
+				@include vwfont(9px);
+			}
+		}
+
+		.right {
+			@include flex(70%);
+			@include display-flex;
+			@include flex-wrap-wrap;
+
+			@include media(m) {
+				line-height: 8vw;
+				@include flex(56vw);
+				@include vwfont(9px);
+			}
+
+			.span {
+				@include flex(14.28%);
+				@include fontsize(20px);
+				font-family: $font-serif;
+				line-height: 60px;
+				text-align: center;
+				color: white;
+
+				@include media(m) {
+					@include vwfont(10px);
+					line-height: 8vw;
+				}
+			}
+		}
 	}
 }

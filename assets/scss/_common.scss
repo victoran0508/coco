@@ -48,6 +48,7 @@ body {
 	}
 
 	&.section--mainview {
+		position: relative;
 		height: calc(100vh - 140px);
 
 		@include media(m) {
@@ -57,6 +58,191 @@ body {
 		.video {
             width: 100%;
             height: 100%;
+		}
+
+		.contact-day {
+			position: absolute;
+			bottom: 50px;
+			right: 0;
+			width: 500px;
+			background: white;
+			padding: 15px;
+			padding-left: 50px;
+			border-radius: 5px 0 0 5px;
+			overflow: hidden;
+			@include transition-all;
+
+            @include media(m) {
+            	display: none;
+            }
+
+            .contact-day__left-ttl {
+            	display: block;
+				text-align: center;
+				background-color: #CE2D84;
+				color: white;
+				@include fontsize(30px);
+				line-height: 35px;
+				letter-spacing: .2em;
+				-webkit-writing-mode: vertical-rl;
+				-moz-writing-mode: vertical-rl;
+				-ms-writing-mode: tb-rl;
+				-ms-writing-mode: vertical-rl;
+				writing-mode: vertical-rl;
+				font-feature-settings: normal;
+				position: absolute;
+				left: 0;
+				top: 0;
+				width: 35px;
+				height: 100%;
+
+				span {
+					position: relative;
+					display: inline-block;
+					width: 15px;
+					height: 15px;
+					margin-top: 10px;
+					background-color: #fff;
+					border-radius: 2px;
+					@include transition-all;
+					cursor: pointer;
+
+					&:before {
+						content: "";
+						position: absolute;
+						display: block;
+						width: 6px;
+						height: 6px;
+						border-top: solid 1px #CE2D84;
+						border-right: solid 1px #CE2D84;
+                        top: 50%;
+                        left: 50%;
+						@include transform(translate(-68%, -50%) rotate(45deg));
+						@include transition-all;
+					}
+
+					&:hover {
+						background-color: #F0D6DA;
+					}
+				}
+            }
+
+            &.collapsed {
+            	right: -465px;
+
+            	.contact-day__left-ttl {
+            	    span {
+            	    	&:before {
+            	    		@include transform(scaleX(-1) translate(32%, -50%) rotate(45deg));
+            	    	}
+            	    }
+            	}
+            }
+
+			.contact-day__ttl {
+                color: #CE2D84;
+                font-family: $font-serif;
+                @include fontsize(40px);
+                padding-left: 2em;
+                background: left center url(../img/icon_calendar-2.png) no-repeat;
+                background-size: contain;
+                width: fit-content;
+                margin-left: auto;
+                margin-right: auto;
+			}
+
+			.contact-day__tbl {
+				margin-top: 15px;
+				margin-bottom: 15px;
+                .time-table {
+					.table-row {
+						height: 40px;
+						@include display-flex;
+						@include flex-wrap-wrap;
+						border-bottom: 1px solid #CE2D84;
+
+						@include media(m) {
+							height: 8vw;
+						}
+
+						&:nth-of-type(1) {
+							border-top: 1px solid #CE2D84;
+						}
+
+						.left {
+							@include flex(30%);
+							@include fontsize(24px);
+							font-family: $font-serif;
+							line-height: 40px;
+							text-align: center;
+							color: #CE2D84;
+						}
+
+						.right {
+							@include flex(70%);
+							@include display-flex;
+							@include flex-wrap-wrap;
+
+							.span {
+								@include flex(14.28%);
+								@include fontsize(24px);
+								font-family: $font-serif;
+								line-height: 40px;
+								text-align: center;
+								color: #CE2D84;
+							}
+						}
+					}
+				}
+			}
+
+			.contact-day__contact {
+				color: #CE2D84;
+				@include display-flex;
+
+				.link {
+					@include flex(33.33%);
+					@include display-flex;
+					@include align-items-center;
+					@include justify-content-center;
+					height: 40px;
+					border: 1px solid #CE2D84;
+					@extend .hover-effect-1;
+
+					& + .link {
+						margin-left: 15px;
+					}
+
+					span {
+						display: block;
+						@include fontsize(24px);
+						padding-left: 1.5em;
+					}
+
+					&.link--phone,
+					&.link--email,
+					&.link--line {
+                        span {
+                        	background: left center url(../img/icon_phone-2.png) no-repeat;
+                        	background-size: 1em;
+                        }
+					}
+
+					&.link--email {
+                        span {
+                            background: left center url(../img/icon_email.png) no-repeat;
+                            background-size: 1em;
+                        }
+					}
+
+					&.link--line {
+						span {
+							background: left center url(../img/icon_line.png) no-repeat;
+							background-size: 1em;
+						}
+					}
+				}
+			}
 		}
 	}
 
@@ -407,8 +593,7 @@ body {
 			max-width: 1200px;
 			margin-left: auto;
 			margin-right: auto;
-// 			background: left center url(../img/tech_1.png) no-repeat;
-            background: left center url(../img/tech1.png) no-repeat;
+            background: left center url(../img/tech1.jpg) no-repeat;
 			background-size: contain;
 			position: relative;
 			top: 100px;
@@ -2343,7 +2528,7 @@ body {
     			padding-top: 105px;
     			padding-bottom: 15px;
     			padding-left: 430px;
-    			background: left center url(../img/contact1.png) no-repeat;
+    			background: left center url(../img/contact1.jpg) no-repeat;
     			background-size: contain;
 
                 @include media(m) {
@@ -2924,15 +3109,16 @@ body {
 								}
 							}
 
-							.checkbox-label, .agree-policy {
-								width: fit-content;
-								margin-left: auto;
-								margin-right: auto;
+							.checkbox-label, .agree-policy, .check-contents {
 								margin-top: 2em;
 								
                                 @include media(m) {
 									@include vwfont(13px);
 									line-height: 1.5;
+                                }
+
+                                .wpcf7-list-item {
+                                	margin: unset;
                                 }
 							}
 						}
@@ -3059,7 +3245,6 @@ body {
     							height: 48vw;
     							overflow: hidden;
     							position: relative;
-    							top: -14vw;
 
 
     							.img {
@@ -3077,11 +3262,11 @@ body {
     						background: right center url(../img/01.svg) no-repeat, white;
 
     						@include media(m) {
-    							padding: 2.8vw 4.8vw;
+    							padding: 2.8vw 3vw;
     						}
 
     						.title {
-                                @include fontsize(44px);
+                                @include fontsize(40px);
                                 font-family: $font-serif;
 
                                 @include media(m) {
@@ -3097,6 +3282,7 @@ body {
                                 @include media(m) {
                                 	@include vwfont(11px);
                                 	line-height: 1.9;
+                                	margin-top: 2vw;
                                 }
     						}
 
@@ -3326,7 +3512,7 @@ body {
                 	padding-top: 5vw;
                 	padding-bottom: 5vw;
                 	padding-right: 10vw;
-                	@include vwfont(15px);
+                	@include vwfont(12px);
                 }
 
     			.datetime {
