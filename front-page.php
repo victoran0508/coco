@@ -183,12 +183,15 @@
             <div class="section__content">
                 <h1>ファーエンブロウ式の特長</h1>
                 <div class="wrapper">
+                    <figure class="figure sp">
+                        <img class="img" src="<?php echo get_template_directory_uri(); ?>/assets/img/tech3.png">
+                    </figure>
                     <p class="text">
                         4Dアートメイクのような、<br class="sp"><span>すっぴんでも違和感のない自然な仕上がり</span><br>
                         中国式刺繍メイクの技法を活かした<br class="sp"><span>「持ち」の良さ</span><br>
                         習得が難しい技法の為、<br class="sp"><span>技法を開発した施術者自身が施術を</span>行います
                     </p>
-                    <figure class="figure">
+                    <figure class="figure pc tb">
                         <img class="img" src="<?php echo get_template_directory_uri(); ?>/assets/img/tech3.png">
                     </figure>
                 </div>
@@ -266,7 +269,8 @@
             </div>
         </section>
 
-        <section class="section section--points" id="reasons">
+        <section class="section section--points">
+            <div class="anchor" id="reasons"></div>
             <h1 class="section__title">
                 ココクリニックの<br class="sp">アートメイクが選ばれる
                 <span>3つの理由</span>
@@ -305,8 +309,11 @@
                                 <img class="img" src="<?php echo get_template_directory_uri(); ?>/assets/img/flow_1.png">
                             </figure>
                             <div class="step">
-                                <h2 class="title">ご予約</h2>
-                                <p class="text">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
+                                <h2 class="title">ご予約・お問い合わせ</h2>
+                                <p class="text">
+                                    メールフォームまたはライン、電話で承っております。<br class="pc tb">
+                                    ズームでのオンライン無料カウンセリングも実施中です。
+                                </p>
                             </div>
                         </div>
                     </li>
@@ -317,7 +324,11 @@
                             </figure>
                             <div class="step">
                                 <h2 class="title">カウンセリング</h2>
-                                <p class="text">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
+                                <p class="text">
+                                    来院いただき、問診票の提出と医師の診察があります。<br class="pc tb">
+                                    その後担当者がカウンセリングを丁寧に行います。<br class="pc tb">
+                                    表情の癖を読み取り、希望の眉をヒアリングします。
+                                </p>
                             </div>
                         </div>
                     </li>
@@ -328,7 +339,10 @@
                             </figure>
                             <div class="step">
                                 <h2 class="title">施術</h2>
-                                <p class="text">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
+                                <p class="text">
+                                    黄金比などを測りつつ、慎重にデザインやお客様に合う色を決めます。<br class="pc tb">
+                                    最適な眉のデザインで施術し、クールダウンをすれば本日は終了です。
+                                </p>
                             </div>
                         </div>
                     </li>
@@ -340,9 +354,10 @@
         </section>
 
         <section class="section section--staffs">
+            <div class="anchor" id="staff1"></div>
             <h1 class="section__title">施術者紹介</h1>
             <div class="section__content">
-                <div class="staff staff--1" id="staff1">
+                <div class="staff staff--1">
                     <div class="row">
                         <figure class="figure">
                             <img class="img" src="<?php echo get_template_directory_uri(); ?>/assets/img/staff_1.jpg">
@@ -370,7 +385,8 @@
                         <a class="career-more">MORE</a>
                     </div>
                 </div>
-                <div class="staff staff--2" id="staff2">
+                <div class="staff staff--2">
+                    <div class="anchor" id="staff2"></div>
                     <div class="row">
                         <figure class="figure">
                             <img class="img" src="<?php echo get_template_directory_uri(); ?>/assets/img/staff_2.png">
@@ -391,6 +407,7 @@
         </section>
 
         <section class="section section--price">
+            <div class="anchor" id="price-table"></div>
             <h1 class="section__title">料金表</h1>
             <div class="section__content">
                 <p class="description">
@@ -416,7 +433,8 @@
                         <a class="link" href="#pairplan">ペアプラン</a>
                     </li>
                 </ul>
-                <div class="price-sheet price-sheet--eyebrow" id="eyebrow">
+                <div class="price-sheet price-sheet--eyebrow">
+                    <div class="anchor" id="eyebrow"></div>
                     <h2>
                         <span>アイブロウ</span>EYEBROW
                     </h2>
@@ -454,7 +472,7 @@
                                         </span>
                                     </div>
                                 </div>
-                                <div class="row">
+                                <div class="row row--star">
                                     <div class="item-name star">
                                         当院人気No.1！<br>ファーエンブロウ式
                                     </div>
@@ -578,7 +596,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="price-sheet price-sheet--eyeline" id="eyeline">
+                <div class="price-sheet price-sheet--eyeline">
+                    <div class="anchor" id="eyeline"></div>
                     <h2>
                         <span>アイライン</span>EYE LINE
                     </h2>
@@ -716,7 +735,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="price-sheet price-sheet--eyebrow-eyeline" id="setplan">
+                <div class="price-sheet price-sheet--eyebrow-eyeline">
+                    <div class="anchor" id="setplan"></div>
                     <h2>
                         <span>アイブロウ・アイライン<br class="sp">セット</span>EYEBROW / EYE LINE
                     </h2>
@@ -799,7 +819,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="price-sheet price-sheet--lip" id="lip">
+                <div class="price-sheet price-sheet--lip">
+                    <div class="anchor" id="lip"></div>
                     <h2>
                         <span>リップ</span>LIP
                     </h2>
@@ -919,7 +940,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="price-sheet price-sheet--other" id="other">
+                <div class="price-sheet price-sheet--other">
+                    <div class="anchor" id="other"></div>
                     <h2>
                         <span>その他部位</span>OTHER
                     </h2>
@@ -1005,7 +1027,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="price-sheet price-sheet--pairplan" id="pairplan">
+                <div class="price-sheet price-sheet--pairplan">
+                    <div class="anchor" id="pairplan"></div>
                     <h2>
                         <span>ペアプラン</span>PAIR PLAN
                     </h2>
@@ -1204,7 +1227,8 @@
             </div>
         </section>
 
-        <section class="section section--access" id="access">
+        <section class="section section--access">
+            <div class="anchor" id="access"></div>
             <h1 class="section__title">アクセス</h1>
 
             <div class="section__content">
@@ -1267,8 +1291,10 @@
         </section>
 
         <section class="section section--contact" class="contact">
+            <div class="anchor" id="contact"></div>
             <h1 class="section__title">ご予約・お問い合わせ</h1>
-            <div class="section__content" id="line">
+            <div class="section__content">
+                <div class="anchor" id="line"></div>
                 <div class="description">
                     <p class="context">
                         <span>オンライン<br class="sp">無料カウンセリングはじめました！</span>
@@ -1301,7 +1327,8 @@
             </div>
         </section>
 
-        <section class="section section--news" id="news">
+        <section class="section section--news">
+            <div class="anchor" id="news"></div>
             <div class="section__title">
                 <h1>お知らせ</h1>
                 <a href="<?php echo get_home_url(); ?>/category/news/">一覧へ</a>
@@ -1340,7 +1367,8 @@
             </div>
         </section>
 
-        <section class="section section--blog" id="blog">
+        <section class="section section--blog">
+            <div class="anchor" id="blog"></div>
             <div class="wrapper">
                 <div class="section__title">
                     <h1>ブログ</h1>

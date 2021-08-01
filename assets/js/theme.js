@@ -307,6 +307,10 @@ jQuery(function($){
 		$(this).next('.foldable__hidden').toggleClass('active');
 	});
 
+	$('.page-header .nav-wrapper .navs .item a').on('click', function() {
+		$('body').removeClass('nav-opened');
+	});
+
 	$('.category-select').on('change', function() {
 		// alert( this.value );
 		window.location.href = "http://localhost:2080/koko/category/" + this.value;

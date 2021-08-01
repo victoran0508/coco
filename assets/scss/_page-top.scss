@@ -47,7 +47,7 @@
 
     		span {
                 display: block;
-                @include fontsize(20px);
+                @include fontsize(40px);
                 line-height: 1;
 
                 @include media(m) {
@@ -95,12 +95,12 @@
     		
 			.text {
                 line-height: 1.6;
-                @include fontsize(20px);
+                @include fontsize(40px);
 			}
     		
 
     		.contact-links {
-    			margin-left: 50px;
+    			margin-left: 100px;
 
     			.sns-icons {
     				@include display-flex;
@@ -124,9 +124,9 @@
 					padding-left: 1.2em;
 					background: left center url(../img/icon_phone.png) no-repeat;
 					background-size: contain;
-					@include fontsize(35px);
+					@include fontsize(36px);
 					line-height: 1.2;
-					margin-top: 5px;
+					margin-top: 1em;
 					@extend .hoverable;
     			}
     		}
