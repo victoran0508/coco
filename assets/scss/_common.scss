@@ -9,10 +9,10 @@ body {
 .page-wrapper {
 	max-width: 100%;
 	overflow: hidden;
-	padding-bottom: 120px;
+// 	padding-bottom: 120px;
 
 	@include media(m) {
-		padding-bottom: 22vw;
+// 		padding-bottom: 22vw;
 		margin-top: 21vw;
 	}
 
@@ -49,7 +49,7 @@ body {
 
 	&.section--mainview {
 		position: relative;
-		height: calc(100vh - 140px);
+		height: calc(100vh - 90px);
 
 		@include media(m) {
 			height: 90vw;
@@ -58,191 +58,6 @@ body {
 		.video {
             width: 100%;
             height: 100%;
-		}
-
-		.contact-day {
-			position: absolute;
-			bottom: 50px;
-			right: 0;
-			width: 500px;
-			background: white;
-			padding: 15px;
-			padding-left: 50px;
-			border-radius: 5px 0 0 5px;
-			overflow: hidden;
-			@include transition-all;
-
-            @include media(m) {
-            	display: none;
-            }
-
-            .contact-day__left-ttl {
-            	display: block;
-				text-align: center;
-				background-color: #CE2D84;
-				color: white;
-				@include fontsize(30px);
-				line-height: 35px;
-				letter-spacing: .2em;
-				-webkit-writing-mode: vertical-rl;
-				-moz-writing-mode: vertical-rl;
-				-ms-writing-mode: tb-rl;
-				-ms-writing-mode: vertical-rl;
-				writing-mode: vertical-rl;
-				font-feature-settings: normal;
-				position: absolute;
-				left: 0;
-				top: 0;
-				width: 35px;
-				height: 100%;
-
-				span {
-					position: relative;
-					display: inline-block;
-					width: 15px;
-					height: 15px;
-					margin-top: 10px;
-					background-color: #fff;
-					border-radius: 2px;
-					@include transition-all;
-					cursor: pointer;
-
-					&:before {
-						content: "";
-						position: absolute;
-						display: block;
-						width: 6px;
-						height: 6px;
-						border-top: solid 1px #CE2D84;
-						border-right: solid 1px #CE2D84;
-                        top: 50%;
-                        left: 50%;
-						@include transform(translate(-68%, -50%) rotate(45deg));
-						@include transition-all;
-					}
-
-					&:hover {
-						background-color: #F0D6DA;
-					}
-				}
-            }
-
-            &.collapsed {
-            	right: -465px;
-
-            	.contact-day__left-ttl {
-            	    span {
-            	    	&:before {
-            	    		@include transform(scaleX(-1) translate(32%, -50%) rotate(45deg));
-            	    	}
-            	    }
-            	}
-            }
-
-			.contact-day__ttl {
-                color: #CE2D84;
-                font-family: $font-serif;
-                @include fontsize(40px);
-                padding-left: 2em;
-                background: left center url(../img/icon_calendar-2.png) no-repeat;
-                background-size: contain;
-                width: fit-content;
-                margin-left: auto;
-                margin-right: auto;
-			}
-
-			.contact-day__tbl {
-				margin-top: 15px;
-				margin-bottom: 15px;
-                .time-table {
-					.table-row {
-						height: 40px;
-						@include display-flex;
-						@include flex-wrap-wrap;
-						border-bottom: 1px solid #CE2D84;
-
-						@include media(m) {
-							height: 8vw;
-						}
-
-						&:nth-of-type(1) {
-							border-top: 1px solid #CE2D84;
-						}
-
-						.left {
-							@include flex(30%);
-							@include fontsize(24px);
-							font-family: $font-serif;
-							line-height: 40px;
-							text-align: center;
-							color: #CE2D84;
-						}
-
-						.right {
-							@include flex(70%);
-							@include display-flex;
-							@include flex-wrap-wrap;
-
-							.span {
-								@include flex(14.28%);
-								@include fontsize(24px);
-								font-family: $font-serif;
-								line-height: 40px;
-								text-align: center;
-								color: #CE2D84;
-							}
-						}
-					}
-				}
-			}
-
-			.contact-day__contact {
-				color: #CE2D84;
-				@include display-flex;
-
-				.link {
-					@include flex(33.33%);
-					@include display-flex;
-					@include align-items-center;
-					@include justify-content-center;
-					height: 40px;
-					border: 1px solid #CE2D84;
-					@extend .hover-effect-1;
-
-					& + .link {
-						margin-left: 15px;
-					}
-
-					span {
-						display: block;
-						@include fontsize(24px);
-						padding-left: 1.5em;
-					}
-
-					&.link--phone,
-					&.link--email,
-					&.link--line {
-                        span {
-                        	background: left center url(../img/icon_phone-2.png) no-repeat;
-                        	background-size: 1em;
-                        }
-					}
-
-					&.link--email {
-                        span {
-                            background: left center url(../img/icon_email.png) no-repeat;
-                            background-size: 1em;
-                        }
-					}
-
-					&.link--line {
-						span {
-							background: left center url(../img/icon_line.png) no-repeat;
-							background-size: 1em;
-						}
-					}
-				}
-			}
 		}
 	}
 
@@ -719,7 +534,7 @@ body {
 
 	&.section--features, &.section--features2 {
 		padding-top: 200px;
-		padding-bottom: 220px;
+		padding-bottom: 80px;
 // 		background: center center url(../img/sec04_bg.png);
         background-size: cover;
 
@@ -883,6 +698,7 @@ body {
 
 	&.section--features2 {
 		padding-top: unset;
+		padding-bottom: 220px;
 
 		@include media(m) {
 			padding-bottom: 30vw;
@@ -1417,7 +1233,7 @@ body {
 	}
 
 	&.section--price {
-		padding-top: 150px;
+// 		padding-top: 150px;
 		padding-bottom: 150px;
 		background: url(../img/sec09_bg.png) no-repeat;
 		background-size: cover;
@@ -1426,7 +1242,7 @@ body {
 //         background-color: #CE2D84;
 
 		@include media(m) {
-			margin-top: 26.6vw;
+// 			margin-top: 26.6vw;
 			padding-top: 16vw;
 			padding-bottom: 16vw;
 		}
@@ -3542,7 +3358,7 @@ body {
 
     &.section--blog, &.section--gallery {
     	margin-top: 0;
-    	padding-top: 60px;
+    	padding-top: unset;
     	padding-bottom: 60px;
     	background: center center url(../img/article-list-bg.png) no-repeat;
         background-size: cover;
@@ -3691,6 +3507,7 @@ body {
     						margin-right: 3.2vw;
     						margin-top: 3.2vw;
     						margin-bottom: 3.2vw;
+    						height: 86vw;
     					}
 
     					.article__link {
@@ -4288,6 +4105,14 @@ body {
 
                     p {
                     	line-height: 1.8;
+
+                    	& + p {
+                    		margin-top: 15px;
+
+                    		@include media(m) {
+                    			margin-top: 3vw;
+                    		}
+                    	}
                     }
     			}
 
@@ -4893,7 +4718,7 @@ body {
 }
 
 .slick-slide:not(.slick-active):not(.slick-current) {
-	opacity: 0.1;
+	opacity: 0.3;
 }
 
 .slick-slide.slick-active {
@@ -4912,5 +4737,192 @@ body {
 	@include media(m) {
 		margin-top: -27vw;
 		padding-top: 27vw;
+	}
+}
+
+.contact-day {
+	position: fixed;
+	bottom: 50px;
+	left: 0;
+	width: 500px;
+	background: white;
+	padding: 15px;
+	padding-right: 50px;
+	border-radius: 0 5px 5px 0;
+	overflow: hidden;
+	z-index: 1000;
+	box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.16);
+	@include transition-all;
+
+	@include media(m) {
+		display: none;
+	}
+
+	.contact-day__left-ttl {
+		display: block;
+		text-align: center;
+		background-color: #CE2D84;
+		color: white;
+		@include fontsize(30px);
+		line-height: 35px;
+		letter-spacing: .2em;
+		-webkit-writing-mode: vertical-rl;
+		-moz-writing-mode: vertical-rl;
+		-ms-writing-mode: tb-rl;
+		-ms-writing-mode: vertical-rl;
+		writing-mode: vertical-rl;
+		font-feature-settings: normal;
+		position: absolute;
+		right: 0;
+		top: 0;
+		width: 35px;
+		height: 100%;
+
+		span {
+			position: relative;
+			display: inline-block;
+			width: 15px;
+			height: 15px;
+			margin-top: 10px;
+			background-color: #fff;
+			border-radius: 2px;
+			@include transition-all;
+			cursor: pointer;
+
+			&:before {
+				content: "";
+				position: absolute;
+				display: block;
+				width: 6px;
+				height: 6px;
+				border-top: solid 1px #CE2D84;
+				border-right: solid 1px #CE2D84;
+				top: 50%;
+				left: 50%;
+				@include transform(scaleX(-1) translate(32%, -50%) rotate(45deg));
+				@include transition-all;
+			}
+
+			&:hover {
+				background-color: #F0D6DA;
+			}
+		}
+	}
+
+	&.collapsed {
+		left: -465px;
+
+		.contact-day__left-ttl {
+			span {
+				&:before {
+					@include transform(translate(-68%, -50%) rotate(45deg));
+				}
+			}
+		}
+	}
+
+	.contact-day__ttl {
+		color: #CE2D84;
+		font-family: $font-serif;
+		@include fontsize(40px);
+		padding-left: 2em;
+		background: left center url(../img/icon_calendar-2.png) no-repeat;
+		background-size: contain;
+		width: fit-content;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.contact-day__tbl {
+		margin-top: 15px;
+		margin-bottom: 15px;
+		.time-table {
+			.table-row {
+				height: 40px;
+				@include display-flex;
+				@include flex-wrap-wrap;
+				border-bottom: 1px solid #CE2D84;
+
+				@include media(m) {
+					height: 8vw;
+				}
+
+				&:nth-of-type(1) {
+					border-top: 1px solid #CE2D84;
+				}
+
+				.left {
+					@include flex(30%);
+					@include fontsize(24px);
+					font-family: $font-serif;
+					line-height: 40px;
+					text-align: center;
+					color: #CE2D84;
+				}
+
+				.right {
+					@include flex(70%);
+					@include display-flex;
+					@include flex-wrap-wrap;
+
+					.span {
+						@include flex(14.28%);
+						@include fontsize(24px);
+						font-family: $font-serif;
+						line-height: 40px;
+						text-align: center;
+						color: #CE2D84;
+					}
+				}
+			}
+		}
+	}
+
+	.contact-day__contact {
+		color: #CE2D84;
+		@include display-flex;
+
+		.link {
+			@include flex(33.33%);
+			@include display-flex;
+			@include align-items-center;
+			@include justify-content-center;
+			height: 40px;
+			border: 1px solid #CE2D84;
+			@extend .hover-effect-1;
+
+			& + .link {
+				margin-left: 15px;
+			}
+
+			span {
+				display: block;
+				@include fontsize(24px);
+				padding-left: 1.5em;
+			}
+
+			&.link--phone,
+			&.link--email,
+			&.link--line {
+				span {
+					background: left center url(../img/icon_phone-2.png) no-repeat;
+					background-size: 1em;
+				}
+			}
+
+			&.link--email {
+				span {
+					background: left center url(../img/icon_email.png) no-repeat;
+					background-size: 1em;
+				}
+			}
+
+			&.link--line {
+				span {
+					background: left center url(../img/icon_line.png) no-repeat;
+					background-size: 1em;
+				}
+			}
+		}
 	}
 }

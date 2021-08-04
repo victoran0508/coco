@@ -425,7 +425,7 @@
                         <a class="career-more">MORE</a>
                     </div>
                 </div>
-                <div class="staff staff--2">
+                <!-- div class="staff staff--2">
                     <div class="anchor" id="staff2"></div>
                     <div class="row">
                         <figure class="figure">
@@ -442,7 +442,7 @@
                             人のためになりたいと思い看護師という職業を選びましたが、今は施術後お客様が喜んで下さる姿に大変やりがいを感じております。1人でも多くのお客様を笑顔にできるよう、思いを込めて施術させていただきたいと思います。
                         </p>
                     </div>
-                </div>
+                </div -->
             </div>
         </section>
 
@@ -1408,9 +1408,9 @@
         </section>
 
         <section class="section section--blog">
-            <div class="anchor" id="blog"></div>
             <div class="wrapper">
                 <div class="section__title">
+                    <div class="anchor" id="blog"></div>
                     <h1>ブログ</h1>
                     <a href="<?php echo get_home_url(); ?>/category/blog/">一覧へ</a>
                 </div>

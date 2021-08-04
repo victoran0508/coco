@@ -36,7 +36,7 @@ jQuery(function($){
 
 		$('.section__content > .article-list').slick({
 			lazyLoad: 'ondemand',
-			slidesToShow: $(window).width() > 1440 ? 3 : $(window).width() > 768 ? 2 : 1,
+			slidesToShow: 3,
 			slidesToScroll: 1,
 			autoplay: true,
 			autoplaySpeed: 3000,
@@ -45,6 +45,24 @@ jQuery(function($){
 			cssEase: 'linear',
 			dots: true,
 			centerMode: true,
+			responsive: [
+				{
+				  breakpoint: 1000,
+				  settings: {
+					slidesToShow: 2,
+					slidesToScroll: 1,
+					centerMode: true,
+				  }
+				},
+				{
+				  breakpoint: 768,
+				  settings: {
+					slidesToShow: 1,
+					slidesToScroll: 1,
+					centerMode: false,
+				  }
+				},
+			],
 		});
 	});
 
@@ -55,6 +73,16 @@ jQuery(function($){
 			$('.page-header').addClass('header-sticky');
 		} else {
 			$('.page-header').removeClass('header-sticky');
+		}
+
+		if ($(window).scrollTop() >= 1) {
+			$('.page-header').addClass('header-sticky');
+		} else {
+			$('.page-header').removeClass('header-sticky');
+		}
+
+		if ($(window).scrollTop() >= 300) {
+			$('.contact-day').addClass('collapsed');
 		}
 
 		if (offset) {

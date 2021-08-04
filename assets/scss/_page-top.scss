@@ -3,7 +3,7 @@
 /* トップページのスタイル*/
 
 .page-header {
-	height: 140px;
+	height: 90px;
 // 	overflow: hidden;
 	width: 100vw;
 
@@ -47,8 +47,9 @@
 
     		span {
                 display: block;
-                @include fontsize(36px);
+                @include fontsize(20px);
                 line-height: 1;
+                margin-bottom: 0.5em;
 
                 @include media(m) {
                 	display: none;
@@ -56,7 +57,7 @@
     		}
 
     		img {
-                height: 80px;
+                height: 50px;
                 width: auto;
 
                 @include media(m) {
@@ -95,7 +96,7 @@
     		
 			.text {
                 line-height: 1.6;
-                @include fontsize(40px);
+                @include fontsize(24px);
 			}
     		
 
@@ -109,7 +110,7 @@
     					@extend .hoverable;
 
     					img {
-                            height: 60px;
+                            height: 40px;
                             width: auto;
     					}
 
@@ -124,9 +125,9 @@
 					padding-left: 1.2em;
 					background: left center url(../img/icon_phone.png) no-repeat;
 					background-size: contain;
-					@include fontsize(36px);
+					@include fontsize(24px);
 					line-height: 1.2;
-					margin-top: 1em;
+					margin-top: 0.8em;
 					@extend .hoverable;
     			}
     		}
