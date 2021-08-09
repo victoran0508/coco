@@ -663,6 +663,15 @@ body {
 
 				.figure {
 					@include flex(0 0 592px);
+					position: relative;
+					opacity: 0;
+					right: -500px;
+					@include transition-all;
+
+					&.animated {
+						left: 0;
+						opacity: 1;
+					}
 
 					@include media(m) {
                     	@include flex(none);
@@ -717,6 +726,16 @@ body {
 
 			.wrapper {
 				.figure {
+					position: relative;
+					opacity: 0;
+					left: -500px;
+					@include transition-all;
+
+					&.animated {
+						left: 0;
+						opacity: 1;
+					}
+
 					@include media(m) {
 						padding-left: unset;
 						padding-right: 20vw;
@@ -869,6 +888,20 @@ body {
                             @include media(m) {
                             	@include vwfont(13px);
                             }
+
+                            span {
+								background: linear-gradient(to right, #F0D7DB, #F0D7DB);
+								background-size: 0 0.5em;
+								background-position: 0 100%;
+								background-repeat: no-repeat;
+								color: #CE2D84;
+								font-weight: 600;
+								@include transition(all, 1.2s, linear);
+
+								&.animated {
+									background-size: 100% 0.5em;
+								}
+							}
                     	}
                     }
 
@@ -1550,6 +1583,7 @@ body {
                                     }
 
                                     &.star {
+                                    	padding-right: 10px;
                                     	background: right top 10px url(../img/star.svg) no-repeat;
                                     	background-size: 40px;
 
@@ -3507,7 +3541,7 @@ body {
     						margin-right: 3.2vw;
     						margin-top: 3.2vw;
     						margin-bottom: 3.2vw;
-    						height: 86vw;
+    						height: 82vw;
     					}
 
     					.article__link {
@@ -3524,7 +3558,7 @@ body {
     						height: 320px;
 
     						@include media(m) {
-    							height: 60vw;
+    							height: 59vw;
     						}
 
     						.img {
@@ -3549,7 +3583,7 @@ body {
     						}
 
     						@include media(m) {
-    							margin-top: 1.5vw;
+    							margin-top: 3.5vw;
     							@include vwfont(14px);
 
     							time {

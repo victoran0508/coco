@@ -213,8 +213,8 @@
                     <!-- <span class="line-3">ファーエンブロウ式</span> -->
                 </h1>
                 <figure class="figure">
-                    <img class="img pc tb" src="<?php echo get_template_directory_uri(); ?>/assets/img/tech_2.svg">
-					<img class="img sp" src="<?php echo get_template_directory_uri(); ?>/assets/img/tech_2-sp.svg">
+                    <img class="img pc tb" src="<?php echo get_template_directory_uri(); ?>/assets/img/tech_2.png">
+					<img class="img sp" src="<?php echo get_template_directory_uri(); ?>/assets/img/tech_2-sp.png">
                 </figure>
             </div>
         </section>
@@ -240,14 +240,15 @@
 
         <section class="section section--features2">
             <div class="section__content">
-                <h1>人相学について</h1>
+                <h1>カウンセリングの特徴</h1>
                 <div class="wrapper">
                     <figure class="figure">
                         <img class="img" src="<?php echo get_template_directory_uri(); ?>/assets/img/tech4.jpg">
                     </figure>
                     <p class="text">
-                        顔には性格や運勢を表す部分があり、<br class="sp">運に恵まれる顔には特徴があります。<br>
-                        <span>眉の形を変えることによって、<br class="sp">運勢を導くこと</span>も可能なのです。
+                        アートメイク歴20年。<br class="sp">3万人以上を診てきた圧倒的な実績と経験をもとに、<br>
+                        <span>骨格や人相にあった黄金比の眉を提案できる</span><br class="sp">ことが強みです。<br>
+                        眉一つで小顔効果も期待できます。
 
                         <a class="about-physiognomy" href="<?php echo get_home_url(); ?>/humanities/">人相学について</a>
                     </p>
@@ -320,19 +321,19 @@
                     <li class="item">
                         <div class="point">
                             <h2>ヒアリングとカウンセリング</h2>
-                            <p class="text">ココクリニックでは、カウンセリングを最も重要視しており、施術2時間のうちの約半分の時間をかけております。骨格や筋肉の動き、表情の癖を黄金比率で判断。そのうえで、お客様のお悩みや理想の姿、好みのメイク等を伺い、丁寧かつ慎重な施術を提案させていただきます。</p>
+                            <p class="text">ココクリニックでは、<span>カウンセリングを最も重要視しており、施術2時間のうちの約半分の時間をかけております。</span>骨格や筋肉の動き、表情の癖を黄金比率で判断。そのうえで、お客様のお悩みや理想の姿、好みのメイク等を伺い、丁寧かつ慎重な施術を提案させていただきます。</p>
                         </div>
                     </li>
                     <li class="item">
                         <div class="point">
                             <h2>安藤敏江のオリジナル技法と<br class="sp">人相学を活かしたデザイン</h2>
-                            <p class="text">看護師の安藤敏江はアートメイク歴20年。現在までに3万人を超える実績を持ち、多くの著名人の施術も手掛けてきました。様々な経験から培われたデザイン力をもとに、安藤が生み出したのが「ファーエンブロウ式」です。より自然な毛並み、さらに美しい持続性へ。4Dを超えた当クリニック独自の技法となります。</p>
+                            <p class="text">看護師の安藤敏江はアートメイク歴20年。現在までに3万人を超える実績を持ち、多くの著名人の施術も手掛けてきました。<span>様々な経験から培われたデザイン力をもとに、安藤が生み出したのが「ファーエンブロウ式」です。より自然な毛並み、さらに美しい持続性へ。</span>4Dを超えた当クリニック独自の技法となります。</p>
                         </div>
                     </li>
                     <li class="item">
                         <div class="point">
                             <h2>医療クリニックによる安全性</h2>
-                            <p class="text">アートメイクは針を使って皮膚に色素を入れる医療行為です。そのため、当院では必ず医療行為従事者が担当しますのでご安心ください。また、施術に使用する針は、開封前に必ずお客様に目視で確認していただきます。さらに、染料はアメリカFDA(米国食品医薬品局)の認可を受けたものを使用しています。</p>
+                            <p class="text">アートメイクは針を使って皮膚に色素を入れる医療行為です。そのため、<span>当院では必ず医療行為従事者が担当しますのでご安心ください。</span>また、施術に使用する針は、開封前に必ずお客様に目視で確認していただきます。さらに、染料はアメリカFDA(米国食品医薬品局)の認可を受けたものを使用しています。</p>
                         </div>
                     </li>
                 </ul>
@@ -367,7 +368,8 @@
                                 <p class="text">
                                     来院いただき、問診票の提出と医師の診察があります。<br class="pc tb">
                                     その後担当者がカウンセリングを丁寧に行います。<br class="pc tb">
-                                    表情の癖を読み取り、希望の眉をヒアリングします。
+                                    表情の癖を読み取り、希望の眉をヒアリングします。<br>
+                                    また、感染防止対策も徹底しており、他のお客様と基本的にすれ違うことのないように配慮しています。
                                 </p>
                             </div>
                         </div>
@@ -514,7 +516,7 @@
                                 </div>
                                 <div class="row row--star">
                                     <div class="item-name star">
-                                        当院人気No.1！<br>ファーエンブロウ式
+                                        当院人気No.1<br>ファーエンブロウ式
                                     </div>
                                     <div class="item-value">
                                         <span>

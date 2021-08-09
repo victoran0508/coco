@@ -1,34 +1,46 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1332.985" height="138.5" viewBox="0 0 1332.985 138.5">
-  <g id="Component_41_1" data-name="Component 41 – 1" transform="translate(0.5 0.5)">
+  <g id="Component_44_1" data-name="Component 44 – 1" transform="translate(0.5 0.5)">
+    <g id="Group_6" data-name="Group 6" transform="translate(-400 -3286)">
+      <rect id="Rectangle_8" data-name="Rectangle 8" width="583" height="137" transform="translate(400 3286)" fill="#B54040"/>
+      <text id="ファーエンブロウ式" transform="translate(630 3370)" fill="#FFF" font-size="40" font-family="YuGothicUI-Regular, Yu Gothic UI" style="text-shadow: 0 0 0.05em #F06292,0 0 0.10em #F06292,0 0 0.15em #F06292,0 0 0.30em #F06292; filter: saturate(80%);"><tspan x="-132.832" y="0">ファーエンブロウ式</tspan></text>
+    </g>
+    <g id="Group_7" data-name="Group 7" transform="translate(-361 -3286)">
+      <rect id="Rectangle_9" data-name="Rectangle 9" width="583" height="137" transform="translate(1109 3286)" fill="#2F58AF"/>
+      <text id="カウンセリング" transform="translate(1361 3371)" fill="#FFF" font-size="40" font-family="YuGothicUI-Regular, Yu Gothic UI" style="text-shadow: 0 0 0.05em #F06292,0 0 0.10em #F06292,0 0 0.15em #F06292,0 0 0.30em #F06292; filter: saturate(80%);"><tspan x="-105.391" y="0">カウンセリング</tspan></text>
+    </g>
     <g id="Group_8" data-name="Group 8" transform="translate(0.5 0.5)">
       <line id="Line_8" data-name="Line 8" y2="136.5" fill="none" stroke="#000" stroke-linecap="round" stroke-width="2"/>
       <line id="Line_9" data-name="Line 9" x1="39.985" transform="translate(0 136.5)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="2"/>
       <line id="Line_10" data-name="Line 10" x1="39.985" fill="none" stroke="#000" stroke-linecap="round" stroke-width="2"/>
     </g>
-    <g id="Group_10" data-name="Group 10" transform="translate(1291.5 0.5)">
-      <line id="Line_8-2" data-name="Line 8" y2="136.5" transform="translate(39.985)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="2"/>
+    <g id="Group_9" data-name="Group 9" transform="translate(542.5 0.5)">
+      <path id="Path_1" data-name="Path 1" d="M0,0V86.561" transform="translate(39.985)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="2"/>
       <line id="Line_9-2" data-name="Line 9" x2="39.985" transform="translate(0 136.5)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="2"/>
       <line id="Line_10-2" data-name="Line 10" x2="39.985" fill="none" stroke="#000" stroke-linecap="round" stroke-width="2"/>
-    </g>
-    <g id="Group_6" data-name="Group 6" transform="translate(-400 -3286)">
-      <rect id="Rectangle_8" data-name="Rectangle 8" width="583" height="137" transform="translate(400 3286)" fill="#f0d6da"/>
-      <text id="ファーエンブロウ式" transform="translate(692 3370)" fill="#171717" font-size="40" font-family="YuGothicUI-Regular, Yu Gothic UI"><tspan x="-132.832" y="0">ファーエンブロウ式</tspan></text>
-    </g>
-    <g id="Group_7" data-name="Group 7" transform="translate(-361 -3286)">
-      <rect id="Rectangle_9" data-name="Rectangle 9" width="583" height="137" transform="translate(1109 3286)" fill="#d7ddf0"/>
-      <text id="人相学" transform="translate(1401 3371)" fill="#171717" font-size="40" font-family="YuGothicUI-Regular, Yu Gothic UI"><tspan x="-60" y="0">人相学</tspan></text>
-    </g>
-    <g id="Group_9" data-name="Group 9" transform="translate(542.5 0.5)">
-      <path id="Path_1" data-name="Path 1" d="M0,0V49.159L165.919,86.506" transform="translate(39.985)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="2"/>
-      <line id="Line_9-3" data-name="Line 9" x2="39.985" transform="translate(0 136.5)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="2"/>
-      <line id="Line_10-3" data-name="Line 10" x2="39.985" fill="none" stroke="#000" stroke-linecap="round" stroke-width="2"/>
       <line id="Line_11" data-name="Line 11" y2="49.939" transform="translate(39.985 86.561)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="2"/>
     </g>
+    <g id="Group_10" data-name="Group 10" transform="translate(1291.5 0.5)">
+      <line id="Line_8-2" data-name="Line 8" y2="136.5" transform="translate(39.985)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="2"/>
+      <line id="Line_9-3" data-name="Line 9" x2="39.985" transform="translate(0 136.5)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="2"/>
+      <line id="Line_10-3" data-name="Line 10" x2="39.985" fill="none" stroke="#000" stroke-linecap="round" stroke-width="2"/>
+    </g>
     <g id="Group_11" data-name="Group 11" transform="translate(582.559 0.5)">
-      <path id="Path_2" data-name="Path 2" d="M0,0V49.774L-165.941,86.487" transform="translate(165.941)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="2"/>
+      <path id="Path_2" data-name="Path 2" d="M0,0V86.561" transform="translate(165.941)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="2"/>
       <line id="Line_9-4" data-name="Line 9" x1="39.985" transform="translate(165.941 136.5)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="2"/>
       <line id="Line_10-4" data-name="Line 10" x1="39.985" transform="translate(165.941)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="2"/>
       <line id="Line_13" data-name="Line 13" y2="49.939" transform="translate(165.941 86.561)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="2"/>
+      <path id="Path_7228" data-name="Path 7228" d="M8.987,0V16.28" transform="translate(74.381 116.828) rotate(-90)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="2"/>
+      <path id="Path_7221" data-name="Path 7221" d="M8.987,0V33.28" transform="translate(40.661 67.268) rotate(-90)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="2"/>
+      <path id="Path_7224" data-name="Path 7224" d="M8.987,0V32.28" transform="translate(40.661 84.548) rotate(-90)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="2"/>
+      <path id="Path_7225" data-name="Path 7225" d="M8.987,0V35.28" transform="translate(90.661 84.548) rotate(-90)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="2"/>
+      <path id="Path_7226" data-name="Path 7226" d="M8.987,0V34.28" transform="translate(91.661 67.268) rotate(-90)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="2"/>
+      <path id="Path_7227" data-name="Path 7227" d="M8.987,0V17.159" transform="translate(73.941 33.987) rotate(-90)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="2"/>
+      <path id="Path_7229" data-name="Path 7229" d="M8.987,0V32.28" transform="translate(81.674 75.561)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="2"/>
+      <path id="Path_7230" data-name="Path 7230" d="M8.987,0V32.28" transform="translate(65.394 75.561)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="2"/>
+      <path id="Path_7231" data-name="Path 7231" d="M8.987-1.187v17.28" transform="translate(116.954 59.468)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="2"/>
+      <path id="Path_7232" data-name="Path 7232" d="M8.987,0V17.28" transform="translate(31.674 58.28)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="2"/>
+      <path id="Path_7233" data-name="Path 7233" d="M8.987,0V32.28" transform="translate(64.954 25)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="2"/>
+      <path id="Path_7234" data-name="Path 7234" d="M8.987,0V33.28" transform="translate(82.113 25)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="2"/>
     </g>
   </g>
 </svg>
