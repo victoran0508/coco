@@ -139,7 +139,7 @@
 					小顔にも・・・
                 </h2>
                 <h1 class="title">
-                    あなたの知らない0.01mmの世界
+                    あなたの知らない<br class="sp">0.01mmの世界
                 </h1>
             </div>
         </section>
@@ -212,10 +212,15 @@
                     </span>
                     <!-- <span class="line-3">ファーエンブロウ式</span> -->
                 </h1>
-                <figure class="figure">
+                <!-- <figure class="figure">
                     <img class="img pc tb" src="<?php echo get_template_directory_uri(); ?>/assets/img/tech_2.png">
 					<img class="img sp" src="<?php echo get_template_directory_uri(); ?>/assets/img/tech_2-sp.png">
-                </figure>
+                </figure> -->
+                <p class="intro">
+                    <span>ファーエンブロウ式</span><br class="sp">
+                    <span class="small">&</span><br class="sp">
+                    <span>カウンセリング</span>
+                </p>
             </div>
         </section>
 
@@ -1322,6 +1327,31 @@
                             </dt>
                             <dd class="value">
                                 美容皮膚科・形成外科
+                            </dd>
+                        </dl>
+                        <dl class="row">
+                            <dt class="name">
+                                電車でご来院の方
+                            </dt>
+                            <dd class="value">
+                                地下鉄南北線・都営大江戸線麻布十番駅から徒歩7分
+                            </dd>
+                        </dl>
+                        <dl class="row">
+                            <dt class="name">
+                                お車でご来院の方
+                            </dt>
+                            <dd class="value">
+                                〒106-0045 東京都港区麻布十番１丁目４−１０ 港区立麻布十番公共駐車場がおすすめです。
+                                <a href="https://goo.gl/maps/QfC5AUxWGHEwbgTQ6">Googleマップはこちら</a>
+                            </dd>
+                        </dl>
+                        <dl class="row">
+                            <dt class="name">
+                                他の近隣駐車場
+                            </dt>
+                            <dd class="value">
+                                <a href="https://artmake.coco-clinic.com/2021/02/14/1513/">こちらを参考にしてください</a>
                             </dd>
                         </dl>
                     </div>

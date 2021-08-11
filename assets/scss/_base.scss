@@ -85,7 +85,7 @@ input[type=text], input[type=email], input[type=tel], select {
 
 select {
     @include media(m) {
-        padding: 1em 0;
+//         padding: 1em 0;
     }
 }
 

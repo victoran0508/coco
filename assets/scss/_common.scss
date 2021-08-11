@@ -183,10 +183,14 @@ body {
 	&.section--page-title {
 		padding-top: 160px;
 		padding-bottom: 160px;
+		background: right center url(../img/page-title.png) no-repeat;
+		background-size: contain;
 
 		@include media(m) {
 			padding-top: 9.6vw;
-			padding-bottom: 9.6vw;
+			padding-bottom: 2vw;
+			background: right bottom url(../img/page-title.png) no-repeat;
+			background-size: 40vw;
 		}
 
 		.section__content {
@@ -198,7 +202,8 @@ body {
                 line-height: 2;
 
                 @include media(m) {
-                	@include vwfont(16px);
+                	@include vwfont(12px);
+                	padding-right: 30vw;
                 }
 			}
 
@@ -207,7 +212,7 @@ body {
                 margin-top: 0.6em;
 
                 @include media(m) {
-                	@include vwfont(40px);
+                	@include vwfont(30px);
                 	margin-top: 0.4em;
                 	line-height: 1.25;
                 }
@@ -427,7 +432,7 @@ body {
 
 			@include media(m) {
 				padding-top: 65vw;
-				padding-bottom: 53.33vw;
+				padding-bottom: 37.33vw;
 				background-position: left top;
 				background-size: 90vw;
 				margin-left: unset;
@@ -508,6 +513,44 @@ body {
 				.img {
                     width: 100%;
                     height: auto;
+				}
+			}
+
+			.intro {
+				position: absolute;
+				bottom: 0;
+				left: 50%;
+				@include transform(translate(-50%, 50%));
+				z-index: 1;
+
+				@include media(m) {
+					bottom: 5vw;
+					@include transform(translateX(-50%));
+				}
+
+				span {
+					display: block;
+                    border-radius: 3px;
+					color: #CE2D84;
+					font-family: $font-serif;
+					@include fontsize(100px);
+					font-weight: bold;
+					letter-spacing: 0.1em;
+					text-shadow: 0.06em 0.06em 0 #fff, 0.15em 0.15em 0 #dfe8f1;
+					text-align: center;
+
+					@include media(m) {
+						@include vwfont(30px);
+						white-space: nowrap;
+					}
+
+					&.small {
+						@include fontsize(60px);
+
+						@include media(m) {
+							@include vwfont(15px);
+						}
+					}
 				}
 			}
 		}
@@ -2263,6 +2306,10 @@ body {
     				margin-right: unset;
     			}
 
+    			& + .wrapper {
+    				padding-top: unset;
+    			}
+
     			.info {
     				@include flex(1 1 auto);
 
@@ -2281,7 +2328,7 @@ body {
 						}
 
 						.name {
-                            @include flex(0 0 5em);
+                            @include flex(0 0 9em);
                             margin-right: 2em;
                             text-align: right;
 						}
@@ -2294,11 +2341,31 @@ body {
                             @include media(m) {
                             	line-height: 1.7;
                             }
+
+                            a {
+							    text-decoration: underline !important;
+
+								&:hover {
+									text-decoration: unset !important;
+								}
+							}
 						}
 
 						& + .row {
 							border-top: 2px solid white;
 						}
+					}
+
+					.text {
+						@include fontsize(24px);
+						line-height: 1.9;
+						padding-left: 1em;
+
+						@include media(m) {
+							@include vwfont(14px);
+						}
+
+						
 					}
 				}
 
@@ -3916,9 +3983,21 @@ body {
     			& + .main-area {
     				padding-left: 5vw;
 
+    			    @include media(m) {
+    			    	padding-left: unset;
+    			    }
+
     				.article-list {
     					.item {
     						width: 33.33%;
+
+							@include media(1200px) {
+								width: 50%;
+							}
+
+							@include media(m) {
+								width: 100%;
+							}
     					}
     				}
     			}
@@ -3964,9 +4043,6 @@ body {
 
     						@include media(m) {
     							height: auto;
-    						}
-
-    						@include media(m) {
     							margin-bottom: 3vw;
     							padding: 4vw 5vw;
     							@include display-flex;
