@@ -22,6 +22,9 @@ jQuery(function($){
 			$('.page-header').removeClass('header-sticky');
 		}
 
+		// vacuum horror  sail code energy say
+		// lazy art just chaos goose evolve
+
 		// Particles.init({
 		// 	selector: '.section__background',
 		// 	color: ['#313C6A'],
@@ -269,6 +272,10 @@ jQuery(function($){
 			$('.section.section--features .section__content .wrapper .text span:nth-of-type(3)').addClass('animated');
 		}
 
+		if ($('.section.section--features .section__content .wrapper .text span:nth-of-type(4)').inView()) {
+			$('.section.section--features .section__content .wrapper .text span:nth-of-type(4)').addClass('animated');
+		}
+
 		if ($('.section.section--features2 .section__content .wrapper .text span:nth-of-type(1)').inView()) {
 			$('.section.section--features2 .section__content .wrapper .text span:nth-of-type(1)').addClass('animated');
 		}
@@ -279,6 +286,10 @@ jQuery(function($){
 
 		if ($('.section.section--features2 .section__content .wrapper .text span:nth-of-type(3)').inView()) {
 			$('.section.section--features2 .section__content .wrapper .text span:nth-of-type(3)').addClass('animated');
+		}
+
+		if ($('.section.section--features2 .section__content .wrapper .text span:nth-of-type(4)').inView()) {
+			$('.section.section--features2 .section__content .wrapper .text span:nth-of-type(4)').addClass('animated');
 		}
 
 		if ($('.section.section--troubles .section__content .troubles-list').inView()) {

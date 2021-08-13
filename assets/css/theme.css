@@ -4823,7 +4823,7 @@ body {
   }
 }
 .section.section--article .section__content .article h1 {
-  font-size: 2.5rem;
+  font-size: 3rem;
   font-family: "hiragino-mincho-pron-w3", serif;
   margin-bottom: 0.5em;
 }
@@ -4845,7 +4845,7 @@ body {
 .section.section--article .section__content .article .postdata {
   margin-top: 2em;
   margin-bottom: 3em;
-  font-size: 1.5rem;
+  font-size: 1.75rem;
 }
 @media only screen and (max-width: 768px) {
   .section.section--article .section__content .article .postdata {

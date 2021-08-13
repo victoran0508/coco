@@ -232,9 +232,9 @@
                         <img class="img" src="<?php echo get_template_directory_uri(); ?>/assets/img/tech3.jpg">
                     </figure>
                     <p class="text">
-                        4Dアートメイクのような、<br class="sp"><span>すっぴんでも違和感のない自然な仕上がり</span><br>
-                        中国式刺繍メイクの技法を活かした<br class="sp"><span>「持ち」の良さ</span><br>
-                        習得が難しい技法の為、<br class="sp"><span>技法を開発した施術者自身が施術を</span>行います
+                        すっぴんでも<span>違和感のない自然な仕上がり</span>と<br class="sp"><span>「持ち」の良さ</span>が特徴です。<br>
+                        習得が難しい技法の為、<br class="sp"><span>技法を開発した施術者自身が施術</span>を行います。<br>
+                        また、眉も形取り、<span>必要のない部分は脱毛</span><br class="sp">するため綺麗な仕上がりです。
                     </p>
                     <figure class="figure pc tb">
                         <img class="img" src="<?php echo get_template_directory_uri(); ?>/assets/img/tech3.jpg">
@@ -251,9 +251,9 @@
                         <img class="img" src="<?php echo get_template_directory_uri(); ?>/assets/img/tech4.jpg">
                     </figure>
                     <p class="text">
-                        アートメイク歴20年。<br class="sp">3万人以上を診てきた圧倒的な実績と経験をもとに、<br>
-                        <span>骨格や人相にあった黄金比の眉を提案できる</span><br class="sp">ことが強みです。<br>
-                        眉一つで小顔効果も期待できます。
+                        アートメイク歴20年。<span>3万人以上を診てきた<br>圧倒的な実績と経験</span>をもとに、<br>
+                        <span>骨格や人相にあった黄金比の眉を提案</span>できることが<br>強みで小顔効果も期待できます。<br>
+                        お悩みの際は、リップカラーも<span>オレンジ系か<br>ピンク系をカラー診断</span>で判断可能です。
 
                         <a class="about-physiognomy" href="<?php echo get_home_url(); ?>/humanities/">人相学について</a>
                     </p>
@@ -388,7 +388,8 @@
                                 <h2 class="title">施術</h2>
                                 <p class="text">
                                     黄金比などを測りつつ、慎重にデザインやお客様に合う色を決めます。<br class="pc tb">
-                                    最適な眉のデザインで施術し、クールダウンをすれば本日は終了です。
+                                    最適な眉のデザインで施術し、必要のない部分は脱毛します。<br class="pc tb">
+                                    施術後はクールダウンをすれば終了です。
                                 </p>
                             </div>
                         </div>
@@ -612,7 +613,8 @@
                             <p class="foldable__text">
                                 ・メイクの時間が減り、時短になります。<br>
                                 ・汗をかいても水にぬらしても落ちる心配はございません。<br>
-                                ・自信が持てるようになります。
+                                ・自信が持てるようになります。<br>
+                                ・眉毛も形とり、いらないところは脱毛するため綺麗な仕上がりです。
                             </p>
                         </div>
                         <div class="foldable">
@@ -834,7 +836,8 @@
                             <p class="foldable__text">
                                 ・メイクの時間が減り、時短になります。<br>
                                 ・汗をかいても水にぬらしても落ちる心配はございません。<br>
-                                ・自信が持てるようになります。
+                                ・自信が持てるようになります。<br>
+                                ・眉毛も形とり、いらないところは脱毛するため綺麗な仕上がりです。
                             </p>
                         </div>
                         <div class="foldable">
@@ -954,7 +957,8 @@
                             <p class="foldable__text">
                                 ・メイクの時間が減り、時短になります。<br>
                                 ・汗をかいても水にぬらしても落ちる心配はございません。<br>
-                                ・自信が持てるようになります。
+                                ・自信が持てるようになります。<br>
+                                ・お悩みの際は、オレンジ系かピンク系をカラー診断で判断可能です。
                             </p>
                         </div>
                         <div class="foldable">

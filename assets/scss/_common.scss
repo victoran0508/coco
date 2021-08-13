@@ -4185,7 +4185,7 @@ body {
 
     		.article {
     			h1 {
-    				@include fontsize(40px);
+    				@include fontsize(48px);
     				font-family: $font-serif;
     				margin-bottom: 0.5em;
 
@@ -4207,7 +4207,7 @@ body {
     			.postdata {
                     margin-top: 2em;
                     margin-bottom: 3em;
-                    @include fontsize(24px);
+                    @include fontsize(28px);
 
                     @include media(m) {
                     	@include vwfont(16px);
